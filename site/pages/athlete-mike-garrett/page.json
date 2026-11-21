@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Mike Garrett",
+          "firstName": "Mike",
+          "lastName": "Garrett",
+          "country": "United States",
+          "flag": {
+            "src": "https://flagcdn.com/w80/us.png",
+            "alt": "Flag of United States"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/11/PIP-back.JPG",
+            "alt": "Mike Garrett"
+          },
+          "bio": "Mike Garrett is a freediver from Houston, Texas, who represents the United States in depth competition across Free Immersion, Constant Weight Bi-Fins and Constant No Fins."
+        }
+      }
+    }
+  ]
+}

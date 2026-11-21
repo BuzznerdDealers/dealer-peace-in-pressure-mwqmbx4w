@@ -1,0 +1,298 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "lg-crumb",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "lg-crumb-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "lg-crumb-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "lg-crumb-trail",
+                  "type": "breadcrumb",
+                  "props": {
+                    "trail": [
+                      {
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "label": "Athlete Tax & Payout Overview",
+                        "url": ""
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "paddingTop": 116
+        }
+      }
+    },
+    {
+      "id": "legal",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "legal-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "legal-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "legal-title",
+                  "type": "heading",
+                  "props": {
+                    "text": "Tax & Payout Overview",
+                    "headingLevel": 1
+                  }
+                },
+                {
+                  "id": "t-1",
+                  "type": "text",
+                  "props": {
+                    "text": "For Peace In Pressure athletes",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-2",
+                  "type": "heading",
+                  "props": {
+                    "text": "How Athlete Earnings Work",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-3",
+                  "type": "text",
+                  "props": {
+                    "text": "Peace in Pressure is a <strong>for-profit marketplace</strong>.Athletes receive a <strong>25% revenue share</strong> from card sales as independent participants (not employees).\n\nPeace in Pressure does <strong>not</strong> provide tax advice. Athletes are responsible for reporting income in their country of residence.\n\nPayouts and tax forms are handled through <strong>Stripe</strong>. Stripe collects your identity, bank details and tax form directly. Peace in Pressure never sees or stores your bank information.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-4",
+                  "type": "heading",
+                  "props": {
+                    "text": "Revenue Share Basics",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "l-5",
+                  "type": "text",
+                  "props": {
+                    "text": "• Net revenue from card sales is split as follows\n\n• <strong>Peace in Pressure:</strong> 75%\n\n• <strong>Athlete:</strong> 25%\n\n• Any required tax withholding applies <strong>only to the athlete’s portion</strong>",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-6",
+                  "type": "heading",
+                  "props": {
+                    "text": "U.S. vs Non-U.S. Athletes",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "h-7",
+                  "type": "heading",
+                  "props": {
+                    "text": "U.S.-Based Athletes",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "l-8",
+                  "type": "text",
+                  "props": {
+                    "text": "• Submit a <strong>W-9</strong> through Stripe\n\n• Receive full 25% payout\n\n• May receive a <strong>1099</strong> at year end if earnings exceed IRS thresholds\n\n• No tax is withheld by Peace in Pressure",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-9",
+                  "type": "heading",
+                  "props": {
+                    "text": "Non-U.S. Athletes",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "l-10",
+                  "type": "text",
+                  "props": {
+                    "text": "• Submit a <strong>W-8BEN</strong> (individual) or <strong>W-8BEN-E</strong> (entity) through Stripe\n\n• U.S. law may require <strong>withholding on athlete earnings</strong>\n\n• Default withholding rate: <strong>30% of the athlete’s share</strong>\n\n• Withholding may be <strong>reduced or eliminated</strong> if a tax treaty applies",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-11",
+                  "type": "heading",
+                  "props": {
+                    "text": "Tax Treaties (Important)",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "t-12",
+                  "type": "text",
+                  "props": {
+                    "text": "The United States has tax treaties with many countries, including most of Europe, Canada, Australia, Japan, and others.\n\nIf your country has a treaty:",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "l-13",
+                  "type": "text",
+                  "props": {
+                    "text": "• You may claim a <strong>reduced withholding rate</strong> (often 0–10%)\n\n• You must indicate this on your <strong>W-8 form</strong> in Stripe\n\n• Peace in Pressure applies the rate you declare",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "t-14",
+                  "type": "text",
+                  "props": {
+                    "text": "If no treaty is claimed:",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "l-15",
+                  "type": "text",
+                  "props": {
+                    "text": "• 30% withholding is applied to the athlete portion only",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-16",
+                  "type": "heading",
+                  "props": {
+                    "text": "Example (Non-U.S. Athlete, No Treaty)",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "l-17",
+                  "type": "text",
+                  "props": {
+                    "text": "• Net revenue from a sale: $200\n\n• Athlete share (25%): $50\n\n• IRS withholding (30%): $15\n\n• Athlete receives: $35\n\n• Peace in Pressure keeps: $150 (unchanged)",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-18",
+                  "type": "heading",
+                  "props": {
+                    "text": "Key Points to Understand",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "l-19",
+                  "type": "text",
+                  "props": {
+                    "text": "• Peace in Pressure <strong>does not tax athletes</strong>\n\n• Required withholding is a <strong>prepayment of the athlete’s tax</strong>, not a fee\n\n• Withheld funds are remitted to the IRS, not kept by PIP\n\n• Athletes may be able to reclaim withheld tax through their local tax process",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-20",
+                  "type": "heading",
+                  "props": {
+                    "text": "What Peace in Pressure Handles",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "l-21",
+                  "type": "text",
+                  "props": {
+                    "text": "• Collecting required tax forms (W-9 / W-8) through Stripe\n\n• Applying withholding only when legally required\n\n• Issuing required U.S. tax reporting forms\n\n• Processing monthly payouts through Stripe",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-22",
+                  "type": "heading",
+                  "props": {
+                    "text": "What Athletes Are Responsible For",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "l-23",
+                  "type": "text",
+                  "props": {
+                    "text": "• Submitting accurate tax information\n\n• Claiming treaty benefits if applicable\n\n• Reporting income to local tax authorities\n\n• Consulting a tax professional if needed",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-24",
+                  "type": "heading",
+                  "props": {
+                    "text": "Questions?",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "h-25",
+                  "type": "heading",
+                  "props": {
+                    "text": "If you have questions about forms or payouts, contact: info@peaceinpressure.com",
+                    "headingLevel": 3
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "paddingTop": 40,
+          "paddingBottom": 120
+        }
+      }
+    }
+  ]
+}

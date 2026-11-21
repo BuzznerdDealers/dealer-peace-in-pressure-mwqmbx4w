@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Francisco Quesada",
+          "firstName": "Francisco",
+          "lastName": "Quesada",
+          "country": "Spain",
+          "flag": {
+            "src": "https://flagcdn.com/w80/es.png",
+            "alt": "Flag of Spain"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/12/3b73111c88c4b55da710925f962cec9a.jpeg",
+            "alt": "Francisco Quesada"
+          },
+          "bio": "Francisco Quesada is a Spanish freediver born in Zamora and now based in the Philippines. A spearfisher turned competitive freediver and a mechanical engineer by training, he competes at the top level in both pool and depth. He holds Spanish national records in five disciplines and won silver in Constant Weight No Fins at the 2024 World Championship."
+        }
+      }
+    }
+  ]
+}

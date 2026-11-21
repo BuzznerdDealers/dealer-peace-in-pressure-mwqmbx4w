@@ -1,0 +1,274 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "lg-crumb",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "lg-crumb-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "lg-crumb-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "lg-crumb-trail",
+                  "type": "breadcrumb",
+                  "props": {
+                    "trail": [
+                      {
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "label": "Privacy Policy",
+                        "url": ""
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "paddingTop": 116
+        }
+      }
+    },
+    {
+      "id": "legal",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "legal-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "legal-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "legal-title",
+                  "type": "heading",
+                  "props": {
+                    "text": "Privacy Policy",
+                    "headingLevel": 1
+                  }
+                },
+                {
+                  "id": "t-1",
+                  "type": "text",
+                  "props": {
+                    "text": "For customers · Last updated November 2026",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-2",
+                  "type": "heading",
+                  "props": {
+                    "text": "1. Who we are",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-3",
+                  "type": "text",
+                  "props": {
+                    "text": "Peace In Pressure (“PIP”, “we”, “us”) sells freediving trading cards through this website. This policy explains how we handle personal information of site visitors and customers.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-4",
+                  "type": "heading",
+                  "props": {
+                    "text": "2. Information we collect",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "l-5",
+                  "type": "text",
+                  "props": {
+                    "text": "• <strong>Account details:</strong> name, email address and password\n\n• <strong>Order details:</strong> shipping address, phone number (optional), items purchased and order history\n\n• <strong>Payment:</strong> processed by Stripe; PIP does not receive or store your card number\n\n• <strong>Messages:</strong> anything you send us through contact forms or email\n\n• <strong>Usage data:</strong> basic analytics and cookies that keep the site and your cart working",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-6",
+                  "type": "heading",
+                  "props": {
+                    "text": "3. How we use it",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "l-7",
+                  "type": "text",
+                  "props": {
+                    "text": "• Process and ship your orders\n\n• Manage your account and saved products\n\n• Respond to questions and support requests\n\n• Send marketing emails, only if you opt in\n\n• Prevent fraud and meet legal and tax obligations",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-8",
+                  "type": "heading",
+                  "props": {
+                    "text": "4. Who we share it with",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-9",
+                  "type": "text",
+                  "props": {
+                    "text": "We do not sell or rent your personal information. We share it only with service providers that help us run the store:",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "l-10",
+                  "type": "text",
+                  "props": {
+                    "text": "• <strong>Stripe:</strong> payment processing and sales tax\n\n• <strong>Syyo:</strong> website, ecommerce and order management\n\n• Shipping carriers, to deliver your order\n\n• Authorities, when required by law",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-11",
+                  "type": "heading",
+                  "props": {
+                    "text": "5. Retention",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-12",
+                  "type": "text",
+                  "props": {
+                    "text": "We keep order records as long as needed for accounting, tax and legal purposes. You can ask us to delete your account at any time; some order records may be kept where the law requires.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-13",
+                  "type": "heading",
+                  "props": {
+                    "text": "6. Your rights",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-14",
+                  "type": "text",
+                  "props": {
+                    "text": "Depending on where you live (including the EU, UK and California), you may have the right to access, correct, delete or export your data, and to object to certain processing. You can unsubscribe from marketing emails at any time using the link in each email. To make a request, email <a href=\"mailto:info@peaceinpressure.com\">info@peaceinpressure.com</a>.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-15",
+                  "type": "heading",
+                  "props": {
+                    "text": "7. Children",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-16",
+                  "type": "text",
+                  "props": {
+                    "text": "The site is not intended for children under 13, and we do not knowingly collect their information.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-17",
+                  "type": "heading",
+                  "props": {
+                    "text": "8. International customers",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-18",
+                  "type": "text",
+                  "props": {
+                    "text": "Your information may be processed in the United States.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-19",
+                  "type": "heading",
+                  "props": {
+                    "text": "9. Changes",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-20",
+                  "type": "text",
+                  "props": {
+                    "text": "We may update this policy. The current version is always posted on this page.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-21",
+                  "type": "heading",
+                  "props": {
+                    "text": "10. Contact",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-22",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"mailto:info@peaceinpressure.com\">info@peaceinpressure.com</a><br>3213 W. Wheeler St., Seattle, WA 98199",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "paddingTop": 40,
+          "paddingBottom": 120
+        }
+      }
+    }
+  ]
+}

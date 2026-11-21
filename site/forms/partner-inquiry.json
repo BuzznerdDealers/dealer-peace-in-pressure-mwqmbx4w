@@ -1,0 +1,50 @@
+{
+  "id": "partner-inquiry",
+  "name": "Partner inquiry",
+  "status": "live",
+  "surfaces": [
+    "page"
+  ],
+  "intent": "partner-inquiry",
+  "submitLabel": "Send",
+  "successMessage": "Thanks. We’ll reply within a few business days.",
+  "consent": {
+    "enabled": false
+  },
+  "fields": [
+    {
+      "id": "pi-name",
+      "type": "full_name",
+      "label": "Name",
+      "required": true
+    },
+    {
+      "id": "pi-email",
+      "type": "email",
+      "label": "Email",
+      "required": true
+    },
+    {
+      "id": "pi-brand",
+      "type": "single_line",
+      "label": "Brand",
+      "required": true
+    },
+    {
+      "id": "pi-message",
+      "type": "paragraph",
+      "label": "What do you have in mind?",
+      "required": true
+    }
+  ],
+  "notifications": [
+    {
+      "id": "pi-notify",
+      "name": "Partner inquiries",
+      "logic": "AND",
+      "rules": [],
+      "targetType": "email",
+      "email": "info@peaceinpressure.com"
+    }
+  ]
+}

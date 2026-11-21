@@ -1,11 +1,917 @@
 [
   {
     "slug": "home",
-    "title": "Home",
-    "description": "New and used trucks, service and parts from a dealer you can trust.",
+    "title": "Peace In Pressure – Collectible Freediver Trading Cards",
+    "description": "The world's first collectible freediver trading cards, celebrating the athletes rewriting the limits of the human body.",
     "path": "/",
     "out": "index.html",
     "dir": "home",
+    "status": "published",
+    "seo": {
+      "ogImage": "/images/art-poseidon-v2.png",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athletes",
+    "title": "Athletes – Freedivers on Peace In Pressure Trading Cards",
+    "description": "Meet the freedivers featured on Peace In Pressure collectible trading cards, from world record holders to national champions.",
+    "path": "/athletes",
+    "out": "athletes/index.html",
+    "dir": "athletes",
+    "status": "published",
+    "seo": {
+      "ogImage": "/images/athlete-enchante-gallardo.jpeg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-enchante-gallardo",
+    "title": "Enchante Gallardo – American Freediver from Hawaii",
+    "description": "Enchante Gallardo is a Hawaii-born freediver who tied the women's AIDA Free Immersion world record in 2026. Bio and collectible trading cards.",
+    "path": "/athletes/enchante-gallardo",
+    "out": "athletes/enchante-gallardo/index.html",
+    "dir": "athlete-enchante-gallardo",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://peaceinpressure.com/assets/athlete-enchante-gallardo.jpeg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-alessia-zecchini",
+    "title": "Alessia Zecchini – Italian Freediver & World Record Holder",
+    "description": "Alessia Zecchini is an Italian freediver and multiple world record holder and world champion. Bio and collectible trading cards.",
+    "path": "/athletes/alessia-zecchini",
+    "out": "athletes/alessia-zecchini/index.html",
+    "dir": "athlete-alessia-zecchini",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/11/IMG_8313.jpeg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-kateryna-sadurska",
+    "title": "Kateryna Sadurska – Ukrainian Freediver & No Fins World Record Holder",
+    "description": "Kateryna Sadurska is a Ukrainian freediver, Rio 2016 Olympian and women's Constant Weight No Fins world record holder. Bio and collectible trading cards.",
+    "path": "/athletes/kateryna-sadurska",
+    "out": "athletes/kateryna-sadurska/index.html",
+    "dir": "athlete-kateryna-sadurska",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/10/Kateryna-CNF-Kalamata-2024-7.jpg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-fabien-ducos",
+    "title": "Fabien Ducos – French Freediver",
+    "description": "Fabien Ducos is a French freediver from Pau competing in depth and pool disciplines. Bio and collectible trading cards.",
+    "path": "/athletes/fabien-ducos",
+    "out": "athletes/fabien-ducos/index.html",
+    "dir": "athlete-fabien-ducos",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/09/IMG_6875.jpeg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-katie-mccarthy",
+    "title": "Katie McCarthy – American Freediver",
+    "description": "Katie McCarthy is an American freediver from Birmingham, Alabama, who trains in the cenotes of Mexico and serves on the USA Freediving Board. Bio and collectible trading cards.",
+    "path": "/athletes/katie-mccarthy",
+    "out": "athletes/katie-mccarthy/index.html",
+    "dir": "athlete-katie-mccarthy",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/09/009a04da-f7ab-437d-8e88-50192a6270f7.jpeg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-luz-v-gomez-tagle",
+    "title": "Luz V. Gómez Tagle – Mexican Freediver & National Record Holder",
+    "description": "Luz V. Gómez Tagle is a Mexican freediver from Mexico City who holds the national records in all three dynamic pool disciplines. Bio and collectible trading cards.",
+    "path": "/athletes/luz-v-gomez-tagle",
+    "out": "athletes/luz-v-gomez-tagle/index.html",
+    "dir": "athlete-luz-v-gomez-tagle",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/12/inbound3128169746180438580.jpg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-natalie-bruce",
+    "title": "Natalie Bruce – American Freediver & Continental Record Holder",
+    "description": "Natalie Bruce is an American freediver from Chicago, the first US woman to swim 200 m on one breath and a 2025 AIDA World Championship medalist. Bio and collectible trading cards.",
+    "path": "/athletes/natalie-bruce",
+    "out": "athletes/natalie-bruce/index.html",
+    "dir": "athlete-natalie-bruce",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/09/DSC05853.jpeg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-alasdair-boyd",
+    "title": "Alasdair Boyd – American Masters Freediver",
+    "description": "Alasdair Boyd is a London-born, Los Angeles-based masters freediver who represents the United States in depth and pool competition. Bio and collectible trading cards.",
+    "path": "/athletes/alasdair-boyd",
+    "out": "athletes/alasdair-boyd/index.html",
+    "dir": "athlete-alasdair-boyd",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/10/Alasdair-CWTB-Fed-2.jpeg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-harry-mccahill",
+    "title": "Harry McCahill – UK Freediver & No Fins National Record Holder",
+    "description": "Harry McCahill is a British freediver, UK national record holder in Constant Weight No Fins and co-owner of Blue Element Freediving in Dominica. Bio and collectible trading cards.",
+    "path": "/athletes/harry-mccahill",
+    "out": "athletes/harry-mccahill/index.html",
+    "dir": "athlete-harry-mccahill",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/09/HarryMcCahillVBBlueHole2025.JPG",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-marianna-krupnitskaia",
+    "title": "Marianna Krupnitskaia (Gillespie) – French Freediver & World Champion",
+    "description": "Marianna Krupnitskaia (Gillespie) is a Russian-born French freediver, multiple world champion and former Constant Weight Bi-Fins world record holder. Bio and collectible trading cards.",
+    "path": "/athletes/marianna-krupnitskaia",
+    "out": "athletes/marianna-krupnitskaia/index.html",
+    "dir": "athlete-marianna-krupnitskaia",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/09/Laura-Mommicchi-04.jpeg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-victoria-deonarine",
+    "title": "Victoria Deonarine – Trinidad and Tobago Freediver & National Record Holder",
+    "description": "Victoria Deonarine is a freediver from Port of Spain and the national record holder for Trinidad and Tobago. Bio and collectible trading cards.",
+    "path": "/athletes/victoria-deonarine",
+    "out": "athletes/victoria-deonarine/index.html",
+    "dir": "athlete-victoria-deonarine",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/10/PIP-Background-Pic-Victoria-Deonarine.jpg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-eric-pan",
+    "title": "Eric Pan – Chinese Freediver & National Record Holder",
+    "description": "Eric Pan is a freediver from Harbin, China, and a Chinese national record holder in depth disciplines. Bio and collectible trading cards.",
+    "path": "/athletes/eric-pan",
+    "out": "athletes/eric-pan/index.html",
+    "dir": "athlete-eric-pan",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/10/IMG_1267-2.JPG",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-sara-burnett",
+    "title": "Sara Burnett – Team USA Freediver",
+    "description": "Sara Burnett is a Team USA freediver from Gadsden, Alabama, who competed at the 2024 AIDA Freediving World Championship. Bio and collectible trading cards.",
+    "path": "/athletes/sara-burnett",
+    "out": "athletes/sara-burnett/index.html",
+    "dir": "athlete-sara-burnett",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/10/2J9A8199.jpeg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-william-trubridge",
+    "title": "William Trubridge – New Zealand Freediver & World Champion",
+    "description": "William Trubridge is a New Zealand freediver, world champion and former world record holder, the first person to dive below 100 m without fins. Bio and collectible trading cards.",
+    "path": "/athletes/william-trubridge",
+    "out": "athletes/william-trubridge/index.html",
+    "dir": "athlete-william-trubridge",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/10/IMG_3993-copy.JPG",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-matthew-armstrong",
+    "title": "Matthew Armstrong – Barbados Freediver & National Record Holder",
+    "description": "Matthew Armstrong is a freediver representing Barbados and a Barbados national record holder in depth and pool disciplines. Bio and collectible trading cards.",
+    "path": "/athletes/matthew-armstrong",
+    "out": "athletes/matthew-armstrong/index.html",
+    "dir": "athlete-matthew-armstrong",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/10/A7407313.jpg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-kim-dahlgren",
+    "title": "Kim Dahlgren – Swedish Freediver & National Record Holder",
+    "description": "Kim Dahlgren is a Swedish freediver from Nynäshamn and a Swedish national record holder in all four depth disciplines. Bio and collectible trading cards.",
+    "path": "/athletes/kim-dahlgren",
+    "out": "athletes/kim-dahlgren/index.html",
+    "dir": "athlete-kim-dahlgren",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/10/DSC07939-Edit.jpg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-luciana-blanco-villegas",
+    "title": "Luciana Blanco Villegas – Argentine Freediver & National Record Holder",
+    "description": "Luciana Blanco Villegas is a freediver from Buenos Aires and an Argentine national record holder in depth disciplines. Bio and collectible trading cards.",
+    "path": "/athletes/luciana-blanco-villegas",
+    "out": "athletes/luciana-blanco-villegas/index.html",
+    "dir": "athlete-luciana-blanco-villegas",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/10/AFC-woman-day-2-Luciana-22.jpg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-pedro-tapia",
+    "title": "Pedro Tapia – Mexican Freediver & National Record Holder",
+    "description": "Pedro Tapia is a freediver from Mexico City, the deepest unassisted freediver in the Americas and a Mexican national record holder. Bio and collectible trading cards.",
+    "path": "/athletes/pedro-tapia",
+    "out": "athletes/pedro-tapia/index.html",
+    "dir": "athlete-pedro-tapia",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/11/pedro-DaanVerhoeven-304A4731.jpeg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-mike-garrett",
+    "title": "Mike Garrett – American Freediver",
+    "description": "Mike Garrett is a freediver from Houston, Texas, who represents the United States in depth competition. Bio and collectible trading cards.",
+    "path": "/athletes/mike-garrett",
+    "out": "athletes/mike-garrett/index.html",
+    "dir": "athlete-mike-garrett",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/11/PIP-back.JPG",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-woongja-kim",
+    "title": "Woongja Kim – Korean Freediver",
+    "description": "Woongja Kim is a freediver from Cheongju representing the Republic of Korea in depth and pool competition. Bio and collectible trading cards.",
+    "path": "/athletes/woongja-kim",
+    "out": "athletes/woongja-kim/index.html",
+    "dir": "athlete-woongja-kim",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/11/DSC03815-1.jpeg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-carol-carrasco-navas",
+    "title": "Carol Carrasco Navas – Chilean Freediver & Continental Record Holder",
+    "description": "Carol Carrasco Navas is a freediver from Talca, Chile, a South American record holder in Constant Weight Bi-Fins and Chilean national record holder. Bio and collectible trading cards.",
+    "path": "/athletes/carol-carrasco-navas",
+    "out": "athletes/carol-carrasco-navas/index.html",
+    "dir": "athlete-carol-carrasco-navas",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/11/cwt-S.jpeg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-petar-klovar",
+    "title": "Petar Klovar – Croatian Freediver & World Record Holder",
+    "description": "Petar Klovar is a Croatian freediver from Rijeka and AIDA world record holder in Free Immersion, Constant Weight No Fins and Constant Weight Bi-Fins. Bio and collectible trading cards.",
+    "path": "/athletes/petar-klovar",
+    "out": "athletes/petar-klovar/index.html",
+    "dir": "athlete-petar-klovar",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/11/IMG_9034.jpeg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-jacek-polak",
+    "title": "Jacek Polak – Polish Freediver & AIDA Master Instructor",
+    "description": "Jacek Polak is a Polish freediver from Elbląg, an AIDA Master Instructor in Kraków and a Polish representative at the AIDA World Championships. Bio and collectible trading cards.",
+    "path": "/athletes/jacek-polak",
+    "out": "athletes/jacek-polak/index.html",
+    "dir": "athlete-jacek-polak",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/11/20251112-PJ-108.jpg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-guillaume-bourdila",
+    "title": "Guillaume Bourdila – French Freediver & World Champion",
+    "description": "Guillaume Bourdila is a French freediver, AIDA world champion and world record holder in Dynamic with Bi-Fins. Bio and collectible trading cards.",
+    "path": "/athletes/guillaume-bourdila",
+    "out": "athletes/guillaume-bourdila/index.html",
+    "dir": "athlete-guillaume-bourdila",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/12/DSC01771-guillaume-copy.JPG",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-zsofia-torocsik",
+    "title": "Zsófia Törőcsik – Hungarian Freediver, World Champion & World Record Holder",
+    "description": "Zsófia Törőcsik is a Hungarian freediver, 2025 AIDA Depth World Champion and the first woman to swim 300 m on one breath. Bio and collectible trading cards.",
+    "path": "/athletes/zsofia-torocsik",
+    "out": "athletes/zsofia-torocsik/index.html",
+    "dir": "athlete-zsofia-torocsik",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/11/world-games.jpg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-thibault-guignes",
+    "title": "Thibault Guignés – French Freediver & National Record Holder",
+    "description": "Thibault Guignés is a French freediver from Bordeaux and France’s national record holder in Free Immersion. Bio and collectible trading cards.",
+    "path": "/athletes/thibault-guignes",
+    "out": "athletes/thibault-guignes/index.html",
+    "dir": "athlete-thibault-guignes",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/11/inbound7226361042819082289.jpg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-laurent-kramer",
+    "title": "Laurent Kramer – American Freediver",
+    "description": "Laurent Kramer is a Swiss-born freediver representing the United States, based in Palm Beach, Florida. Bio and collectible trading cards.",
+    "path": "/athletes/laurent-kramer",
+    "out": "athletes/laurent-kramer/index.html",
+    "dir": "athlete-laurent-kramer",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/12/JMP08336.jpeg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-francisco-quesada",
+    "title": "Francisco Quesada – Spanish Freediver & National Record Holder",
+    "description": "Francisco Quesada is a Spanish freediver, multiple Spanish national record holder in pool and depth, and 2024 World Championship silver medalist. Bio and collectible trading cards.",
+    "path": "/athletes/francisco-quesada",
+    "out": "athletes/francisco-quesada/index.html",
+    "dir": "athlete-francisco-quesada",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/12/3b73111c88c4b55da710925f962cec9a.jpeg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-philipp-heinzelmann",
+    "title": "Philipp Heinzelmann – German Freediver & National Record Holder",
+    "description": "Philipp Heinzelmann is a German freediver from Mutlangen and German national record holder in pool and depth. Bio and collectible trading cards.",
+    "path": "/athletes/philipp-heinzelmann",
+    "out": "athletes/philipp-heinzelmann/index.html",
+    "dir": "athlete-philipp-heinzelmann",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/12/Screenshot_20251210-132227.png",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-shunsaku-kobayashi",
+    "title": "Shunsaku Kobayashi – Japanese Freediver",
+    "description": "Shunsaku Kobayashi is a Japanese freediver from Nagano and freediving instructor based on Miyakojima. Bio and collectible trading cards.",
+    "path": "/athletes/shunsaku-kobayashi",
+    "out": "athletes/shunsaku-kobayashi/index.html",
+    "dir": "athlete-shunsaku-kobayashi",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/12/801_0175.jpeg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-susan-gosal",
+    "title": "Susan Gosal – Indonesian Freediver",
+    "description": "Susan Gosal is a freediver from Kolonodale, Indonesia, competing in pool and depth since 2022. Bio and collectible trading cards.",
+    "path": "/athletes/susan-gosal",
+    "out": "athletes/susan-gosal/index.html",
+    "dir": "athlete-susan-gosal",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/12/MSR01910-copy_Original.jpeg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-mikaela-concepcion",
+    "title": "Mikaela Concepcion – Filipino Freediver & National Record Holder",
+    "description": "Mikaela Concepcion is a freediver from Manila and the Philippine national record holder in Dynamic Apnea. Bio and collectible trading cards.",
+    "path": "/athletes/mikaela-concepcion",
+    "out": "athletes/mikaela-concepcion/index.html",
+    "dir": "athlete-mikaela-concepcion",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/12/Mika-back.jpg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-luce-de-michelena",
+    "title": "Luce de Michelena – French Freediver",
+    "description": "Luce de Michelena is a French pool freediver from Bayonne who began competing during a gap year spent training around the world. Bio and collectible trading cards.",
+    "path": "/athletes/luce-de-michelena",
+    "out": "athletes/luce-de-michelena/index.html",
+    "dir": "athlete-luce-de-michelena",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/12/DSC05106.JPG",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-chuck-faustin-armoreda",
+    "title": "Chuck Faustin Armoreda – Filipino Freediver",
+    "description": "Chuck Faustin Armoreda is a freediver from Manila representing the Philippines in pool and depth competition. Bio and collectible trading cards.",
+    "path": "/athletes/chuck-faustin-armoreda",
+    "out": "athletes/chuck-faustin-armoreda/index.html",
+    "dir": "athlete-chuck-faustin-armoreda",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/12/IMG_0694.jpeg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-henri-frederic-reforeal",
+    "title": "Henri Frederic Reforeal – Filipino Freediver",
+    "description": "Henri Frederic Reforeal is a depth freediver from Manila representing the Philippines. Bio and collectible trading cards.",
+    "path": "/athletes/henri-frederic-reforeal",
+    "out": "athletes/henri-frederic-reforeal/index.html",
+    "dir": "athlete-henri-frederic-reforeal",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/12/A7402495-22.jpg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-roberto-guzman",
+    "title": "Roberto Guzmán – Mexican Freediver & National Record Holder",
+    "description": "Roberto Guzmán is a Mexican freediver from Colima, Mexican national record holder and AIDA instructor in Playa del Carmen. Bio and collectible trading cards.",
+    "path": "/athletes/roberto-guzman",
+    "out": "athletes/roberto-guzman/index.html",
+    "dir": "athlete-roberto-guzman",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/09/roberto-DaanVerhoeven-304A8898.jpg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-maria-bobela",
+    "title": "Maria Bobela – Polish Freediver & World Champion",
+    "description": "Maria Bobela is a Polish depth freediver from Warsaw, 2024 AIDA World Champion in Constant Weight No Fins and multiple Polish national record holder. Bio and collectible trading cards.",
+    "path": "/athletes/maria-bobela",
+    "out": "athletes/maria-bobela/index.html",
+    "dir": "athlete-maria-bobela",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/09/IMG_7189.jpeg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-mateusz-malina",
+    "title": "Mateusz Malina – Polish Freediver & World Record Holder",
+    "description": "Mateusz Malina is a Polish freediver from Cieszyn and world record holder in the dynamic pool disciplines, with the furthest swim on one breath. Bio and collectible trading cards.",
+    "path": "/athletes/mateusz-malina",
+    "out": "athletes/mateusz-malina/index.html",
+    "dir": "athlete-mateusz-malina",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/10/mateusz-DaanVerhoeven-304A1346.jpg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-vitomir-maricic",
+    "title": "Vitomir Maričić – Croatian Freediver & Guinness World Record Holder",
+    "description": "Vitomir Maričić is a Croatian freediver from Rijeka, multiple Croatian national record holder and Guinness World Record holder for the longest breath held underwater. Bio and collectible trading cards.",
+    "path": "/athletes/vitomir-maricic",
+    "out": "athletes/vitomir-maricic/index.html",
+    "dir": "athlete-vitomir-maricic",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/12/bomb.jpg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-chad-yutka",
+    "title": "Chad Yutka – American Freediver",
+    "description": "Chad Yutka is a freediver from Kenosha, Wisconsin, and a member of the 2026 US National Freediving Team. Bio and collectible trading cards.",
+    "path": "/athletes/chad-yutka",
+    "out": "athletes/chad-yutka/index.html",
+    "dir": "athlete-chad-yutka",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2026/01/IMG_1974.jpeg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-joo-teik-siew",
+    "title": "Joo Teik Siew – Malaysian Freediver & National Record Holder",
+    "description": "Joo Teik Siew is a freediver from Georgetown, Penang, Malaysian national record holder in Dynamic No Fins and AIDA judge and instructor. Bio and collectible trading cards.",
+    "path": "/athletes/joo-teik-siew",
+    "out": "athletes/joo-teik-siew/index.html",
+    "dir": "athlete-joo-teik-siew",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/12/IMG_9555.jpeg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-dorottya-harcz-beke",
+    "title": "Dorottya Harcz-Beke – Hungarian Freediver",
+    "description": "Dorottya Harcz-Beke is a Hungarian pool freediver from Balassagyarmat. Bio and collectible trading cards.",
+    "path": "/athletes/dorottya-harcz-beke",
+    "out": "athletes/dorottya-harcz-beke/index.html",
+    "dir": "athlete-dorottya-harcz-beke",
+    "status": "published",
+    "group": "athletes",
+    "seo": {
+      "ogImage": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2026/01/Dorottya-DYN-nOxyCup-13.jpeg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "for-athletes",
+    "title": "For Athletes – Get Your Own Freediving Trading Card",
+    "description": "Freedivers earn 25% of net revenue from their official Peace In Pressure trading cards. How it works, what you agree to, and how to apply.",
+    "path": "/for-athletes",
+    "out": "for-athletes/index.html",
+    "dir": "for-athletes",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-apply",
+    "title": "Apply as an Athlete",
+    "description": "Apply to get your own official Peace In Pressure freediving trading card. Athletes earn 25% of net revenue.",
+    "path": "/athletes/apply",
+    "out": "athletes/apply/index.html",
+    "dir": "athlete-apply",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "partners",
+    "title": "Partner with Us – Brand Partnerships",
+    "description": "Partner with Peace In Pressure: marketplace sales, co-branded freediving trading cards and league sponsorships.",
+    "path": "/partners",
+    "out": "partners/index.html",
+    "dir": "partners",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "contact",
+    "title": "Contact & Requests",
+    "description": "Contact Peace In Pressure, make a privacy request, or request a correction to a trading card.",
+    "path": "/contact",
+    "out": "contact/index.html",
+    "dir": "contact",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-legal-bundle",
+    "title": "Athlete Legal Bundle",
+    "description": "The Athlete Agreement, Athlete Terms of Service and Athlete Privacy Policy that govern athlete participation on Peace In Pressure.",
+    "path": "/athlete-legal-bundle",
+    "out": "athlete-legal-bundle/index.html",
+    "dir": "athlete-legal-bundle",
     "status": "published",
     "seo": {
       "ogImage": null,
@@ -16,6 +922,139 @@
       "footer": null,
       "utilityNav": null
     },
-    "pageType": "Home"
+    "group": "legal"
+  },
+  {
+    "slug": "athlete-terms-of-service",
+    "title": "Athlete Terms of Service",
+    "description": "Terms of Service for athletes participating in the Peace In Pressure trading card program.",
+    "path": "/athletes/terms",
+    "out": "athletes/terms/index.html",
+    "dir": "athlete-terms-of-service",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "group": "legal"
+  },
+  {
+    "slug": "athlete-privacy-policy",
+    "title": "Athlete Privacy Policy",
+    "description": "How Peace In Pressure collects, uses and protects personal information of participating athletes.",
+    "path": "/athletes/privacy",
+    "out": "athletes/privacy/index.html",
+    "dir": "athlete-privacy-policy",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "group": "legal"
+  },
+  {
+    "slug": "athlete-tax-payout",
+    "title": "Athlete Tax & Payout Overview",
+    "description": "How athlete earnings, tax forms (W-9, W-8BEN) and withholding work for Peace In Pressure athletes.",
+    "path": "/athlete-tax-payouts",
+    "out": "athlete-tax-payouts/index.html",
+    "dir": "athlete-tax-payout",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "group": "legal"
+  },
+  {
+    "slug": "medal-record-policy",
+    "title": "Medal & Record Representation Policy",
+    "description": "How Peace In Pressure displays medal badges, record designations and performance statistics on Annual Series trading cards.",
+    "path": "/medal-record-policy",
+    "out": "medal-record-policy/index.html",
+    "dir": "medal-record-policy",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "group": "legal"
+  },
+  {
+    "slug": "terms-of-service",
+    "title": "Terms of Service",
+    "description": "Terms of Service for shopping on Peace In Pressure: orders, payment, shipping and use of the site.",
+    "path": "/terms",
+    "out": "terms/index.html",
+    "dir": "terms-of-service",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "group": "legal"
+  },
+  {
+    "slug": "privacy-policy",
+    "title": "Privacy Policy",
+    "description": "How Peace In Pressure handles personal information of customers and site visitors.",
+    "path": "/privacy",
+    "out": "privacy/index.html",
+    "dir": "privacy-policy",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "group": "legal"
+  },
+  {
+    "slug": "refund-policy",
+    "title": "Refund & Return Policy",
+    "description": "Refund and return policy for Peace In Pressure trading card orders.",
+    "path": "/refunds",
+    "out": "refunds/index.html",
+    "dir": "refund-policy",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "group": "legal"
   }
 ]

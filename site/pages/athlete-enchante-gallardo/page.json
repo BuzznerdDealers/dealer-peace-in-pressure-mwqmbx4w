@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Enchante Gallardo",
+          "firstName": "Enchante",
+          "lastName": "Gallardo",
+          "country": "United States",
+          "flag": {
+            "src": "https://flagcdn.com/w80/us.png",
+            "alt": "Flag of United States"
+          },
+          "photo": {
+            "src": "/images/athlete-enchante-gallardo.jpeg",
+            "alt": "Enchante Gallardo"
+          },
+          "bio": "Enchante Gallardo is an American freediver from Makaha, Hawaii, and one of the deepest women in the sport. In July 2026 she tied the AIDA women's Free Immersion world record at 106 meters, and she holds multiple U.S. national and North American records."
+        }
+      }
+    }
+  ]
+}

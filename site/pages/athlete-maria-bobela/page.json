@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Maria Bobela",
+          "firstName": "Maria",
+          "lastName": "Bobela",
+          "country": "Poland",
+          "flag": {
+            "src": "https://flagcdn.com/w80/pl.png",
+            "alt": "Flag of Poland"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/09/IMG_7189.jpeg",
+            "alt": "Maria Bobela"
+          },
+          "bio": "Maria Bobela is a Polish depth freediver from Warsaw who left a career in graphic design for the sport. She discovered freediving in 2021, began competing internationally a year later, and became AIDA World Champion in Constant Weight No Fins in 2024. She holds Polish national records in Free Immersion, Constant Weight Bi-Fins and Constant No Fins, and also coaches and teaches freediving."
+        }
+      }
+    }
+  ]
+}

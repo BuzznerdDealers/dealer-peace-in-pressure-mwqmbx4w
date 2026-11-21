@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Roberto Guzmán",
+          "firstName": "Roberto",
+          "lastName": "Guzmán",
+          "country": "Mexico",
+          "flag": {
+            "src": "https://flagcdn.com/w80/mx.png",
+            "alt": "Flag of Mexico"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/09/roberto-DaanVerhoeven-304A8898.jpg",
+            "alt": "Roberto Guzmán"
+          },
+          "bio": "Roberto Guzmán is a Mexican freediver from Colima. He started freediving in 2017, when he moved to Playa del Carmen to dive the cenotes, and his swimming background helped him progress quickly past the 100 m mark. A multiple Mexican national record holder who competes in both pool and depth, he now teaches AIDA courses and coaches athletes through GM Freediving."
+        }
+      }
+    }
+  ]
+}

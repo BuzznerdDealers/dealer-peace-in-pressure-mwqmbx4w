@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Alessia Zecchini",
+          "firstName": "Alessia",
+          "lastName": "Zecchini",
+          "country": "Italy",
+          "flag": {
+            "src": "https://flagcdn.com/w80/it.png",
+            "alt": "Flag of Italy"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/11/IMG_8313.jpeg",
+            "alt": "Alessia Zecchini"
+          },
+          "bio": "Alessia Zecchini is an Italian freediver from Rome and one of the most decorated athletes in the sport, with more than 40 world records. She holds the women's AIDA record in Constant Weight at 123 meters and set the Constant Weight Bi-Fins world record of 113 meters in 2025."
+        }
+      }
+    }
+  ]
+}

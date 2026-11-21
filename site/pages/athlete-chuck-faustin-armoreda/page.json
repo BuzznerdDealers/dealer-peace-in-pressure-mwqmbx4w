@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Chuck Faustin Armoreda",
+          "firstName": "Chuck Faustin",
+          "lastName": "Armoreda",
+          "country": "Philippines",
+          "flag": {
+            "src": "https://flagcdn.com/w80/ph.png",
+            "alt": "Flag of Philippines"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/12/IMG_0694.jpeg",
+            "alt": "Chuck Faustin Armoreda"
+          },
+          "bio": "Chuck Faustin Armoreda is a freediver from Manila who represents the Philippines, ranking among the country’s top five in the dynamic pool disciplines. He also works as a performance safety freediver at AIDA competitions and has spoken out about plastic pollution in the oceans he dives."
+        }
+      }
+    }
+  ]
+}

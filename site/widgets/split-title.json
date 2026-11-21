@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "split-title",
+  "label": "Split title (H1)",
+  "description": "The page title on two lines: the first in white, the second in the brand gradient.",
+  "category": "content",
+  "origin": "user",
+  "props": [
+    {
+      "key": "lead",
+      "type": "text",
+      "label": "First line",
+      "required": true
+    },
+    {
+      "key": "accent",
+      "type": "textarea",
+      "label": "Second line (gradient)"
+    },
+    {
+      "key": "size",
+      "type": "select",
+      "label": "Size",
+      "options": [
+        {
+          "value": "hero",
+          "label": "Hero"
+        },
+        {
+          "value": "athlete",
+          "label": "Athlete name"
+        }
+      ],
+      "default": "hero"
+    }
+  ],
+  "html": "<h1 class=\"st st--{{size}}\"><span class=\"st-lead\">{{lead}}</span>{{#if accent}}<span class=\"st-accent\">{{accent}}</span>{{/if}}</h1>",
+  "css": ".st { font-family: var(--font-heading); font-weight: 700; text-transform: uppercase; margin: 0; color: #f4fbff; }\n.st-lead, .st-accent { display: block; }\n.st-accent { width: fit-content; max-width: 100%; white-space: pre; background: linear-gradient(120deg, #d705dd, #7a2bd6 42%, #00cdfd 84%, #00fbff); -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent; }\n.st--hero { font-size: clamp(58px, 10vw, 148px); line-height: 0.9; letter-spacing: -0.01em; text-shadow: 0 0 40px rgba(0,205,253,0.15); }\n.st--athlete { font-size: min(100px, 15cqw); line-height: 0.88; white-space: nowrap; }"
+}

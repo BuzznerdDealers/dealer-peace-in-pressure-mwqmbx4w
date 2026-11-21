@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Woongja Kim",
+          "firstName": "Woongja",
+          "lastName": "Kim",
+          "country": "Republic of Korea",
+          "flag": {
+            "src": "https://flagcdn.com/w80/kr.png",
+            "alt": "Flag of Republic of Korea"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/11/DSC03815-1.jpeg",
+            "alt": "Woongja Kim"
+          },
+          "bio": "Woongja Kim is a freediver from Cheongju who represents the Republic of Korea in both depth and pool competition. A Molchanovs athlete, Woongja trains in Korea’s deep diving pools."
+        }
+      }
+    }
+  ]
+}

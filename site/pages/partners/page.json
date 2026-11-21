@@ -1,0 +1,192 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "pt-crumb",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "pt-crumb-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "pt-crumb-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "pt-crumb-trail",
+                  "type": "breadcrumb",
+                  "props": {
+                    "trail": [
+                      {
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "label": "Partner with Us",
+                        "url": ""
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "paddingTop": 116
+        }
+      }
+    },
+    {
+      "id": "pt-hero",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "pt-hero-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "pt-hero-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "pt-title",
+                  "type": "heading",
+                  "props": {
+                    "text": "Partner\nwith us",
+                    "headingLevel": 1
+                  }
+                },
+                {
+                  "id": "pt-lede",
+                  "type": "text",
+                  "props": {
+                    "text": "We work with freediving brands that want to support athletes and reach the community. Every partnership shares revenue with the athletes involved.",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "paddingTop": 28,
+          "paddingBottom": 40
+        }
+      }
+    },
+    {
+      "id": "pt-main",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "pt-row",
+          "type": "row",
+          "props": {
+            "gap": 8,
+            "align": "start",
+            "stackOn": "tablet"
+          },
+          "children": [
+            {
+              "id": "pt-ideas",
+              "type": "column",
+              "props": {
+                "span": 6
+              },
+              "children": [
+                {
+                  "id": "pt-list",
+                  "type": "list",
+                  "props": {
+                    "heading": "A few ideas",
+                    "headingLevel": 2,
+                    "columns": 1,
+                    "items": [
+                      {
+                        "label": "Marketplace",
+                        "desc": "Sell your gear in the PIP marketplace and on athlete pages."
+                      },
+                      {
+                        "label": "Co-branded cards",
+                        "desc": "Cards featuring your brand and an athlete, as a limited insert or themed line, with gear prizes, discount codes or event tie-ins. Athlete revenue share: to be determined."
+                      },
+                      {
+                        "label": "League sponsorships",
+                        "desc": "Champion Cards after competition wins, event sets and livestream visibility."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "pt-more",
+                  "type": "text",
+                  "props": {
+                    "text": "Have something else in mind? We’re open to it.",
+                    "width": "full"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "pt-form",
+              "type": "column",
+              "props": {
+                "span": 6
+              },
+              "children": [
+                {
+                  "id": "pt-form-block",
+                  "type": "form",
+                  "props": {
+                    "formId": "partner-inquiry",
+                    "heading": "Start a conversation",
+                    "headingLevel": 2,
+                    "intro": "Or email info@peaceinpressure.com"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "paddingTop": 20,
+          "paddingBottom": 100
+        }
+      }
+    }
+  ]
+}

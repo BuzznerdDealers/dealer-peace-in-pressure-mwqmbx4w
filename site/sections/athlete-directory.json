@@ -1,0 +1,212 @@
+{
+  "version": 2,
+  "id": "athlete-directory",
+  "name": "Athlete directory",
+  "css": "[data-bz-section=\"athlete-directory\"] [data-bz-node=\"ad-title\"] h1 { font-weight: 700; font-size: clamp(44px, 7vw, 96px); line-height: .92; margin: 0; color: #f4fbff; }\n[data-bz-node=\"ad-head\"] { margin-bottom: 36px; }\n[data-bz-node=\"ad-grid\"] { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 36px 28px; }\n[data-bz-node=\"ad-grid\"] > .bz-col { grid-column: auto; display: flex; flex-direction: column; gap: 14px; transition: transform .3s ease; }\n[data-bz-node=\"ad-grid\"] > .bz-col:hover { transform: translateY(-6px); }\n[data-bz-node=\"ad-grid\"] > .bz-col[hidden] { display: none; }\n[data-bz-node=\"ad-grid\"] > .bz-col > .bz-block { margin: 0; }\n[data-bz-node^=\"ad-photo\"] img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 35%; border-radius: 14px; background: #0a2c46; }\n[data-bz-node^=\"ad-name\"] p { margin: 0; font-family: var(--font-heading); font-weight: 700; font-size: 26px; line-height: 1; text-transform: uppercase; }\n[data-bz-node^=\"ad-name\"] a { color: #f4fbff; text-decoration: none; }\n[data-bz-node^=\"ad-meta\"] { display: flex; align-items: center; gap: 10px; }\n[data-bz-node^=\"ad-meta\"] > .bz-col { width: auto; flex: none; }\n[data-bz-node^=\"ad-flag-img\"] img { width: 21px; height: 14px; object-fit: cover; border-radius: 2px; }\n[data-bz-node^=\"ad-country-text\"] p { margin: 0; font-size: 12px; letter-spacing: .2em; text-transform: uppercase; color: #00cdfd; }\n",
+  "js": "// Search, country filter, count, empty state and \"Load more\" for the directory.\n// Without this script every card is visible, which is also what the editing canvas shows.\n(function () {\n  var root = document.querySelector('[data-bz-section=\"athlete-directory\"]');\n  if (!root) return;\n  var cards = Array.prototype.slice.call(root.querySelectorAll('[data-bz-node=\"ad-grid\"] > .bz-col'));\n  var tools = root.querySelector('[data-athlete-filters]');\n  var more = root.querySelector('[data-athlete-more]');\n  if (!cards.length || !tools) return;\n  var search = tools.querySelector('[data-af-search]');\n  var select = tools.querySelector('[data-af-country]');\n  var count = tools.querySelector('[data-af-count]');\n  var empty = tools.querySelector('[data-af-empty]');\n  var clear = tools.querySelector('[data-af-clear]');\n  var pageSize = more ? parseInt(more.getAttribute('data-page-size'), 10) || 4 : cards.length;\n  var limit = pageSize;\n  var norm = function (s) { return String(s).normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').toLowerCase(); };\n  var info = cards.map(function (card) {\n    var name = (card.querySelector('[data-bz-node^=\"ad-name\"]') || {}).textContent || '';\n    var country = (card.querySelector('[data-bz-node^=\"ad-country-text\"]') || {}).textContent || '';\n    return { card: card, country: country.trim(), hay: norm(name + ' ' + country) };\n  });\n  var countries = Array.from(new Set(info.map(function (i) { return i.country; }))).sort();\n  countries.forEach(function (c) { var o = document.createElement('option'); o.value = c; o.textContent = c; select.appendChild(o); });\n  function apply() {\n    var q = norm(search.value.trim());\n    var c = select.value;\n    var matched = info.filter(function (i) { return (!c || i.country === c) && (!q || i.hay.indexOf(q) > -1); });\n    info.forEach(function (i) { i.card.hidden = true; });\n    matched.slice(0, limit).forEach(function (i) { i.card.hidden = false; });\n    var n = matched.length;\n    count.textContent = n === info.length ? n + ' athletes' : n + ' of ' + info.length + ' athletes';\n    empty.hidden = n > 0;\n    if (more) more.hidden = n <= limit;\n  }\n  search.addEventListener('input', function () { limit = pageSize; apply(); });\n  select.addEventListener('change', function () { limit = pageSize; apply(); });\n  clear.addEventListener('click', function () { search.value = ''; select.value = ''; limit = pageSize; apply(); });\n  if (more) more.querySelector('button').addEventListener('click', function () { limit += pageSize; apply(); });\n  apply();\n})();\n",
+  "props": [
+    {
+      "key": "title",
+      "type": "text",
+      "label": "Page title",
+      "default": "Athletes"
+    },
+    {
+      "key": "athletes",
+      "type": "list",
+      "label": "Athletes",
+      "fields": [
+        {
+          "key": "name",
+          "type": "text",
+          "label": "Name"
+        },
+        {
+          "key": "country",
+          "type": "text",
+          "label": "Country"
+        },
+        {
+          "key": "flag",
+          "type": "image",
+          "label": "Flag"
+        },
+        {
+          "key": "photo",
+          "type": "image",
+          "label": "Photo"
+        },
+        {
+          "key": "url",
+          "type": "url",
+          "label": "Profile page"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ad",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "ad-head",
+          "type": "row",
+          "props": {
+            "gap": 6,
+            "align": "end",
+            "stackOn": "tablet"
+          },
+          "children": [
+            {
+              "id": "ad-title-col",
+              "type": "column",
+              "props": {
+                "span": 6
+              },
+              "children": [
+                {
+                  "id": "ad-title",
+                  "type": "heading",
+                  "props": {
+                    "text": "{{title}}",
+                    "headingLevel": 1
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ad-tools-col",
+              "type": "column",
+              "props": {
+                "span": 6
+              },
+              "children": [
+                {
+                  "id": "ad-tools",
+                  "type": "athlete-filters",
+                  "props": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ad-grid",
+          "type": "row",
+          "props": {
+            "gap": 6,
+            "align": "start",
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "ad-card",
+              "type": "column",
+              "props": {
+                "span": 3,
+                "repeat": "athletes"
+              },
+              "children": [
+                {
+                  "id": "ad-photo",
+                  "type": "image",
+                  "props": {
+                    "image": "{{photo}}",
+                    "url": "{{url}}"
+                  }
+                },
+                {
+                  "id": "ad-name",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"{{url}}\">{{name}}</a>",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "ad-meta",
+                  "type": "row",
+                  "props": {
+                    "gap": 2,
+                    "align": "center",
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "ad-flag",
+                      "type": "column",
+                      "props": {
+                        "span": 1
+                      },
+                      "children": [
+                        {
+                          "id": "ad-flag-img",
+                          "type": "image",
+                          "props": {
+                            "image": "{{flag}}"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "ad-country",
+                      "type": "column",
+                      "props": {
+                        "span": 11
+                      },
+                      "children": [
+                        {
+                          "id": "ad-country-text",
+                          "type": "text",
+                          "props": {
+                            "text": "{{country}}",
+                            "width": "full"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ad-more-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "ad-more-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "ad-more",
+                  "type": "athlete-more",
+                  "props": {}
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "paddingTop": 140,
+          "paddingBottom": 100
+        }
+      }
+    }
+  ]
+}

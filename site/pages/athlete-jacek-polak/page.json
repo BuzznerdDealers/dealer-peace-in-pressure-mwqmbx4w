@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Jacek Polak",
+          "firstName": "Jacek",
+          "lastName": "Polak",
+          "country": "Poland",
+          "flag": {
+            "src": "https://flagcdn.com/w80/pl.png",
+            "alt": "Flag of Poland"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/11/20251112-PJ-108.jpg",
+            "alt": "Jacek Polak"
+          },
+          "bio": "Jacek Polak is a freediver from Elbląg, Poland, now based in Kraków, where he is an AIDA Master Instructor and runs PJ Freediving. He represents Poland at the AIDA Freediving World Championships and finished in the top 10 at the 2023 World Championship in Jeju, South Korea, while also working full-time in IT."
+        }
+      }
+    }
+  ]
+}

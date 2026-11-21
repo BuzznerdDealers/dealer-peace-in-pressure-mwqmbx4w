@@ -1,0 +1,92 @@
+{
+  "version": 2,
+  "id": "join-cta",
+  "name": "Join CTA",
+  "css": "[data-bz-node=\"jc-card\"] { position: relative; overflow: hidden; border-radius: 20px; padding: 72px 48px; text-align: center; background: linear-gradient(120deg, #240140 0%, #4a1a8a 34%, #0a5a86 78%, #05384f 100%); isolation: isolate; }\n[data-bz-node=\"jc-card\"]::before { content: \"\"; position: absolute; inset: 0; background: radial-gradient(80% 120% at 50% 0%, rgba(2,6,23,.15) 20%, rgba(2,6,23,.7)); pointer-events: none; z-index: -1; }\n[data-bz-node=\"jc-card\"]::after { content: \"\"; position: absolute; top: -40px; right: -40px; width: 260px; height: 347px; background: url(\"/icon-white.png\") center / contain no-repeat; opacity: .1; pointer-events: none; z-index: -1; }\n[data-bz-node=\"jc-icon\"] img { height: 64px; width: auto; margin: 0 auto 22px; opacity: .95; }\n[data-bz-section=\"join-cta\"] [data-bz-node=\"jc-heading\"] h2 { font-weight: 700; font-size: clamp(34px, 5vw, 62px); line-height: .95; color: #fff; margin: 0; }\n[data-bz-node=\"jc-body\"] p { max-width: 520px; margin: 16px auto 0; font-size: 17px; font-weight: 300; color: rgba(255,255,255,.9); }\n[data-bz-node=\"jc-form\"] { max-width: 460px; margin: 32px auto 0; }\n[data-bz-node=\"jc-form\"] .bz-form { background: transparent; border: 0; padding: 0; max-width: none; flex-wrap: wrap; gap: 10px; align-items: stretch; justify-content: center; text-align: left; }\n[data-bz-node=\"jc-form\"] .bz-form > .bz-field { flex: 1 1 220px; margin: 0; }\n[data-bz-node=\"jc-form\"] .bz-form > button { flex: 0 0 auto; }\n[data-bz-node=\"jc-form\"] .bz-form > .bz-form__status { flex: 1 1 100%; text-align: center; min-height: 20px; }\n[data-bz-node=\"jc-form\"] .bz-label { display: none; }\n[data-bz-node=\"jc-form\"] .bz-input { background: rgba(2,6,23,.55); border: 0; color: #fff; padding: 15px 18px; font-size: 15px; }\n[data-bz-node=\"jc-form\"] .bz-input::placeholder { color: rgba(255,255,255,.55); }\n[data-bz-node=\"jc-form\"] button[type=\"submit\"], [data-bz-node=\"jc-form\"] .bz-btn { background: #fff; color: #020617; border: 0; padding: 15px 30px; border-radius: 6px; font-family: var(--font-heading); font-weight: 600; letter-spacing: .1em; text-transform: uppercase; font-size: 14px; cursor: pointer; }\n[data-bz-node=\"jc-form\"] .bz-form__status { color: #eafcff; font-size: 13px; letter-spacing: .06em; }\n@media (max-width: 640px) { [data-bz-node=\"jc-card\"] { padding: 56px 24px; } }\n",
+  "js": "",
+  "props": [
+    {
+      "key": "heading",
+      "type": "text",
+      "label": "Heading",
+      "default": "Live On."
+    },
+    {
+      "key": "body",
+      "type": "textarea",
+      "label": "Copy",
+      "default": "Get standings, record alerts, and stories from the deep — straight to your inbox. Free to join."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "jc",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0,
+        "anchor": "join"
+      },
+      "children": [
+        {
+          "id": "jc-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "jc-card",
+              "type": "column",
+              "props": {
+                "span": 12,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "jc-icon",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "/icon-white.png",
+                      "alt": "Peace In Pressure mark"
+                    }
+                  }
+                },
+                {
+                  "id": "jc-heading",
+                  "type": "heading",
+                  "props": {
+                    "text": "{{heading}}",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "jc-body",
+                  "type": "text",
+                  "props": {
+                    "text": "{{body}}",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "jc-form",
+                  "type": "form",
+                  "props": {
+                    "formId": "newsletter-join"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "marginTop": 70
+        }
+      }
+    }
+  ]
+}

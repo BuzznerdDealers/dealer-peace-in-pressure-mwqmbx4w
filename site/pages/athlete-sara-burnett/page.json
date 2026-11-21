@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Sara Burnett",
+          "firstName": "Sara",
+          "lastName": "Burnett",
+          "country": "United States",
+          "flag": {
+            "src": "https://flagcdn.com/w80/us.png",
+            "alt": "Flag of United States"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/10/2J9A8199.jpeg",
+            "alt": "Sara Burnett"
+          },
+          "bio": "Sara Burnett is a freediver from Gadsden, Alabama, who grew up largely in Plano, Texas, and now teaches freediving in St. Lucia. She started freediving in July 2023 at 39. In her first competition, at Blue Element in Dominica, she reached 65 m and was selected as one of four women on the U.S. team for the 2024 AIDA Freediving World Championship, where she placed 11th."
+        }
+      }
+    }
+  ]
+}

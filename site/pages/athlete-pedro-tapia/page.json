@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Pedro Tapia",
+          "firstName": "Pedro",
+          "lastName": "Tapia",
+          "country": "Mexico",
+          "flag": {
+            "src": "https://flagcdn.com/w80/mx.png",
+            "alt": "Flag of Mexico"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/11/pedro-DaanVerhoeven-304A4731.jpeg",
+            "alt": "Pedro Tapia"
+          },
+          "bio": "Pedro Tapia is a freediver born and raised in Mexico City and now based in Playa del Carmen. He is the deepest unassisted freediver in the Americas and holds Mexican national records in Constant Weight, Free Immersion and Constant No Fins. He won Vertical Blue in 2023 and teaches freediving through Apnea Mexico."
+        }
+      }
+    }
+  ]
+}

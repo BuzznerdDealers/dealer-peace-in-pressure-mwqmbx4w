@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Philipp Heinzelmann",
+          "firstName": "Philipp",
+          "lastName": "Heinzelmann",
+          "country": "Germany",
+          "flag": {
+            "src": "https://flagcdn.com/w80/de.png",
+            "alt": "Flag of Germany"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/12/Screenshot_20251210-132227.png",
+            "alt": "Philipp Heinzelmann"
+          },
+          "bio": "Philipp Heinzelmann is a freediver from Mutlangen, Germany, who has competed in pool and depth events since 2022. He holds German national records in Constant Weight No Fins and in the dynamic pool disciplines. He is also an AIDA instructor and a certified competition safety freediver, and he created the ELEMENT freediving training app."
+        }
+      }
+    }
+  ]
+}

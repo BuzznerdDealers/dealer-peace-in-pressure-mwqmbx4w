@@ -1,0 +1,106 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "lg-crumb",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "lg-crumb-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "lg-crumb-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "lg-crumb-trail",
+                  "type": "breadcrumb",
+                  "props": {
+                    "trail": [
+                      {
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "label": "Refund & Return Policy",
+                        "url": ""
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "paddingTop": 116
+        }
+      }
+    },
+    {
+      "id": "legal",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "legal-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "legal-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "legal-title",
+                  "type": "heading",
+                  "props": {
+                    "text": "Refund & Return Policy",
+                    "headingLevel": 1
+                  }
+                },
+                {
+                  "id": "t-1",
+                  "type": "text",
+                  "props": {
+                    "text": "Coming soon\n\nOur Refund & Return Policy is being finalized. For questions about an order, contact <a href=\"mailto:info@peaceinpressure.com\">info@peaceinpressure.com</a>.",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "paddingTop": 40,
+          "paddingBottom": 120
+        }
+      }
+    }
+  ]
+}

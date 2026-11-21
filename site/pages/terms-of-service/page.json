@@ -1,0 +1,314 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "lg-crumb",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "lg-crumb-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "lg-crumb-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "lg-crumb-trail",
+                  "type": "breadcrumb",
+                  "props": {
+                    "trail": [
+                      {
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "label": "Terms of Service",
+                        "url": ""
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "paddingTop": 116
+        }
+      }
+    },
+    {
+      "id": "legal",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "legal-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "legal-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "legal-title",
+                  "type": "heading",
+                  "props": {
+                    "text": "Terms of Service",
+                    "headingLevel": 1
+                  }
+                },
+                {
+                  "id": "t-1",
+                  "type": "text",
+                  "props": {
+                    "text": "For customers · Last updated November 2026",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-2",
+                  "type": "heading",
+                  "props": {
+                    "text": "1. About these terms",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-3",
+                  "type": "text",
+                  "props": {
+                    "text": "These Terms of Service govern your use of the Peace In Pressure website and your purchase of trading cards and related products from Peace In Pressure (“PIP”, “we”, “us”). By using the site or placing an order, you agree to these terms.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-4",
+                  "type": "heading",
+                  "props": {
+                    "text": "2. Eligibility & accounts",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-5",
+                  "type": "text",
+                  "props": {
+                    "text": "You must be at least 13 years old to use the site. If you are under 18, you need a parent or guardian’s permission to create an account or place an order. You are responsible for keeping your account details secure and for activity on your account.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-6",
+                  "type": "heading",
+                  "props": {
+                    "text": "3. Orders & pricing",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-7",
+                  "type": "text",
+                  "props": {
+                    "text": "All prices are shown in U.S. dollars unless stated otherwise. Applicable sales tax is calculated at checkout. We may refuse or cancel an order, for example if a product is unavailable or a pricing error occurs; if we cancel, you will receive a full refund.\n\nLimited, numbered and signed editions are produced in fixed quantities and may sell out.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-8",
+                  "type": "heading",
+                  "props": {
+                    "text": "4. Payment",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-9",
+                  "type": "text",
+                  "props": {
+                    "text": "Payments are processed securely by Stripe. PIP does not store your card details.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-10",
+                  "type": "heading",
+                  "props": {
+                    "text": "5. Shipping & delivery",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-11",
+                  "type": "text",
+                  "props": {
+                    "text": "We ship to the addresses and countries offered at checkout. Delivery times are estimates. Customers are responsible for any import duties or taxes charged by their country.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-12",
+                  "type": "heading",
+                  "props": {
+                    "text": "6. Returns & refunds",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-13",
+                  "type": "text",
+                  "props": {
+                    "text": "Returns and refunds are covered by our <a href=\"/refunds\">Refund & Return Policy</a>.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-14",
+                  "type": "heading",
+                  "props": {
+                    "text": "7. Collectibles",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-15",
+                  "type": "text",
+                  "props": {
+                    "text": "Trading cards are sold as collectibles for personal enjoyment. PIP makes no promise about future value or resale price. Card statistics and achievement badges reflect official records at the time of production, as described in our <a href=\"/medal-record-policy\">Medal & Record Policy</a>.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-16",
+                  "type": "heading",
+                  "props": {
+                    "text": "8. Intellectual property",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-17",
+                  "type": "text",
+                  "props": {
+                    "text": "All card designs, artwork, logos and site content are owned by PIP or its licensors, including the athletes featured. Buying a card gives you ownership of the physical item only, not the right to copy, reproduce or commercially use the designs or athlete likenesses.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-18",
+                  "type": "heading",
+                  "props": {
+                    "text": "9. Acceptable use",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-19",
+                  "type": "text",
+                  "props": {
+                    "text": "You agree not to misuse the site, including by attempting to access accounts or data that are not yours, interfering with the site’s operation, or using automated tools to place orders.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-20",
+                  "type": "heading",
+                  "props": {
+                    "text": "10. Limitation of liability",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-21",
+                  "type": "text",
+                  "props": {
+                    "text": "To the extent permitted by law, PIP is not liable for indirect or consequential losses, and our total liability for any order is limited to the amount you paid for it.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-22",
+                  "type": "heading",
+                  "props": {
+                    "text": "11. Changes",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-23",
+                  "type": "text",
+                  "props": {
+                    "text": "We may update these terms from time to time. The version posted on this page applies to orders placed after it is published.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-24",
+                  "type": "heading",
+                  "props": {
+                    "text": "12. Governing law",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-25",
+                  "type": "text",
+                  "props": {
+                    "text": "These terms are governed by the laws of Washington State, USA.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-26",
+                  "type": "heading",
+                  "props": {
+                    "text": "13. Contact",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-27",
+                  "type": "text",
+                  "props": {
+                    "text": "Questions about these terms: <a href=\"mailto:info@peaceinpressure.com\">info@peaceinpressure.com</a>.",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "paddingTop": 40,
+          "paddingBottom": 120
+        }
+      }
+    }
+  ]
+}

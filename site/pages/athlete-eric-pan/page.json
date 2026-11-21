@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Eric Pan",
+          "firstName": "Eric",
+          "lastName": "Pan",
+          "country": "China",
+          "flag": {
+            "src": "https://flagcdn.com/w80/cn.png",
+            "alt": "Flag of China"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/10/IMG_1267-2.JPG",
+            "alt": "Eric Pan"
+          },
+          "bio": "Eric Pan is a freediver from Harbin, China, now based in the San Francisco Bay Area, where he works as a data scientist and teaches as an AIDA instructor. Growing up in a landlocked city, he did not dive in the ocean until he was 22. He set four Chinese national records at Vertical Blue 2021, represented China at the 2023 World Championship, and won gold in FIM and CWTB at the 10th Azul Freediving Challenge."
+        }
+      }
+    }
+  ]
+}

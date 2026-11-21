@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Thibault Guignés",
+          "firstName": "Thibault",
+          "lastName": "Guignés",
+          "country": "France",
+          "flag": {
+            "src": "https://flagcdn.com/w80/fr.png",
+            "alt": "Flag of France"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/11/inbound7226361042819082289.jpg",
+            "alt": "Thibault Guignés"
+          },
+          "bio": "Thibault Guignés is a French freediver from Bordeaux who specialises in depth. He studied ocean engineering and discovered freediving in 2014 while travelling the world, and a year later was selected for the French team at the World Championships. He is France’s national record holder in Free Immersion, won the overall title at the 2021 AIDA Freediving World Cup, and founded his own freediving school in the Philippines."
+        }
+      }
+    }
+  ]
+}

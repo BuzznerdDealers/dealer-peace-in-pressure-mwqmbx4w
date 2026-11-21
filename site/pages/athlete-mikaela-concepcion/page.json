@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Mikaela Concepcion",
+          "firstName": "Mikaela",
+          "lastName": "Concepcion",
+          "country": "Philippines",
+          "flag": {
+            "src": "https://flagcdn.com/w80/ph.png",
+            "alt": "Flag of Philippines"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/12/Mika-back.jpg",
+            "alt": "Mikaela Concepcion"
+          },
+          "bio": "Mikaela Concepcion is a freediver from Manila who represents the Philippines in pool and depth competition. She holds the Philippine national record in Dynamic Apnea and competed at the 2023 AIDA Pool World Championship."
+        }
+      }
+    }
+  ]
+}

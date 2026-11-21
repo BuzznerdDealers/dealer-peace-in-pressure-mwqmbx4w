@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Matthew Armstrong",
+          "firstName": "Matthew",
+          "lastName": "Armstrong",
+          "country": "Barbados",
+          "flag": {
+            "src": "https://flagcdn.com/w80/bb.png",
+            "alt": "Flag of Barbados"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/10/A7407313.jpg",
+            "alt": "Matthew Armstrong"
+          },
+          "bio": "Matthew Armstrong is a freediver representing Barbados. He holds Barbados national records in six disciplines across depth and pool: Constant Weight Bi-Fins, Constant No Fins, Static, Dynamic Bi-Fins, Dynamic and Dynamic No Fins."
+        }
+      }
+    }
+  ]
+}

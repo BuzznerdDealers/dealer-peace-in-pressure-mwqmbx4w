@@ -1,48 +1,37 @@
 [
   {
-    "id": "browse-inventory",
-    "label": "Browse inventory",
-    "url": "/store",
+    "id": "sign-in",
+    "label": "Sign in",
+    "url": "https://peaceinpressure.com/account",
     "style": "primary",
-    "intent": "browse-inventory",
+    "intent": "sign-in",
     "newTab": false,
     "active": true
   },
   {
-    "id": "request-quote",
-    "label": "Request a quote",
-    "url": null,
-    "formId": "request-a-quote",
+    "id": "apply-now",
+    "label": "Apply now",
+    "url": "/athletes/apply",
     "style": "primary",
-    "intent": "get-quote",
+    "intent": "athlete-apply",
     "newTab": false,
     "active": true
   },
   {
-    "id": "book-service",
-    "label": "Book service",
-    "url": null,
-    "formId": "request-info",
+    "id": "meet-the-athletes",
+    "label": "Meet the athletes",
+    "url": "/athletes",
     "style": "secondary",
-    "intent": "book-service",
+    "intent": "browse-athletes",
     "newTab": false,
     "active": true
   },
   {
-    "id": "call-us",
-    "label": "Call us",
-    "url": "tel:+15551234567",
+    "id": "contact-us",
+    "label": "Contact us",
+    "url": "/contact",
     "style": "secondary",
-    "intent": "call-dealer",
-    "newTab": false,
-    "active": true
-  },
-  {
-    "id": "about-us",
-    "label": "About us",
-    "url": "/about",
-    "style": "link",
-    "intent": "about",
+    "intent": "contact",
     "newTab": false,
     "active": true
   }

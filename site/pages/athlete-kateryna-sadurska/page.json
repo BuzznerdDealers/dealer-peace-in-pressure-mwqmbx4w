@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Kateryna Sadurska",
+          "firstName": "Kateryna",
+          "lastName": "Sadurska",
+          "country": "Ukraine",
+          "flag": {
+            "src": "https://flagcdn.com/w80/ua.png",
+            "alt": "Flag of Ukraine"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/10/Kateryna-CNF-Kalamata-2024-7.jpg",
+            "alt": "Kateryna Sadurska"
+          },
+          "bio": "Kateryna Sadurska is a Ukrainian freediver from Kharkiv and a Rio 2016 Olympian in artistic swimming. She holds the women's world record in Constant Weight No Fins, at 86 meters under AIDA and 88 meters under CMAS, and has set nine world records in the discipline since 2023."
+        }
+      }
+    }
+  ]
+}

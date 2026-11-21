@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Petar Klovar",
+          "firstName": "Petar",
+          "lastName": "Klovar",
+          "country": "Croatia",
+          "flag": {
+            "src": "https://flagcdn.com/w80/hr.png",
+            "alt": "Flag of Croatia"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/11/IMG_9034.jpeg",
+            "alt": "Petar Klovar"
+          },
+          "bio": "Petar Klovar is a Croatian freediver from Rijeka and a member of the city’s Ocean diving club. He holds AIDA world records in Free Immersion, Constant Weight No Fins and Constant Weight Bi-Fins, and in 2025 he broke William Trubridge’s long-standing no-fins record. He was ranked world no. 2 by AIDA in 2025 and has also served as an AIDA judge since 2022."
+        }
+      }
+    }
+  ]
+}

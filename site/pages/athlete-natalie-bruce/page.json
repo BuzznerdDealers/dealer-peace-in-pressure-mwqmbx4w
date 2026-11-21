@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Natalie Bruce",
+          "firstName": "Natalie",
+          "lastName": "Bruce",
+          "country": "United States",
+          "flag": {
+            "src": "https://flagcdn.com/w80/us.png",
+            "alt": "Flag of United States"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/09/DSC05853.jpeg",
+            "alt": "Natalie Bruce"
+          },
+          "bio": "Natalie Bruce is an American freediver from Chicago and one of the top ten women in the sport. In 2024 she became the first American woman to swim 200 meters on a single breath, and she holds multiple US national and North American continental records."
+        }
+      }
+    }
+  ]
+}

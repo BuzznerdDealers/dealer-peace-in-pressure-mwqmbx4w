@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "breadcrumb",
+  "label": "Breadcrumb",
+  "description": "Home / Section / Page trail. The last item has no link.",
+  "category": "content",
+  "origin": "user",
+  "props": [
+    {
+      "key": "trail",
+      "type": "list",
+      "label": "Trail",
+      "fields": [
+        {
+          "key": "label",
+          "type": "text",
+          "label": "Label"
+        },
+        {
+          "key": "url",
+          "type": "url",
+          "label": "Links to (leave empty for the current page)"
+        }
+      ]
+    }
+  ],
+  "html": "<nav aria-label=\"Breadcrumb\"><ol class=\"bc\">{{#each trail}}<li class=\"bc-i\">{{#if url}}<a href=\"{{link url}}\">{{label}}</a>{{else}}<span aria-current=\"page\">{{label}}</span>{{/if}}</li>{{/each}}</ol></nav>",
+  "css": ".bc { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 10px; font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: #6f8498; }\n.bc-i + .bc-i::before { content: \"/\"; margin-right: 10px; color: #6f8498; }\n.bc a { color: #9fb4c6; text-decoration: none; }\n.bc a:hover { color: #00fbff; }\n.bc [aria-current] { color: #00cdfd; }"
+}

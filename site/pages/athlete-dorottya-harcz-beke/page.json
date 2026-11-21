@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Dorottya Harcz-Beke",
+          "firstName": "Dorottya",
+          "lastName": "Harcz-Beke",
+          "country": "Hungary",
+          "flag": {
+            "src": "https://flagcdn.com/w80/hu.png",
+            "alt": "Flag of Hungary"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2026/01/Dorottya-DYN-nOxyCup-13.jpeg",
+            "alt": "Dorottya Harcz-Beke"
+          },
+          "bio": "Dorottya Harcz-Beke is a freediver from Balassagyarmat who represents Hungary in the pool disciplines, competing in static apnea and all three dynamic events."
+        }
+      }
+    }
+  ]
+}

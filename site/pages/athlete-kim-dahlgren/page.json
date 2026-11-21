@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Kim Dahlgren",
+          "firstName": "Kim",
+          "lastName": "Dahlgren",
+          "country": "Sweden",
+          "flag": {
+            "src": "https://flagcdn.com/w80/se.png",
+            "alt": "Flag of Sweden"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/10/DSC07939-Edit.jpg",
+            "alt": "Kim Dahlgren"
+          },
+          "bio": "Kim Dahlgren is a Swedish freediver from Nynäshamn, a coastal town just south of Stockholm. He began in the water as a kid playing underwater rugby and has competed in depth events since 2019. He holds Swedish national records in all four depth disciplines, is a member of the Molchanovs athlete team, and spends much of the year training between Asia and Europe."
+        }
+      }
+    }
+  ]
+}

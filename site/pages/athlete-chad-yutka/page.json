@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Chad Yutka",
+          "firstName": "Chad",
+          "lastName": "Yutka",
+          "country": "United States",
+          "flag": {
+            "src": "https://flagcdn.com/w80/us.png",
+            "alt": "Flag of United States"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2026/01/IMG_1974.jpeg",
+            "alt": "Chad Yutka"
+          },
+          "bio": "Chad Yutka is a freediver from Kenosha, Wisconsin, now based in Illinois, who competes mainly in the pool disciplines. He was selected as a masters athlete for the 2026 US National Team at the CMAS Freediving World Championships."
+        }
+      }
+    }
+  ]
+}

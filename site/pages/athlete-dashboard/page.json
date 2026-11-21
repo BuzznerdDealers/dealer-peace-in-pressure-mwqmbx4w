@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "app",
+      "type": "athlete-dashboard-app",
+      "props": {}
+    }
+  ]
+}

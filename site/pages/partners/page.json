@@ -28,6 +28,7 @@
                   "id": "pt-crumb-trail",
                   "type": "breadcrumb",
                   "props": {
+                    "current": "light",
                     "trail": [
                       {
                         "label": "Home",
@@ -94,13 +95,7 @@
             }
           ]
         }
-      ],
-      "styles": {
-        "base": {
-          "paddingTop": 28,
-          "paddingBottom": 40
-        }
-      }
+      ]
     },
     {
       "id": "pt-main",
@@ -116,7 +111,7 @@
           "props": {
             "gap": 8,
             "align": "start",
-            "stackOn": "tablet"
+            "stackOn": "never"
           },
           "children": [
             {
@@ -127,24 +122,32 @@
               },
               "children": [
                 {
-                  "id": "pt-list",
-                  "type": "list",
+                  "id": "pt-ideas-h",
+                  "type": "heading",
                   "props": {
-                    "heading": "A few ideas",
-                    "headingLevel": 2,
-                    "columns": 1,
+                    "text": "A few ideas",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "pt-list",
+                  "type": "ideas-list",
+                  "props": {
                     "items": [
                       {
-                        "label": "Marketplace",
-                        "desc": "Sell your gear in the PIP marketplace and on athlete pages."
+                        "title": "Marketplace",
+                        "desc": "Sell your gear in the PIP marketplace and on athlete pages.",
+                        "note": ""
                       },
                       {
-                        "label": "Co-branded cards",
-                        "desc": "Cards featuring your brand and an athlete, as a limited insert or themed line, with gear prizes, discount codes or event tie-ins. Athlete revenue share: to be determined."
+                        "title": "Co-branded cards",
+                        "desc": "Cards featuring your brand and an athlete, as a limited insert or themed line, with gear prizes, discount codes or event tie-ins.",
+                        "note": "Athlete revenue share: to be determined. <a href=\"/contact\">Contact us</a>."
                       },
                       {
-                        "label": "League sponsorships",
-                        "desc": "Champion Cards after competition wins, event sets and livestream visibility."
+                        "title": "League sponsorships",
+                        "desc": "Champion Cards after competition wins, event sets and livestream visibility.",
+                        "note": ""
                       }
                     ]
                   }
@@ -167,26 +170,33 @@
               },
               "children": [
                 {
+                  "id": "pt-form-h",
+                  "type": "heading",
+                  "props": {
+                    "text": "Start a conversation",
+                    "headingLevel": 2
+                  }
+                },
+                {
                   "id": "pt-form-block",
                   "type": "form",
                   "props": {
-                    "formId": "partner-inquiry",
-                    "heading": "Start a conversation",
-                    "headingLevel": 2,
-                    "intro": "Or email info@peaceinpressure.com"
+                    "formId": "partner-inquiry"
+                  }
+                },
+                {
+                  "id": "pt-mail",
+                  "type": "text",
+                  "props": {
+                    "text": "Or email <a href=\"mailto:info@peaceinpressure.com\">info@peaceinpressure.com</a>",
+                    "width": "full"
                   }
                 }
               ]
             }
           ]
         }
-      ],
-      "styles": {
-        "base": {
-          "paddingTop": 20,
-          "paddingBottom": 100
-        }
-      }
+      ]
     }
   ]
 }

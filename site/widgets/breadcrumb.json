@@ -7,6 +7,22 @@
   "origin": "user",
   "props": [
     {
+      "key": "current",
+      "type": "select",
+      "label": "Current page colour",
+      "options": [
+        {
+          "value": "cyan",
+          "label": "Cyan"
+        },
+        {
+          "value": "light",
+          "label": "Light"
+        }
+      ],
+      "default": "cyan"
+    },
+    {
       "key": "trail",
       "type": "list",
       "label": "Trail",
@@ -24,6 +40,6 @@
       ]
     }
   ],
-  "html": "<nav aria-label=\"Breadcrumb\"><ol class=\"bc\">{{#each trail}}<li class=\"bc-i\">{{#if url}}<a href=\"{{link url}}\">{{label}}</a>{{else}}<span aria-current=\"page\">{{label}}</span>{{/if}}</li>{{/each}}</ol></nav>",
-  "css": ".bc { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 10px; font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: #6f8498; }\n.bc-i + .bc-i::before { content: \"/\"; margin-right: 10px; color: #6f8498; }\n.bc a { color: #9fb4c6; text-decoration: none; }\n.bc a:hover { color: #00fbff; }\n.bc [aria-current] { color: #00cdfd; }"
+  "html": "<nav aria-label=\"Breadcrumb\"><ol class=\"bc bc--{{current}}\">{{#each trail}}<li class=\"bc-i\">{{#if url}}<a href=\"{{link url}}\">{{label}}</a>{{else}}<span aria-current=\"page\">{{label}}</span>{{/if}}</li>{{/each}}</ol></nav>",
+  "css": ".bc { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 10px; font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: #6f8496; }\n.bc-i + .bc-i::before { content: \"/\"; margin-right: 10px; color: #6f8496; }\n.bc a { color: #9fb4c6; text-decoration: none; }\n.bc a:hover { color: #00fbff; }\n.bc--cyan [aria-current] { color: #00cdfd; }\n.bc--light [aria-current] { color: #eaf2f8; }"
 }

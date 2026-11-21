@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "id": "athlete-app",
+  "name": "Athlete screens (no site chrome)",
+  "conditions": [
+    {
+      "type": "pageGroup",
+      "ref": "athlete-app"
+    }
+  ],
+  "css": "",
+  "js": "",
+  "nodes": [
+    {
+      "id": "content",
+      "type": "contentArea",
+      "props": {
+        "label": "Page content"
+      }
+    }
+  ]
+}

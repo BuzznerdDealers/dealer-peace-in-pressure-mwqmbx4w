@@ -9,9 +9,7 @@
   "submitLabel": "Submit application",
   "successMessage": "Thanks. We’ll review your application and reply by email. Approved athletes receive a private onboarding link.",
   "consent": {
-    "enabled": true,
-    "required": true,
-    "text": "I agree that Peace In Pressure may contact me about my application, as described in the Athlete Privacy Policy."
+    "enabled": false
   },
   "fields": [
     {
@@ -33,25 +31,29 @@
       "type": "single_line",
       "label": "Name on your card",
       "required": false,
-      "placeholder": "If different from your legal name"
+      "placeholder": "If different from your legal name",
+      "width": "half"
     },
     {
       "id": "aa-email",
       "type": "email",
       "label": "Email",
-      "required": true
+      "required": true,
+      "width": "half"
     },
     {
       "id": "aa-dob",
       "type": "date",
       "label": "Date of birth",
-      "required": true
+      "required": true,
+      "width": "half"
     },
     {
       "id": "aa-country-rep",
       "type": "dropdown",
       "label": "Country you represent",
       "required": true,
+      "placeholder": "Select country",
       "options": [
         {
           "value": "AF",
@@ -973,13 +975,15 @@
           "value": "ZW",
           "label": "Zimbabwe"
         }
-      ]
+      ],
+      "width": "half"
     },
     {
       "id": "aa-country-res",
       "type": "dropdown",
       "label": "Country of residence",
       "required": true,
+      "placeholder": "Select country",
       "options": [
         {
           "value": "AF",
@@ -1901,7 +1905,8 @@
           "value": "ZW",
           "label": "Zimbabwe"
         }
-      ]
+      ],
+      "width": "half"
     },
     {
       "id": "aa-federation",
@@ -1958,25 +1963,27 @@
       "type": "dropdown",
       "label": "How did you hear about us?",
       "required": false,
+      "placeholder": "Select",
+      "width": "half",
       "options": [
         {
-          "value": "athlete",
+          "value": "Another athlete",
           "label": "Another athlete"
         },
         {
-          "value": "instagram",
+          "value": "Instagram",
           "label": "Instagram"
         },
         {
-          "value": "competition",
+          "value": "At a competition",
           "label": "At a competition"
         },
         {
-          "value": "coach",
+          "value": "Coach or club",
           "label": "Coach or club"
         },
         {
-          "value": "other",
+          "value": "Other",
           "label": "Other"
         }
       ]
@@ -1984,19 +1991,31 @@
     {
       "id": "aa-adult",
       "type": "checkboxes",
-      "label": "Age",
+      "label": "Age confirmation",
       "required": true,
       "options": [
         {
           "value": "yes",
-          "label": "I confirm I am 18 or older."
+          "label": "I confirm I am 18 or older. *"
+        }
+      ]
+    },
+    {
+      "id": "aa-contact",
+      "type": "checkboxes",
+      "label": "Contact consent",
+      "required": true,
+      "options": [
+        {
+          "value": "yes",
+          "label": "I agree that Peace In Pressure may contact me about my application, as described in the Privacy Policy. *"
         }
       ]
     },
     {
       "id": "aa-news",
       "type": "checkboxes",
-      "label": "Updates",
+      "label": "News and updates",
       "required": false,
       "options": [
         {

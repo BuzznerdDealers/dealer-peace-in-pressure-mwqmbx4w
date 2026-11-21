@@ -28,6 +28,7 @@
                   "id": "lg-crumb-trail",
                   "type": "breadcrumb",
                   "props": {
+                    "current": "light",
                     "trail": [
                       {
                         "label": "Home",
@@ -83,10 +84,18 @@
                   }
                 },
                 {
+                  "id": "meta",
+                  "type": "text",
+                  "props": {
+                    "text": "Coming soon",
+                    "width": "full"
+                  }
+                },
+                {
                   "id": "t-1",
                   "type": "text",
                   "props": {
-                    "text": "Coming soon\n\nOur Refund & Return Policy is being finalized. For questions about an order, contact <a href=\"mailto:info@peaceinpressure.com\">info@peaceinpressure.com</a>.",
+                    "text": "Our Refund & Return Policy is being finalized. For questions about an order, contact <a href=\"mailto:info@peaceinpressure.com\">info@peaceinpressure.com</a>.",
                     "width": "full"
                   }
                 }
@@ -94,13 +103,7 @@
             }
           ]
         }
-      ],
-      "styles": {
-        "base": {
-          "paddingTop": 40,
-          "paddingBottom": 120
-        }
-      }
+      ]
     }
   ]
 }

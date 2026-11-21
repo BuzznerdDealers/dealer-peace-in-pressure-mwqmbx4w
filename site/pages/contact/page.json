@@ -28,6 +28,7 @@
                   "id": "ct-crumb-trail",
                   "type": "breadcrumb",
                   "props": {
+                    "current": "light",
                     "trail": [
                       {
                         "label": "Home",
@@ -65,14 +66,14 @@
           "props": {
             "gap": 8,
             "align": "start",
-            "stackOn": "tablet"
+            "stackOn": "never"
           },
           "children": [
             {
               "id": "ct-left",
               "type": "column",
               "props": {
-                "span": 5
+                "span": 6
               },
               "children": [
                 {
@@ -113,7 +114,7 @@
               "id": "ct-right",
               "type": "column",
               "props": {
-                "span": 7
+                "span": 6
               },
               "children": [
                 {
@@ -122,18 +123,20 @@
                   "props": {
                     "formId": "contact-request"
                   }
+                },
+                {
+                  "id": "ct-note",
+                  "type": "text",
+                  "props": {
+                    "text": "Printed cards are not reprinted for later changes. Corrections apply to future releases and the website. <a href=\"/medal-record-policy\">Medal & Record Policy</a>",
+                    "width": "full"
+                  }
                 }
               ]
             }
           ]
         }
-      ],
-      "styles": {
-        "base": {
-          "paddingTop": 28,
-          "paddingBottom": 100
-        }
-      }
+      ]
     }
   ]
 }

@@ -60,6 +60,12 @@
           "ref": "athlete-apply"
         },
         {
+          "id": "fa-login",
+          "label": "Athlete Login",
+          "type": "page",
+          "ref": "athlete-dashboard"
+        },
+        {
           "id": "fa-bundle",
           "label": "Athlete Legal Bundle",
           "type": "page",

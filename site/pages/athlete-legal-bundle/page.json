@@ -28,10 +28,15 @@
                   "id": "lg-crumb-trail",
                   "type": "breadcrumb",
                   "props": {
+                    "current": "light",
                     "trail": [
                       {
                         "label": "Home",
                         "url": "/"
+                      },
+                      {
+                        "label": "For Athletes",
+                        "url": "/for-athletes"
                       },
                       {
                         "label": "Athlete Legal Bundle",
@@ -83,10 +88,18 @@
                   }
                 },
                 {
+                  "id": "meta",
+                  "type": "text",
+                  "props": {
+                    "text": "Version: v2026.01.11 · Effective Date: December 13th, 2025 · Last Updated: January 11th, 2026",
+                    "width": "full"
+                  }
+                },
+                {
                   "id": "t-1",
                   "type": "text",
                   "props": {
-                    "text": "Version: v2026.01.11 · Effective Date: December 13th, 2025 · Last Updated: January 11th, 2026\n\n<strong>Athlete Legal Bundle Notice</strong>This page contains multiple agreements that govern athlete participation on Peace in Pressure.<strong>In the event of any conflict between documents in this bundle or any public policies, the Athlete Agreement controls.</strong>",
+                    "text": "<strong>Athlete Legal Bundle Notice</strong>This page contains multiple agreements that govern athlete participation on Peace in Pressure.<strong>In the event of any conflict between documents in this bundle or any public policies, the Athlete Agreement controls.</strong>",
                     "width": "full"
                   }
                 },
@@ -99,10 +112,10 @@
                   }
                 },
                 {
-                  "id": "l-3",
+                  "id": "ul-3",
                   "type": "text",
                   "props": {
-                    "text": "• <a href=\"#athlete-agreement\">Athlete Agreement</a>\n\n• <a href=\"#athlete-terms-of-service\">Athlete Terms of Service</a>\n\n• <a href=\"#athlete-privacy-policy\">Athlete Privacy Policy</a>\n\n• Full documents: <a href=\"/athletes/terms\">Athlete Terms of Service</a> · <a href=\"/athletes/privacy\">Athlete Privacy Policy</a>",
+                    "text": "<a href=\"#athlete-agreement\">Athlete Agreement</a>\n\n<a href=\"#athlete-terms-of-service\">Athlete Terms of Service</a>\n\n<a href=\"#athlete-privacy-policy\">Athlete Privacy Policy</a>\n\nFull documents: <a href=\"/athletes/terms\">Athlete Terms of Service</a> · <a href=\"/athletes/privacy\">Athlete Privacy Policy</a>",
                     "width": "full"
                   }
                 },
@@ -148,10 +161,10 @@
                   }
                 },
                 {
-                  "id": "l-9",
+                  "id": "ul-9",
                   "type": "text",
                   "props": {
-                    "text": "• <strong>Peace in Pressure:</strong> 75%\n\n• <strong>Athlete:</strong> 25%",
+                    "text": "<strong>Peace in Pressure:</strong> 75%\n\n<strong>Athlete:</strong> 25%",
                     "width": "full"
                   }
                 },
@@ -180,10 +193,10 @@
                   }
                 },
                 {
-                  "id": "l-13",
+                  "id": "ul-13",
                   "type": "text",
                   "props": {
-                    "text": "• Produce, distribute, and promote Athlete trading cards\n\n• Manage fulfillment, customer service, and payment processing\n\n• Provide sales reporting and timely payouts",
+                    "text": "Produce, distribute, and promote Athlete trading cards\n\nManage fulfillment, customer service, and payment processing\n\nProvide sales reporting and timely payouts",
                     "width": "full"
                   }
                 },
@@ -196,10 +209,10 @@
                   }
                 },
                 {
-                  "id": "l-15",
+                  "id": "ul-15",
                   "type": "text",
                   "props": {
-                    "text": "• Provide accurate information, photos, and achievements\n\n• Confirm they own or have permission to use all submitted photos or media\n\n• Ensure submitted content does not infringe third-party rights\n\n• Promote their card(s) where reasonably possible",
+                    "text": "Provide accurate information, photos, and achievements\n\nConfirm they own or have permission to use all submitted photos or media\n\nEnsure submitted content does not infringe third-party rights\n\nPromote their card(s) where reasonably possible",
                     "width": "full"
                   }
                 },
@@ -244,10 +257,10 @@
                   }
                 },
                 {
-                  "id": "l-21",
+                  "id": "ul-21",
                   "type": "text",
                   "props": {
-                    "text": "• Term: <strong>12 months</strong>, auto-renewing\n\n• Either party may terminate with <strong>30 days’ written notice</strong>\n\n• PIP may terminate immediately for breach\n\n• Final payouts due within <strong>60 days</strong> of termination",
+                    "text": "Term: <strong>12 months</strong>, auto-renewing\n\nEither party may terminate with <strong>30 days’ written notice</strong>\n\nPIP may terminate immediately for breach\n\nFinal payouts due within <strong>60 days</strong> of termination",
                     "width": "full"
                   }
                 },
@@ -260,10 +273,10 @@
                   }
                 },
                 {
-                  "id": "l-23",
+                  "id": "ul-23",
                   "type": "text",
                   "props": {
-                    "text": "• Athletes participate in Peace in Pressure as independent parties and are not employees, partners, or shareholders.\n\n• Athlete revenue shares are paid as independent compensation. Athletes are solely responsible for reporting and paying any taxes owed in their country of residence.\n\n• Peace in Pressure may be required by law to withhold taxes from athlete payments, including U.S. withholding for non-U.S. athletes. Any such withholding applies only to the athlete’s share and does not reduce Peace in Pressure’s portion of revenue.\n\n• Athletes agree to provide all required tax forms (including W-9 or W-8) prior to payment. Failure to provide required documentation may delay or reduce payouts.",
+                    "text": "Athletes participate in Peace in Pressure as independent parties and are not employees, partners, or shareholders.\n\nAthlete revenue shares are paid as independent compensation. Athletes are solely responsible for reporting and paying any taxes owed in their country of residence.\n\nPeace in Pressure may be required by law to withhold taxes from athlete payments, including U.S. withholding for non-U.S. athletes. Any such withholding applies only to the athlete’s share and does not reduce Peace in Pressure’s portion of revenue.\n\nAthletes agree to provide all required tax forms (including W-9 or W-8) prior to payment. Failure to provide required documentation may delay or reduce payouts.",
                     "width": "full"
                   }
                 },
@@ -317,10 +330,10 @@
                   }
                 },
                 {
-                  "id": "l-30",
+                  "id": "ul-30",
                   "type": "text",
                   "props": {
-                    "text": "• Use the platform in good faith\n\n• Provide truthful and accurate information\n\n• Submit only media they own or have permission to use\n\n• Follow platform guidelines and community standards",
+                    "text": "Use the platform in good faith\n\nProvide truthful and accurate information\n\nSubmit only media they own or have permission to use\n\nFollow platform guidelines and community standards",
                     "width": "full"
                   }
                 },
@@ -341,10 +354,10 @@
                   }
                 },
                 {
-                  "id": "l-33",
+                  "id": "ul-33",
                   "type": "text",
                   "props": {
-                    "text": "• Misrepresent identity or achievements\n\n• Upload unauthorized or infringing content\n\n• Manipulate sales, pricing, or platform metrics\n\n• Use the platform for unlawful or abusive purposes",
+                    "text": "Misrepresent identity or achievements\n\nUpload unauthorized or infringing content\n\nManipulate sales, pricing, or platform metrics\n\nUse the platform for unlawful or abusive purposes",
                     "width": "full"
                   }
                 },
@@ -381,10 +394,10 @@
                   }
                 },
                 {
-                  "id": "l-38",
+                  "id": "ul-38",
                   "type": "text",
                   "props": {
-                    "text": "• Violation of these Athlete Terms of Service\n\n• Misuse of the platform\n\n• Breach of the Athlete Agreement",
+                    "text": "Violation of these Athlete Terms of Service\n\nMisuse of the platform\n\nBreach of the Athlete Agreement",
                     "width": "full"
                   }
                 },
@@ -446,10 +459,10 @@
                   }
                 },
                 {
-                  "id": "l-46",
+                  "id": "ul-46",
                   "type": "text",
                   "props": {
-                    "text": "• Athlete profile information and achievements\n\n• Photos and media for card creation\n\n• Payout status and records. Bank details and tax forms are collected and stored by Stripe, not by PIP\n\n• Transaction metadata and sales reports\n\n• Identity or compliance information if required for payouts",
+                    "text": "Athlete profile information and achievements\n\nPhotos and media for card creation\n\nPayout status and records. Bank details and tax forms are collected and stored by Stripe, not by PIP\n\nTransaction metadata and sales reports\n\nIdentity or compliance information if required for payouts",
                     "width": "full"
                   }
                 },
@@ -478,10 +491,10 @@
                   }
                 },
                 {
-                  "id": "l-50",
+                  "id": "ul-50",
                   "type": "text",
                   "props": {
-                    "text": "• Create, promote, and sell trading cards\n\n• Administer revenue sharing and payouts\n\n• Provide reporting and support\n\n• Comply with tax, accounting, and legal obligations",
+                    "text": "Create, promote, and sell trading cards\n\nAdminister revenue sharing and payouts\n\nProvide reporting and support\n\nComply with tax, accounting, and legal obligations",
                     "width": "full"
                   }
                 },
@@ -502,10 +515,10 @@
                   }
                 },
                 {
-                  "id": "l-53",
+                  "id": "ul-53",
                   "type": "text",
                   "props": {
-                    "text": "• With service providers (hosting, payouts, accounting)\n\n• Publicly, through card listings and promotions\n\n• When required by law",
+                    "text": "With service providers (hosting, payouts, accounting)\n\nPublicly, through card listings and promotions\n\nWhen required by law",
                     "width": "full"
                   }
                 },
@@ -534,10 +547,10 @@
                   }
                 },
                 {
-                  "id": "l-57",
+                  "id": "ul-57",
                   "type": "text",
                   "props": {
-                    "text": "• Fulfill contractual obligations\n\n• Complete payouts\n\n• Comply with tax or legal requirements",
+                    "text": "Fulfill contractual obligations\n\nComplete payouts\n\nComply with tax or legal requirements",
                     "width": "full"
                   }
                 },
@@ -593,13 +606,7 @@
             }
           ]
         }
-      ],
-      "styles": {
-        "base": {
-          "paddingTop": 40,
-          "paddingBottom": 120
-        }
-      }
+      ]
     }
   ]
 }

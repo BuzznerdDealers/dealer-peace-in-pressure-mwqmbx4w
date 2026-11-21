@@ -355,6 +355,59 @@
           }
         }
       }
+    },
+    {
+      "id": "partners",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "partner-strip",
+        "values": {
+          "logos": [
+            {
+              "image": {
+                "src": "",
+                "alt": "Partner logo"
+              },
+              "url": ""
+            },
+            {
+              "image": {
+                "src": "",
+                "alt": "Partner logo"
+              },
+              "url": ""
+            },
+            {
+              "image": {
+                "src": "",
+                "alt": "Partner logo"
+              },
+              "url": ""
+            },
+            {
+              "image": {
+                "src": "",
+                "alt": "Partner logo"
+              },
+              "url": ""
+            },
+            {
+              "image": {
+                "src": "",
+                "alt": "Partner logo"
+              },
+              "url": ""
+            },
+            {
+              "image": {
+                "src": "",
+                "alt": "Partner logo"
+              },
+              "url": ""
+            }
+          ]
+        }
+      }
     }
   ]
 }

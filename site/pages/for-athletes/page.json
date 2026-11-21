@@ -28,6 +28,7 @@
                   "id": "fa-crumb-trail",
                   "type": "breadcrumb",
                   "props": {
+                    "current": "light",
                     "trail": [
                       {
                         "label": "Home",
@@ -63,16 +64,16 @@
           "id": "fa-hero-row",
           "type": "row",
           "props": {
-            "gap": 8,
-            "align": "center",
-            "stackOn": "tablet"
+            "gap": 6,
+            "align": "start",
+            "stackOn": "never"
           },
           "children": [
             {
               "id": "fa-hero-copy",
               "type": "column",
               "props": {
-                "span": 7
+                "span": 6
               },
               "children": [
                 {
@@ -98,6 +99,9 @@
                     "items": [
                       {
                         "ctaId": "apply-now"
+                      },
+                      {
+                        "ctaId": "athlete-login"
                       }
                     ]
                   }
@@ -108,34 +112,30 @@
               "id": "fa-hero-quote",
               "type": "column",
               "props": {
-                "span": 5
+                "span": 6
               },
               "children": [
                 {
-                  "id": "fa-quote",
-                  "type": "testimonials",
+                  "id": "fa-quote-text",
+                  "type": "text",
                   "props": {
-                    "headingLevel": 2,
-                    "items": [
-                      {
-                        "quote": "PIP was created to help grow the sport of freediving and support the athletes who make it extraordinary. These cards are more than collectibles — they are a way to share your story, inspire others, and create new opportunities for you to earn directly from your achievements. My goal is that this project not only celebrates your journey but also helps fund your training, competitions, and travel, while bringing more visibility to the sport we all love.",
-                        "name": "Jerry Van Galder",
-                        "role": "Founder & Fellow Freediver"
-                      }
-                    ]
+                    "text": "“PIP was created to help grow the sport of freediving and support the athletes who make it extraordinary. These cards are more than collectibles — they are a way to share your story, inspire others, and create new opportunities for you to earn directly from your achievements. My goal is that this project not only celebrates your journey but also helps fund your training, competitions, and travel, while bringing more visibility to the sport we all love.”",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "fa-quote-by",
+                  "type": "text",
+                  "props": {
+                    "text": "Jerry Van Galder, Founder & Fellow Freediver",
+                    "width": "full"
                   }
                 }
               ]
             }
           ]
         }
-      ],
-      "styles": {
-        "base": {
-          "paddingTop": 28,
-          "paddingBottom": 60
-        }
-      }
+      ]
     },
     {
       "id": "fa-terms",
@@ -146,15 +146,16 @@
       },
       "children": [
         {
-          "id": "fa-terms-head",
+          "id": "fa-terms-row",
           "type": "row",
           "props": {
             "gap": 0,
+            "align": "start",
             "stackOn": "never"
           },
           "children": [
             {
-              "id": "fa-terms-head-col",
+              "id": "fa-terms-col",
               "type": "column",
               "props": {
                 "span": 12
@@ -167,47 +168,27 @@
                     "text": "The terms",
                     "headingLevel": 2
                   }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "fa-terms-row",
-          "type": "row",
-          "props": {
-            "gap": 0,
-            "stackOn": "never"
-          },
-          "children": [
-            {
-              "id": "fa-terms-col",
-              "type": "column",
-              "props": {
-                "span": 12
-              },
-              "children": [
+                },
                 {
-                  "id": "fa-stats",
-                  "type": "statBand",
+                  "id": "fa-terms-grid",
+                  "type": "terms-grid",
                   "props": {
-                    "headingLevel": 3,
-                    "stats": [
+                    "items": [
                       {
                         "value": "25%",
-                        "label": "of net revenue: sales minus production costs, shipping, taxes and transaction fees."
+                        "desc": "of net revenue: sales minus production costs, shipping, taxes and transaction fees."
                       },
                       {
                         "value": "Monthly",
-                        "label": "payouts through Stripe, with a sales report."
+                        "desc": "payouts through Stripe, with a sales report."
                       },
                       {
                         "value": "12 mo.",
-                        "label": "term, renews automatically. Either side can end it with 30 days’ written notice."
+                        "desc": "term, renews automatically. Either side can end it with 30 days’ written notice."
                       },
                       {
                         "value": "Exclusive",
-                        "label": "PIP is your only trading card and digital collectible provider while the agreement is active."
+                        "desc": "PIP is your only trading card and digital collectible provider while the agreement is active."
                       }
                     ]
                   }
@@ -224,13 +205,7 @@
             }
           ]
         }
-      ],
-      "styles": {
-        "base": {
-          "paddingTop": 40,
-          "paddingBottom": 40
-        }
-      }
+      ]
     },
     {
       "id": "fa-join",
@@ -245,6 +220,7 @@
           "type": "row",
           "props": {
             "gap": 0,
+            "align": "start",
             "stackOn": "never"
           },
           "children": [
@@ -256,26 +232,36 @@
               },
               "children": [
                 {
-                  "id": "fa-steps",
-                  "type": "iconGrid",
+                  "id": "fa-join-h",
+                  "type": "heading",
                   "props": {
-                    "heading": "How to join",
-                    "headingLevel": 2,
+                    "text": "How to join",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "fa-steps",
+                  "type": "steps-list",
+                  "props": {
                     "items": [
                       {
-                        "label": "Apply",
+                        "num": "01",
+                        "title": "Apply",
                         "desc": "A short form: who you are, where you compete, and links to your federation profile."
                       },
                       {
-                        "label": "Get approved",
+                        "num": "02",
+                        "title": "Get approved",
                         "desc": "We review your application and email you a private onboarding link."
                       },
                       {
-                        "label": "Onboard",
+                        "num": "03",
+                        "title": "Onboard",
                         "desc": "Upload photos, accept the Athlete Legal Bundle, and set up payouts and your tax form with Stripe."
                       },
                       {
-                        "label": "Go live",
+                        "num": "04",
+                        "title": "Go live",
                         "desc": "Your profile and cards launch. Track sales and payouts from your dashboard."
                       }
                     ]
@@ -285,13 +271,7 @@
             }
           ]
         }
-      ],
-      "styles": {
-        "base": {
-          "paddingTop": 40,
-          "paddingBottom": 40
-        }
-      }
+      ]
     },
     {
       "id": "fa-faq",
@@ -305,16 +285,16 @@
           "id": "fa-faq-row",
           "type": "row",
           "props": {
-            "gap": 8,
+            "gap": 6,
             "align": "start",
-            "stackOn": "tablet"
+            "stackOn": "never"
           },
           "children": [
             {
               "id": "fa-faq-col",
               "type": "column",
               "props": {
-                "span": 7
+                "span": 6
               },
               "children": [
                 {
@@ -370,7 +350,7 @@
               "id": "fa-read-col",
               "type": "column",
               "props": {
-                "span": 5
+                "span": 6
               },
               "children": [
                 {
@@ -418,13 +398,7 @@
             }
           ]
         }
-      ],
-      "styles": {
-        "base": {
-          "paddingTop": 40,
-          "paddingBottom": 60
-        }
-      }
+      ]
     },
     {
       "id": "fa-close",
@@ -439,6 +413,7 @@
           "type": "row",
           "props": {
             "gap": 0,
+            "align": "start",
             "stackOn": "never"
           },
           "children": [
@@ -446,8 +421,7 @@
               "id": "fa-close-col",
               "type": "column",
               "props": {
-                "span": 12,
-                "align": "center"
+                "span": 12
               },
               "children": [
                 {
@@ -455,8 +429,7 @@
                   "type": "heading",
                   "props": {
                     "text": "Ready to dive in?",
-                    "headingLevel": 2,
-                    "align": "center"
+                    "headingLevel": 2
                   }
                 },
                 {
@@ -467,21 +440,14 @@
                       {
                         "ctaId": "apply-now"
                       }
-                    ],
-                    "align": "center"
+                    ]
                   }
                 }
               ]
             }
           ]
         }
-      ],
-      "styles": {
-        "base": {
-          "paddingTop": 40,
-          "paddingBottom": 120
-        }
-      }
+      ]
     }
   ]
 }

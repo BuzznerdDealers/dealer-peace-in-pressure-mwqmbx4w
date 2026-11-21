@@ -16,19 +16,22 @@
       "id": "cr-name",
       "type": "full_name",
       "label": "Full name",
-      "required": true
+      "required": true,
+      "width": "half"
     },
     {
       "id": "cr-email",
       "type": "email",
       "label": "Email",
-      "required": true
+      "required": true,
+      "width": "half"
     },
     {
       "id": "cr-topic",
       "type": "dropdown",
       "label": "Topic",
       "required": true,
+      "placeholder": "Order or shipping",
       "options": [
         {
           "value": "order",
@@ -75,6 +78,7 @@
       "type": "dropdown",
       "label": "What needs correcting",
       "required": true,
+      "placeholder": "Select",
       "options": [
         {
           "value": "medal-or-record-badge",

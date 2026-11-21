@@ -1,0 +1,43 @@
+[data-bz-node="ap-main"] { padding: 40px 0 120px; }
+[data-bz-node="ap-row"] { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 64px; align-items: start; }
+[data-bz-node="ap-row"] > .bz-col { grid-column: auto; }
+[data-bz-node="ap-left"] { display: flex; flex-direction: column; gap: 22px; max-width: 420px; }
+[data-bz-node="ap-left"] > .bz-block { margin: 0; }
+[data-bz-node="ap-right"] { min-width: 0; }
+
+[data-bz-node="ap-title"] h1 { font-size: clamp(40px, 6vw, 72px); font-weight: 700; line-height: .95; margin: 0; color: #f4fbff; }
+[data-bz-node="ap-lede"].bz-block p { margin: 0; font-size: 17px; line-height: 1.65; color: #c4d4e2; max-width: none; text-wrap: pretty; }
+[data-bz-node="ap-points"] { display: flex; flex-direction: column; gap: 10px; font-size: 15px; color: #9fb4c6; }
+[data-bz-node="ap-points"].bz-block p { margin: 0 0 10px; display: flex; gap: 10px; font-size: 15px; color: #9fb4c6; max-width: none; }
+[data-bz-node="ap-points"].bz-block p:last-child { margin-bottom: 0; }
+[data-bz-node="ap-points"] em { font-style: normal; color: #00cdfd; }
+[data-bz-node="ap-how"].bz-block p { margin: 0; font-size: 14px; max-width: none; }
+[data-bz-node="ap-how"] a { text-decoration: none; }
+/* form: three groups with legends, as the handoff's fieldsets */
+[data-bz-node="ap-form"] .bz-form { gap: 18px; }
+[data-bz-node="ap-form"] [data-bz-field="aa-first"] { margin-top: 37px; }
+[data-bz-node="ap-form"] [data-bz-field="aa-country-rep"], [data-bz-node="ap-form"] [data-bz-field="aa-instagram"] { margin-top: 55px; }
+/* two columns only when the form is wide enough for them (the handoff grid is auto-fit, 220px minimum) */
+[data-bz-node="ap-form"] .bz-form { container-type: inline-size; }
+@container (min-width: 458px) {
+  [data-bz-field="aa-last"] { margin-top: 37px; }
+  [data-bz-field="aa-country-res"], [data-bz-field="aa-website"] { margin-top: 55px; }
+  [data-bz-field="aa-dob"] { flex: 0 0 calc(50% - 9px); margin-right: calc(50% + 9px); }
+  [data-bz-field="aa-source"] { flex: 0 0 calc(50% - 9px); }
+}
+[data-bz-node="ap-form"] [data-bz-field="aa-first"], [data-bz-node="ap-form"] [data-bz-field="aa-country-rep"], [data-bz-node="ap-form"] [data-bz-field="aa-instagram"] { position: relative; }
+[data-bz-node="ap-form"] [data-bz-field="aa-first"]::before, [data-bz-node="ap-form"] [data-bz-field="aa-country-rep"]::before, [data-bz-node="ap-form"] [data-bz-field="aa-instagram"]::before { position: absolute; left: 0; top: -37px; font-family: var(--font-heading); font-weight: 700; font-size: 20px; line-height: normal; text-transform: uppercase; color: #f4fbff; }
+[data-bz-node="ap-form"] [data-bz-field="aa-first"]::before { content: "About you"; }
+[data-bz-node="ap-form"] [data-bz-field="aa-country-rep"]::before { content: "Where you compete"; }
+[data-bz-node="ap-form"] [data-bz-field="aa-instagram"]::before { content: "Your story"; }
+[data-bz-node="ap-form"] [data-bz-field="aa-federation"] { gap: 10px; }
+[data-bz-node="ap-form"] [data-bz-field="aa-adult"], [data-bz-node="ap-form"] [data-bz-field="aa-contact"], [data-bz-node="ap-form"] [data-bz-field="aa-news"] { gap: 0; margin-top: -4px; }
+[data-bz-node="ap-form"] [data-bz-field="aa-adult"] { margin-top: 14px; }
+[data-bz-node="ap-form"] [data-bz-field="aa-adult"] > .bz-label, [data-bz-node="ap-form"] [data-bz-field="aa-contact"] > .bz-label, [data-bz-node="ap-form"] [data-bz-field="aa-news"] > .bz-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+[data-bz-node="ap-form"] [data-bz-field="aa-adult"] .bz-choice, [data-bz-node="ap-form"] [data-bz-field="aa-contact"] .bz-choice, [data-bz-node="ap-form"] [data-bz-field="aa-news"] .bz-choice { padding: 0; border: 0; background: none; align-items: flex-start; gap: 12px; font-size: 15px; line-height: 1.5; color: #c4d4e2; }
+[data-bz-node="ap-form"] [data-bz-field="aa-adult"] .bz-choice input, [data-bz-node="ap-form"] [data-bz-field="aa-contact"] .bz-choice input, [data-bz-node="ap-form"] [data-bz-field="aa-news"] .bz-choice input { margin: 2px 0 0; }
+[data-bz-node="ap-form"] button[type="submit"] { padding: 16px 36px; margin-top: 18px; }
+[data-bz-node="ap-form"] [data-bz-field="aa-dob"] { position: relative; }
+[data-bz-node="ap-form"] .ap-underage { margin: 12px 0 0; font-size: 14px; line-height: 1.5; color: #ff7aa8; }
+[data-bz-node="ap-form"] .ap-underage[hidden] { display: none; }
+@container (min-width: 458px) { .ap-underage { position: absolute; left: calc(100% + 18px); bottom: 0; width: 100%; margin: 0 0 12px; } }

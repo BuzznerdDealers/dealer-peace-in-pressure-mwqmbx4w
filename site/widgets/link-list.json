@@ -2,7 +2,7 @@
   "version": 1,
   "id": "link-list",
   "label": "Link list (title + description)",
-  "description": "A stack of linked rows, each with a title and a short description.",
+  "description": "A stack of linked cards, each with a title and a short description.",
   "category": "content",
   "origin": "user",
   "props": [
@@ -29,6 +29,6 @@
       ]
     }
   ],
-  "html": "<ul class=\"ll\">{{#each links}}<li><a class=\"ll-a\" href=\"{{link url}}\"><span class=\"ll-t\">{{label}}</span><span class=\"ll-d\">{{desc}}</span></a></li>{{/each}}</ul>",
-  "css": ".ll { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }\n.ll-a { display: flex; flex-direction: column; gap: 4px; padding: 16px 18px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.1); text-decoration: none; transition: border-color .25s ease, background .25s ease; }\n.ll-a:hover { border-color: #00cdfd; background: rgba(0,205,253,0.06); }\n.ll-t { font-family: var(--font-heading); font-weight: 600; font-size: 16px; letter-spacing: 0.04em; text-transform: uppercase; color: #f4fbff; }\n.ll-d { font-size: 14px; font-weight: 300; line-height: 1.5; color: #9fb4c6; }"
+  "html": "<div class=\"ll\">{{#each links}}<a class=\"ll-a\" href=\"{{link url}}\"><span class=\"ll-t\">{{label}}</span><span class=\"ll-d\">{{desc}}</span></a>{{/each}}</div>",
+  "css": ".ll { display: flex; flex-direction: column; gap: 14px; }\n.ll-a { display: flex; flex-direction: column; gap: 6px; padding: 22px 24px; border-radius: 12px; background: rgba(4,28,48,0.7); border: 1px solid rgba(255,255,255,0.1); text-decoration: none; transition: border-color .25s ease; }\n.ll-a:hover { border-color: #00cdfd; }\n.ll-t { font-size: 17px; font-weight: 600; color: #f4fbff; }\n.ll-d { font-size: 14px; line-height: 1.55; color: #9fb4c6; }"
 }

@@ -1,0 +1,36 @@
+/* For Athletes — page layout, from the handoff */
+[data-bz-node="fa-hero"] { padding: 48px 0 72px; }
+[data-bz-node="fa-hero-row"] { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 56px; align-items: start; }
+[data-bz-node="fa-hero-row"] > .bz-col { grid-column: auto; }
+[data-bz-node="fa-hero-copy"] { display: flex; flex-direction: column; align-items: flex-start; gap: 24px; }
+[data-bz-node="fa-hero-copy"] > .bz-block { margin: 0; }
+[data-bz-section] [data-bz-node="fa-title"] h1, [data-bz-node="fa-title"] h1 { font-weight: 700; font-size: clamp(44px, 7vw, 92px); line-height: .92; margin: 0; color: #f4fbff; }
+[data-bz-node="fa-lede"].bz-block p { margin: 0; font-size: 18px; line-height: 1.6; color: #c4d4e2; max-width: 520px; text-wrap: pretty; }
+[data-bz-node="fa-cta"] .bz-btns { margin: 0; gap: 14px; }
+[data-bz-node="fa-cta"] .bz-btn { font-size: 14px; line-height: normal; }
+[data-bz-node="fa-cta"] .bz-btn--primary { padding: 15px 30px; }
+[data-bz-node="fa-hero-quote"] { display: flex; flex-direction: column; gap: 18px; padding: 36px; border-radius: 16px; background: linear-gradient(140deg, rgba(36,1,64,0.55), rgba(10,90,134,0.35)); border: 1px solid rgba(255,255,255,0.08); }
+[data-bz-node="fa-hero-quote"] > .bz-block { margin: 0; }
+[data-bz-node="fa-quote-text"].bz-block p { margin: 0; font-size: 17px; line-height: 1.7; color: #eaf2f8; font-weight: 300; text-wrap: pretty; max-width: none; }
+[data-bz-node="fa-quote-by"].bz-block p { margin: 0; font-size: 12px; letter-spacing: .18em; text-transform: uppercase; color: #00cdfd; max-width: none; }
+[data-bz-node="fa-terms"], [data-bz-node="fa-join"], [data-bz-node="fa-faq"] { padding: 0 0 80px; }
+[data-bz-node="fa-close"] { padding: 0 0 110px; }
+[data-bz-section] .bz-block h2, [data-bz-node="fa-terms"] .bz-block h2, [data-bz-node="fa-join"] .bz-block h2, [data-bz-node="fa-faq"] .bz-block h2 { }
+[data-bz-node="fa-terms-h"] h2, [data-bz-node="fa-join-h"] h2, [data-bz-node="fa-faq-h"] h2 { font-size: 34px; font-weight: 700; line-height: normal; margin: 0 0 28px; color: #f4fbff; }
+[data-bz-node="fa-read-h"] h2 { font-size: 34px; font-weight: 700; line-height: normal; margin: 0 0 14px; color: #f4fbff; }
+[data-bz-node="fa-terms-note"].bz-block p { margin: 18px 0 0; font-size: 14px; color: #8da2b5; max-width: none; }
+[data-bz-node="fa-faq-row"] { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 56px; align-items: start; }
+[data-bz-node="fa-faq-row"] > .bz-col { grid-column: auto; }
+[data-bz-node="fa-faq-items"] .bz-faqs { display: flex; flex-direction: column; gap: 0; border-top: 1px solid rgba(255,255,255,0.1); }
+[data-bz-node="fa-read-col"] { display: flex; flex-direction: column; gap: 14px; }
+[data-bz-node="fa-read-col"] > .bz-block { margin: 0; }
+[data-bz-node="fa-faq-items"] .bz-faq { background: transparent; border: 0; border-radius: 0; border-bottom: 1px solid rgba(255,255,255,0.1); padding: 20px 0; }
+[data-bz-node="fa-faq-items"] summary { cursor: pointer; font-family: var(--font-body); font-size: 17px; font-weight: 600; letter-spacing: 0; text-transform: none; color: #f4fbff; list-style: none; line-height: normal; }
+[data-bz-node="fa-faq-items"] summary::-webkit-details-marker { display: none; }
+[data-bz-node="fa-faq-items"] .bz-faq__a { margin: 12px 0 0; font-size: 15px; line-height: 1.7; color: #c4d4e2; }
+[data-bz-node="fa-faq-items"] .bz-faq__a { margin-top: 12px; }
+[data-bz-node="fa-close-row"] > .bz-col { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 28px; border-radius: 20px; padding: 56px 40px; background: linear-gradient(120deg, #240140 0%, #4a1a8a 34%, #0a5a86 78%, #05384f 100%); }
+[data-bz-node="fa-close-col"] > .bz-block { margin: 0; }
+[data-bz-node="fa-close-h"] h2 { font-size: clamp(30px, 4vw, 48px); font-weight: 700; line-height: 1; margin: 0; color: #fff; }
+[data-bz-node="fa-close-cta"] .bz-btns { margin: 0; }
+[data-bz-node="fa-close-cta"] .bz-btn { background: #fff; color: #020617; padding: 15px 32px; font-size: 14px; line-height: normal; }

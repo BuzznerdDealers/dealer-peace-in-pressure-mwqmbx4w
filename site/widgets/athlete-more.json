@@ -1,15 +1,15 @@
 {
   "version": 1,
   "id": "athlete-more",
-  "label": "Athlete \"Load more\" button",
-  "description": "Reveals the next batch of athlete cards. Wired up by the athlete-directory component.",
+  "label": "Athlete \"Load more\" and empty state",
+  "description": "The empty-state message and the \"Load more\" button under the directory grid. Wired up by the athlete-directory component.",
   "category": "content",
   "origin": "user",
   "props": [
     {
       "key": "label",
       "type": "text",
-      "label": "Button label",
+      "label": "Load-more label",
       "default": "Load more"
     },
     {
@@ -17,8 +17,20 @@
       "type": "number",
       "label": "Athletes per batch",
       "default": 4
+    },
+    {
+      "key": "emptyText",
+      "type": "text",
+      "label": "Empty-state message",
+      "default": "No athletes match your search."
+    },
+    {
+      "key": "clearText",
+      "type": "text",
+      "label": "Clear button",
+      "default": "Clear filters"
     }
   ],
-  "html": "<div class=\"am\" data-athlete-more data-page-size=\"{{pageSize}}\" hidden><button class=\"am-btn\" type=\"button\">{{label}}</button></div>",
-  "css": ".am { text-align: center; margin-top: 48px; }\n.am[hidden] { display: none; }\n.am-btn { font-family: var(--font-heading); font-weight: 600; font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: #f4fbff; background: transparent; border: 1px solid rgba(255,255,255,0.25); padding: 14px 34px; border-radius: 6px; cursor: pointer; transition: border-color .25s ease, color .25s ease; }\n.am-btn:hover { border-color: #00cdfd; color: #00fbff; }"
+  "html": "<div class=\"am-empty\" data-af-empty hidden><p>{{emptyText}}</p><button class=\"am-clear\" type=\"button\" data-af-clear>{{clearText}}</button></div><div class=\"am\" data-athlete-more data-page-size=\"{{pageSize}}\" hidden><button class=\"am-btn\" type=\"button\">{{label}}</button></div>",
+  "css": ".am-empty { padding: 60px 0; display: flex; flex-direction: column; align-items: flex-start; gap: 18px; }\n.am-empty[hidden], .am[hidden] { display: none; }\n.am-empty p { margin: 0; font-size: 17px; color: #c4d4e2; line-height: normal; }\n.am-clear { font-family: var(--font-heading); font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; font-size: 13px; color: #00fbff; background: transparent; border: 1px solid #00cdfd; padding: 12px 22px; border-radius: 4px; cursor: pointer; }\n.am { display: flex; justify-content: center; padding-top: 56px; }\n.am-btn { font-family: var(--font-heading); font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; font-size: 14px; color: #020617; background: linear-gradient(135deg, #00fbff, #00cdfd); border: 0; padding: 14px 32px; border-radius: 4px; cursor: pointer; }"
 }

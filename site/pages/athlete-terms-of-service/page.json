@@ -28,10 +28,15 @@
                   "id": "lg-crumb-trail",
                   "type": "breadcrumb",
                   "props": {
+                    "current": "light",
                     "trail": [
                       {
                         "label": "Home",
                         "url": "/"
+                      },
+                      {
+                        "label": "For Athletes",
+                        "url": "/for-athletes"
                       },
                       {
                         "label": "Athlete Terms of Service",
@@ -83,10 +88,18 @@
                   }
                 },
                 {
+                  "id": "meta",
+                  "type": "text",
+                  "props": {
+                    "text": "Effective Date: December 13th, 2025",
+                    "width": "full"
+                  }
+                },
+                {
                   "id": "t-1",
                   "type": "text",
                   "props": {
-                    "text": "Effective Date: December 13th, 2025\n\nWelcome to Peace in Pressure. These Terms of Service (“Terms”) govern your access to and use of our website, trading card platform, and related services (“Services”). By accessing or using our Services, you agree to be bound by these Terms. If you do not agree, please do not use the Services.",
+                    "text": "Welcome to Peace in Pressure. These Terms of Service (“Terms”) govern your access to and use of our website, trading card platform, and related services (“Services”). By accessing or using our Services, you agree to be bound by these Terms. If you do not agree, please do not use the Services.",
                     "width": "full"
                   }
                 },
@@ -99,10 +112,10 @@
                   }
                 },
                 {
-                  "id": "l-3",
+                  "id": "ul-3",
                   "type": "text",
                   "props": {
-                    "text": "• You must be at least 13 years old (or the minimum legal age in your country) to use our Services.\n\n• If you are under 18, you may only use the Services with parental or guardian consent.",
+                    "text": "You must be at least 13 years old (or the minimum legal age in your country) to use our Services.\n\nIf you are under 18, you may only use the Services with parental or guardian consent.",
                     "width": "full"
                   }
                 },
@@ -123,10 +136,10 @@
                   }
                 },
                 {
-                  "id": "l-6",
+                  "id": "ul-6",
                   "type": "text",
                   "props": {
-                    "text": "• Provide accurate and truthful information\n\n• Upload only content (photos, text, achievements) that you own or have permission to use\n\n• Not upload offensive, illegal, or harmful material\n\n• Respect the rights and privacy of others",
+                    "text": "Provide accurate and truthful information\n\nUpload only content (photos, text, achievements) that you own or have permission to use\n\nNot upload offensive, illegal, or harmful material\n\nRespect the rights and privacy of others",
                     "width": "full"
                   }
                 },
@@ -155,10 +168,10 @@
                   }
                 },
                 {
-                  "id": "l-10",
+                  "id": "ul-10",
                   "type": "text",
                   "props": {
-                    "text": "• Grant Peace in Pressure a <strong>worldwide, non-exclusive, royalty-free license</strong> to use, reproduce, display, and share your User Content in connection with the Services\n\n• Acknowledge that your trading card, name, achievements, and photo may be displayed on our website, marketplace, social media, and promotional materials\n\n• Retain ownership of your User Content",
+                    "text": "Grant Peace in Pressure a <strong>worldwide, non-exclusive, royalty-free license</strong> to use, reproduce, display, and share your User Content in connection with the Services\n\nAcknowledge that your trading card, name, achievements, and photo may be displayed on our website, marketplace, social media, and promotional materials\n\nRetain ownership of your User Content",
                     "width": "full"
                   }
                 },
@@ -179,10 +192,10 @@
                   }
                 },
                 {
-                  "id": "l-13",
+                  "id": "ul-13",
                   "type": "text",
                   "props": {
-                    "text": "• Peace in Pressure may update, suspend, or discontinue the Services at any time without liability\n\n• All site content (excluding User Content), including logos, designs, text, graphics, and software, is the property of Peace in Pressure and protected by intellectual property laws\n\n• You may not copy, distribute, or use Peace in Pressure branding or materials without prior written consent",
+                    "text": "Peace in Pressure may update, suspend, or discontinue the Services at any time without liability\n\nAll site content (excluding User Content), including logos, designs, text, graphics, and software, is the property of Peace in Pressure and protected by intellectual property laws\n\nYou may not copy, distribute, or use Peace in Pressure branding or materials without prior written consent",
                     "width": "full"
                   }
                 },
@@ -195,10 +208,10 @@
                   }
                 },
                 {
-                  "id": "l-15",
+                  "id": "ul-15",
                   "type": "text",
                   "props": {
-                    "text": "• Certain Services may require payment (including trading cards or merchandise)\n\n• Payments are processed securely through third-party payment providers\n\n• Peace in Pressure does not store credit card information\n\n• Peace in Pressure is not responsible for payment delays or errors caused by third-party processors\n\n• All sales are subject to the applicable <a href=\"/refunds\">Refund / Return Policy</a>",
+                    "text": "Certain Services may require payment (including trading cards or merchandise)\n\nPayments are processed securely through third-party payment providers\n\nPeace in Pressure does not store credit card information\n\nPeace in Pressure is not responsible for payment delays or errors caused by third-party processors\n\nAll sales are subject to the applicable <a href=\"/refunds\">Refund / Return Policy</a>",
                     "width": "full"
                   }
                 },
@@ -219,10 +232,10 @@
                   }
                 },
                 {
-                  "id": "l-18",
+                  "id": "ul-18",
                   "type": "text",
                   "props": {
-                    "text": "• Peace in Pressure shall not be liable for any indirect, incidental, or consequential damages arising from use of the Services\n\n• Peace in Pressure’s total liability for any claim shall not exceed the amount you paid (if any) for the Services",
+                    "text": "Peace in Pressure shall not be liable for any indirect, incidental, or consequential damages arising from use of the Services\n\nPeace in Pressure’s total liability for any claim shall not exceed the amount you paid (if any) for the Services",
                     "width": "full"
                   }
                 },
@@ -310,13 +323,7 @@
             }
           ]
         }
-      ],
-      "styles": {
-        "base": {
-          "paddingTop": 40,
-          "paddingBottom": 120
-        }
-      }
+      ]
     }
   ]
 }

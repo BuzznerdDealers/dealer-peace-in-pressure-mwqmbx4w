@@ -28,6 +28,7 @@
                   "id": "lg-crumb-trail",
                   "type": "breadcrumb",
                   "props": {
+                    "current": "light",
                     "trail": [
                       {
                         "label": "Home",
@@ -83,7 +84,7 @@
                   }
                 },
                 {
-                  "id": "t-1",
+                  "id": "meta",
                   "type": "text",
                   "props": {
                     "text": "For customers · Last updated November 2026",
@@ -91,7 +92,7 @@
                   }
                 },
                 {
-                  "id": "h-2",
+                  "id": "h-1",
                   "type": "heading",
                   "props": {
                     "text": "1. Who we are",
@@ -99,7 +100,7 @@
                   }
                 },
                 {
-                  "id": "t-3",
+                  "id": "t-2",
                   "type": "text",
                   "props": {
                     "text": "Peace In Pressure (“PIP”, “we”, “us”) sells freediving trading cards through this website. This policy explains how we handle personal information of site visitors and customers.",
@@ -107,7 +108,7 @@
                   }
                 },
                 {
-                  "id": "h-4",
+                  "id": "h-3",
                   "type": "heading",
                   "props": {
                     "text": "2. Information we collect",
@@ -115,15 +116,15 @@
                   }
                 },
                 {
-                  "id": "l-5",
+                  "id": "ul-4",
                   "type": "text",
                   "props": {
-                    "text": "• <strong>Account details:</strong> name, email address and password\n\n• <strong>Order details:</strong> shipping address, phone number (optional), items purchased and order history\n\n• <strong>Payment:</strong> processed by Stripe; PIP does not receive or store your card number\n\n• <strong>Messages:</strong> anything you send us through contact forms or email\n\n• <strong>Usage data:</strong> basic analytics and cookies that keep the site and your cart working",
+                    "text": "<strong>Account details:</strong> name, email address and password\n\n<strong>Order details:</strong> shipping address, phone number (optional), items purchased and order history\n\n<strong>Payment:</strong> processed by Stripe; PIP does not receive or store your card number\n\n<strong>Messages:</strong> anything you send us through contact forms or email\n\n<strong>Usage data:</strong> basic analytics and cookies that keep the site and your cart working",
                     "width": "full"
                   }
                 },
                 {
-                  "id": "h-6",
+                  "id": "h-5",
                   "type": "heading",
                   "props": {
                     "text": "3. How we use it",
@@ -131,15 +132,15 @@
                   }
                 },
                 {
-                  "id": "l-7",
+                  "id": "ul-6",
                   "type": "text",
                   "props": {
-                    "text": "• Process and ship your orders\n\n• Manage your account and saved products\n\n• Respond to questions and support requests\n\n• Send marketing emails, only if you opt in\n\n• Prevent fraud and meet legal and tax obligations",
+                    "text": "Process and ship your orders\n\nManage your account and saved products\n\nRespond to questions and support requests\n\nSend marketing emails, only if you opt in\n\nPrevent fraud and meet legal and tax obligations",
                     "width": "full"
                   }
                 },
                 {
-                  "id": "h-8",
+                  "id": "h-7",
                   "type": "heading",
                   "props": {
                     "text": "4. Who we share it with",
@@ -147,7 +148,7 @@
                   }
                 },
                 {
-                  "id": "t-9",
+                  "id": "t-8",
                   "type": "text",
                   "props": {
                     "text": "We do not sell or rent your personal information. We share it only with service providers that help us run the store:",
@@ -155,15 +156,15 @@
                   }
                 },
                 {
-                  "id": "l-10",
+                  "id": "ul-9",
                   "type": "text",
                   "props": {
-                    "text": "• <strong>Stripe:</strong> payment processing and sales tax\n\n• <strong>Syyo:</strong> website, ecommerce and order management\n\n• Shipping carriers, to deliver your order\n\n• Authorities, when required by law",
+                    "text": "<strong>Stripe:</strong> payment processing and sales tax\n\n<strong>Syyo:</strong> website, ecommerce and order management\n\nShipping carriers, to deliver your order\n\nAuthorities, when required by law",
                     "width": "full"
                   }
                 },
                 {
-                  "id": "h-11",
+                  "id": "h-10",
                   "type": "heading",
                   "props": {
                     "text": "5. Retention",
@@ -171,7 +172,7 @@
                   }
                 },
                 {
-                  "id": "t-12",
+                  "id": "t-11",
                   "type": "text",
                   "props": {
                     "text": "We keep order records as long as needed for accounting, tax and legal purposes. You can ask us to delete your account at any time; some order records may be kept where the law requires.",
@@ -179,7 +180,7 @@
                   }
                 },
                 {
-                  "id": "h-13",
+                  "id": "h-12",
                   "type": "heading",
                   "props": {
                     "text": "6. Your rights",
@@ -187,7 +188,7 @@
                   }
                 },
                 {
-                  "id": "t-14",
+                  "id": "t-13",
                   "type": "text",
                   "props": {
                     "text": "Depending on where you live (including the EU, UK and California), you may have the right to access, correct, delete or export your data, and to object to certain processing. You can unsubscribe from marketing emails at any time using the link in each email. To make a request, email <a href=\"mailto:info@peaceinpressure.com\">info@peaceinpressure.com</a>.",
@@ -195,7 +196,7 @@
                   }
                 },
                 {
-                  "id": "h-15",
+                  "id": "h-14",
                   "type": "heading",
                   "props": {
                     "text": "7. Children",
@@ -203,7 +204,7 @@
                   }
                 },
                 {
-                  "id": "t-16",
+                  "id": "t-15",
                   "type": "text",
                   "props": {
                     "text": "The site is not intended for children under 13, and we do not knowingly collect their information.",
@@ -211,7 +212,7 @@
                   }
                 },
                 {
-                  "id": "h-17",
+                  "id": "h-16",
                   "type": "heading",
                   "props": {
                     "text": "8. International customers",
@@ -219,7 +220,7 @@
                   }
                 },
                 {
-                  "id": "t-18",
+                  "id": "t-17",
                   "type": "text",
                   "props": {
                     "text": "Your information may be processed in the United States.",
@@ -227,7 +228,7 @@
                   }
                 },
                 {
-                  "id": "h-19",
+                  "id": "h-18",
                   "type": "heading",
                   "props": {
                     "text": "9. Changes",
@@ -235,7 +236,7 @@
                   }
                 },
                 {
-                  "id": "t-20",
+                  "id": "t-19",
                   "type": "text",
                   "props": {
                     "text": "We may update this policy. The current version is always posted on this page.",
@@ -243,7 +244,7 @@
                   }
                 },
                 {
-                  "id": "h-21",
+                  "id": "h-20",
                   "type": "heading",
                   "props": {
                     "text": "10. Contact",
@@ -251,7 +252,7 @@
                   }
                 },
                 {
-                  "id": "t-22",
+                  "id": "t-21",
                   "type": "text",
                   "props": {
                     "text": "<a href=\"mailto:info@peaceinpressure.com\">info@peaceinpressure.com</a><br>3213 W. Wheeler St., Seattle, WA 98199",
@@ -262,13 +263,7 @@
             }
           ]
         }
-      ],
-      "styles": {
-        "base": {
-          "paddingTop": 40,
-          "paddingBottom": 120
-        }
-      }
+      ]
     }
   ]
 }

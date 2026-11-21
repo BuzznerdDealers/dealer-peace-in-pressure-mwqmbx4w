@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "terms-grid",
+  "label": "Key terms grid",
+  "description": "A row of big figures with a short explanation under each, divided by hairlines.",
+  "category": "content",
+  "origin": "user",
+  "props": [
+    {
+      "key": "items",
+      "type": "list",
+      "label": "Terms",
+      "fields": [
+        {
+          "key": "value",
+          "type": "text",
+          "label": "Figure"
+        },
+        {
+          "key": "desc",
+          "type": "text",
+          "label": "Explanation"
+        }
+      ]
+    }
+  ],
+  "html": "<div class=\"tg\">{{#each items}}<div class=\"tg-i\"><span class=\"tg-v\">{{value}}</span><span class=\"tg-d\">{{desc}}</span></div>{{/each}}</div>",
+  "css": ".tg { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 1px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; overflow: hidden; }\n.tg-i { background: #041a2c; padding: 28px; display: flex; flex-direction: column; gap: 10px; }\n.tg-v { font-family: var(--font-heading); font-weight: 700; font-size: 48px; line-height: 1; color: #f4fbff; }\n.tg-i:first-child .tg-v { color: #00fbff; }\n.tg-d { font-size: 15px; line-height: 1.55; color: #c4d4e2; }"
+}

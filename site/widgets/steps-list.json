@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "steps-list",
+  "label": "Numbered steps",
+  "description": "Numbered steps in columns, each with a hairline on top (the first one lit).",
+  "category": "content",
+  "origin": "user",
+  "props": [
+    {
+      "key": "items",
+      "type": "list",
+      "label": "Steps",
+      "fields": [
+        {
+          "key": "num",
+          "type": "text",
+          "label": "Number"
+        },
+        {
+          "key": "title",
+          "type": "text",
+          "label": "Title"
+        },
+        {
+          "key": "desc",
+          "type": "text",
+          "label": "Description"
+        }
+      ]
+    }
+  ],
+  "html": "<ol class=\"sl\">{{#each items}}<li class=\"sl-i\"><span class=\"sl-n\">{{num}}</span><strong class=\"sl-t\">{{title}}</strong><span class=\"sl-d\">{{desc}}</span></li>{{/each}}</ol>",
+  "css": ".sl { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 28px; }\n.sl-i { display: flex; flex-direction: column; gap: 10px; border-top: 2px solid rgba(255,255,255,0.15); padding-top: 18px; }\n.sl-i:first-child { border-top-color: #00cdfd; }\n.sl-n { font-family: var(--font-heading); font-size: 13px; letter-spacing: 0.2em; color: #00cdfd; }\n.sl-t { font-size: 18px; color: #f4fbff; font-weight: 600; }\n.sl-d { font-size: 15px; line-height: 1.6; color: #c4d4e2; }"
+}

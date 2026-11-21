@@ -18,6 +18,15 @@
     "active": true
   },
   {
+    "id": "athlete-login",
+    "label": "Athlete login",
+    "url": "/athlete-dashboard",
+    "style": "secondary",
+    "intent": "athlete-login",
+    "newTab": false,
+    "active": true
+  },
+  {
     "id": "meet-the-athletes",
     "label": "Meet the athletes",
     "url": "/athletes",

@@ -1056,5 +1056,62 @@
       "utilityNav": null
     },
     "group": "legal"
+  },
+  {
+    "slug": "athlete-dashboard",
+    "title": "Athlete Dashboard",
+    "description": "Athlete dashboard: sales, payouts, achievements, profile and documents. Sample data shown.",
+    "path": "/athlete-dashboard",
+    "out": "athlete-dashboard/index.html",
+    "dir": "athlete-dashboard",
+    "status": "published",
+    "group": "athlete-app",
+    "seo": {
+      "ogImage": null,
+      "noindex": true
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "competitions",
+    "title": "Competition Standings",
+    "description": "Live results across all four disciplines, updated as results are announced at Vertical Blue.",
+    "path": "/competitions",
+    "out": "competitions/index.html",
+    "dir": "competitions",
+    "status": "draft",
+    "group": "draft",
+    "seo": {
+      "ogImage": null,
+      "noindex": true
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "athlete-onboarding",
+    "title": "Athlete Onboarding",
+    "description": "Private onboarding for approved athletes: profile and photos, legal agreement, payouts and tax, review.",
+    "path": "/athlete-onboarding",
+    "out": "athlete-onboarding/index.html",
+    "dir": "athlete-onboarding",
+    "status": "published",
+    "group": "athlete-app",
+    "seo": {
+      "ogImage": null,
+      "noindex": true
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
   }
 ]

@@ -28,6 +28,7 @@
                   "id": "lg-crumb-trail",
                   "type": "breadcrumb",
                   "props": {
+                    "current": "light",
                     "trail": [
                       {
                         "label": "Home",
@@ -83,7 +84,7 @@
                   }
                 },
                 {
-                  "id": "t-1",
+                  "id": "meta",
                   "type": "text",
                   "props": {
                     "text": "For customers · Last updated November 2026",
@@ -91,7 +92,7 @@
                   }
                 },
                 {
-                  "id": "h-2",
+                  "id": "h-1",
                   "type": "heading",
                   "props": {
                     "text": "1. About these terms",
@@ -99,7 +100,7 @@
                   }
                 },
                 {
-                  "id": "t-3",
+                  "id": "t-2",
                   "type": "text",
                   "props": {
                     "text": "These Terms of Service govern your use of the Peace In Pressure website and your purchase of trading cards and related products from Peace In Pressure (“PIP”, “we”, “us”). By using the site or placing an order, you agree to these terms.",
@@ -107,7 +108,7 @@
                   }
                 },
                 {
-                  "id": "h-4",
+                  "id": "h-3",
                   "type": "heading",
                   "props": {
                     "text": "2. Eligibility & accounts",
@@ -115,7 +116,7 @@
                   }
                 },
                 {
-                  "id": "t-5",
+                  "id": "t-4",
                   "type": "text",
                   "props": {
                     "text": "You must be at least 13 years old to use the site. If you are under 18, you need a parent or guardian’s permission to create an account or place an order. You are responsible for keeping your account details secure and for activity on your account.",
@@ -123,7 +124,7 @@
                   }
                 },
                 {
-                  "id": "h-6",
+                  "id": "h-5",
                   "type": "heading",
                   "props": {
                     "text": "3. Orders & pricing",
@@ -131,7 +132,7 @@
                   }
                 },
                 {
-                  "id": "t-7",
+                  "id": "t-6",
                   "type": "text",
                   "props": {
                     "text": "All prices are shown in U.S. dollars unless stated otherwise. Applicable sales tax is calculated at checkout. We may refuse or cancel an order, for example if a product is unavailable or a pricing error occurs; if we cancel, you will receive a full refund.\n\nLimited, numbered and signed editions are produced in fixed quantities and may sell out.",
@@ -139,7 +140,7 @@
                   }
                 },
                 {
-                  "id": "h-8",
+                  "id": "h-7",
                   "type": "heading",
                   "props": {
                     "text": "4. Payment",
@@ -147,7 +148,7 @@
                   }
                 },
                 {
-                  "id": "t-9",
+                  "id": "t-8",
                   "type": "text",
                   "props": {
                     "text": "Payments are processed securely by Stripe. PIP does not store your card details.",
@@ -155,7 +156,7 @@
                   }
                 },
                 {
-                  "id": "h-10",
+                  "id": "h-9",
                   "type": "heading",
                   "props": {
                     "text": "5. Shipping & delivery",
@@ -163,7 +164,7 @@
                   }
                 },
                 {
-                  "id": "t-11",
+                  "id": "t-10",
                   "type": "text",
                   "props": {
                     "text": "We ship to the addresses and countries offered at checkout. Delivery times are estimates. Customers are responsible for any import duties or taxes charged by their country.",
@@ -171,7 +172,7 @@
                   }
                 },
                 {
-                  "id": "h-12",
+                  "id": "h-11",
                   "type": "heading",
                   "props": {
                     "text": "6. Returns & refunds",
@@ -179,7 +180,7 @@
                   }
                 },
                 {
-                  "id": "t-13",
+                  "id": "t-12",
                   "type": "text",
                   "props": {
                     "text": "Returns and refunds are covered by our <a href=\"/refunds\">Refund & Return Policy</a>.",
@@ -187,7 +188,7 @@
                   }
                 },
                 {
-                  "id": "h-14",
+                  "id": "h-13",
                   "type": "heading",
                   "props": {
                     "text": "7. Collectibles",
@@ -195,7 +196,7 @@
                   }
                 },
                 {
-                  "id": "t-15",
+                  "id": "t-14",
                   "type": "text",
                   "props": {
                     "text": "Trading cards are sold as collectibles for personal enjoyment. PIP makes no promise about future value or resale price. Card statistics and achievement badges reflect official records at the time of production, as described in our <a href=\"/medal-record-policy\">Medal & Record Policy</a>.",
@@ -203,7 +204,7 @@
                   }
                 },
                 {
-                  "id": "h-16",
+                  "id": "h-15",
                   "type": "heading",
                   "props": {
                     "text": "8. Intellectual property",
@@ -211,7 +212,7 @@
                   }
                 },
                 {
-                  "id": "t-17",
+                  "id": "t-16",
                   "type": "text",
                   "props": {
                     "text": "All card designs, artwork, logos and site content are owned by PIP or its licensors, including the athletes featured. Buying a card gives you ownership of the physical item only, not the right to copy, reproduce or commercially use the designs or athlete likenesses.",
@@ -219,7 +220,7 @@
                   }
                 },
                 {
-                  "id": "h-18",
+                  "id": "h-17",
                   "type": "heading",
                   "props": {
                     "text": "9. Acceptable use",
@@ -227,7 +228,7 @@
                   }
                 },
                 {
-                  "id": "t-19",
+                  "id": "t-18",
                   "type": "text",
                   "props": {
                     "text": "You agree not to misuse the site, including by attempting to access accounts or data that are not yours, interfering with the site’s operation, or using automated tools to place orders.",
@@ -235,7 +236,7 @@
                   }
                 },
                 {
-                  "id": "h-20",
+                  "id": "h-19",
                   "type": "heading",
                   "props": {
                     "text": "10. Limitation of liability",
@@ -243,7 +244,7 @@
                   }
                 },
                 {
-                  "id": "t-21",
+                  "id": "t-20",
                   "type": "text",
                   "props": {
                     "text": "To the extent permitted by law, PIP is not liable for indirect or consequential losses, and our total liability for any order is limited to the amount you paid for it.",
@@ -251,7 +252,7 @@
                   }
                 },
                 {
-                  "id": "h-22",
+                  "id": "h-21",
                   "type": "heading",
                   "props": {
                     "text": "11. Changes",
@@ -259,7 +260,7 @@
                   }
                 },
                 {
-                  "id": "t-23",
+                  "id": "t-22",
                   "type": "text",
                   "props": {
                     "text": "We may update these terms from time to time. The version posted on this page applies to orders placed after it is published.",
@@ -267,7 +268,7 @@
                   }
                 },
                 {
-                  "id": "h-24",
+                  "id": "h-23",
                   "type": "heading",
                   "props": {
                     "text": "12. Governing law",
@@ -275,7 +276,7 @@
                   }
                 },
                 {
-                  "id": "t-25",
+                  "id": "t-24",
                   "type": "text",
                   "props": {
                     "text": "These terms are governed by the laws of Washington State, USA.",
@@ -283,7 +284,7 @@
                   }
                 },
                 {
-                  "id": "h-26",
+                  "id": "h-25",
                   "type": "heading",
                   "props": {
                     "text": "13. Contact",
@@ -291,7 +292,7 @@
                   }
                 },
                 {
-                  "id": "t-27",
+                  "id": "t-26",
                   "type": "text",
                   "props": {
                     "text": "Questions about these terms: <a href=\"mailto:info@peaceinpressure.com\">info@peaceinpressure.com</a>.",
@@ -302,13 +303,7 @@
             }
           ]
         }
-      ],
-      "styles": {
-        "base": {
-          "paddingTop": 40,
-          "paddingBottom": 120
-        }
-      }
+      ]
     }
   ]
 }

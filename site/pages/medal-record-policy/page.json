@@ -28,13 +28,14 @@
                   "id": "lg-crumb-trail",
                   "type": "breadcrumb",
                   "props": {
+                    "current": "light",
                     "trail": [
                       {
                         "label": "Home",
                         "url": "/"
                       },
                       {
-                        "label": "Medal & Record Representation Policy",
+                        "label": "Medal & Record Policy",
                         "url": ""
                       }
                     ]
@@ -83,7 +84,7 @@
                   }
                 },
                 {
-                  "id": "t-1",
+                  "id": "meta",
                   "type": "text",
                   "props": {
                     "text": "Annual Series",
@@ -91,7 +92,7 @@
                   }
                 },
                 {
-                  "id": "h-2",
+                  "id": "h-1",
                   "type": "heading",
                   "props": {
                     "text": "1. Purpose & Scope",
@@ -99,7 +100,7 @@
                   }
                 },
                 {
-                  "id": "t-3",
+                  "id": "t-2",
                   "type": "text",
                   "props": {
                     "text": "This policy governs <strong>medal badges, record designations, and performance statistics</strong> displayed exclusively on <strong>Peace in Pressure (PIP) Annual Series trading cards</strong>.\n\nPeace in Pressure may release additional card series (including special editions, invitational series, or experimental formats). Such series may follow <strong>different representation rules</strong> and are <strong>not governed by this policy unless explicitly stated</strong>.",
@@ -107,7 +108,7 @@
                   }
                 },
                 {
-                  "id": "h-4",
+                  "id": "h-3",
                   "type": "heading",
                   "props": {
                     "text": "2. Governing Bodies Recognized",
@@ -115,7 +116,7 @@
                   }
                 },
                 {
-                  "id": "t-5",
+                  "id": "t-4",
                   "type": "text",
                   "props": {
                     "text": "For the <strong>PIP Annual Series</strong>, medal and record eligibility is limited to achievements officially recognized by at least one internationally sanctioned freediving governing body:",
@@ -123,15 +124,15 @@
                   }
                 },
                 {
-                  "id": "l-6",
+                  "id": "ul-5",
                   "type": "text",
                   "props": {
-                    "text": "• <strong>AIDA</strong>\n\n• <strong>CMAS</strong>",
+                    "text": "<strong>AIDA</strong>\n\n<strong>CMAS</strong>",
                     "width": "full"
                   }
                 },
                 {
-                  "id": "t-7",
+                  "id": "t-6",
                   "type": "text",
                   "props": {
                     "text": "Peace in Pressure respects the <strong>independent rules, judging standards, and validation processes</strong> of both organizations.",
@@ -139,7 +140,7 @@
                   }
                 },
                 {
-                  "id": "h-8",
+                  "id": "h-7",
                   "type": "heading",
                   "props": {
                     "text": "3. Unified Medal Badging System",
@@ -147,7 +148,7 @@
                   }
                 },
                 {
-                  "id": "t-9",
+                  "id": "t-8",
                   "type": "text",
                   "props": {
                     "text": "PIP utilizes a <strong>unified, federation-neutral approach</strong> that honors the <strong>achievement itself</strong>, rather than the governing body under which it was recognized.",
@@ -155,7 +156,7 @@
                   }
                 },
                 {
-                  "id": "h-10",
+                  "id": "h-9",
                   "type": "heading",
                   "props": {
                     "text": "A. World Record, Continental and National Badge (WR, CR, NR)",
@@ -163,7 +164,7 @@
                   }
                 },
                 {
-                  "id": "t-11",
+                  "id": "t-10",
                   "type": "text",
                   "props": {
                     "text": "A Record medal badges may be displayed if a performance has been officially ratified as a Record by <strong>AIDA, CMAS, or both</strong>.\n\n<strong>Historical Recognition</strong>Unique to the World Record tier, a WR/CR/NR badge may be displayed if the athlete <strong>officially held the Record at any point during the applicable Annual Series year</strong>, provided the record was ratified prior to the Production Cut-off Date.\n\n<strong>Legacy Status</strong>A Record that is later surpassed or broken within the same Annual Series year <strong>does not invalidate</strong> the WR/CR/NR badge for that athlete’s card.\n\n<strong>Federation Neutrality</strong>The WR/CR/NR badge does not specify the governing body and does not display federation branding.\n\n<strong>Future Reservation of Rights</strong>Peace in Pressure reserves the right to apply the <strong>Historical Recognition / Legacy Status</strong> logic to any records in future Annual Series editions. Any such change will be clearly disclosed at the time of release.",
@@ -171,7 +172,7 @@
                   }
                 },
                 {
-                  "id": "h-12",
+                  "id": "h-11",
                   "type": "heading",
                   "props": {
                     "text": "4. Stats & Performance Representation",
@@ -179,15 +180,15 @@
                   }
                 },
                 {
-                  "id": "l-13",
+                  "id": "ul-12",
                   "type": "text",
                   "props": {
-                    "text": "• <strong>Official Results</strong>: Depths, disciplines, and statistics reflect results officially recognized by AIDA or CMAS\n\n• <strong>Clean Design</strong>: Federation names, logos, or parallel records are not displayed\n\n• <strong>Date of Record</strong>: The “Date of Record” reflects the date the performance occurred, regardless of administrative ratification timing\n\n• <strong>No Double-Counting</strong>: Identical achievements recognized by both organizations are counted once",
+                    "text": "<strong>Official Results</strong>: Depths, disciplines, and statistics reflect results officially recognized by AIDA or CMAS\n\n<strong>Clean Design</strong>: Federation names, logos, or parallel records are not displayed\n\n<strong>Date of Record</strong>: The “Date of Record” reflects the date the performance occurred, regardless of administrative ratification timing\n\n<strong>No Double-Counting</strong>: Identical achievements recognized by both organizations are counted once",
                     "width": "full"
                   }
                 },
                 {
-                  "id": "t-14",
+                  "id": "t-13",
                   "type": "text",
                   "props": {
                     "text": "All statistics represent a <strong>snapshot of verified achievements as of the Production Cut-off Date</strong> and are not intended to reflect real-time rankings or current personal bests.",
@@ -195,7 +196,7 @@
                   }
                 },
                 {
-                  "id": "h-15",
+                  "id": "h-14",
                   "type": "heading",
                   "props": {
                     "text": "5. Eligibility & Verification",
@@ -203,7 +204,7 @@
                   }
                 },
                 {
-                  "id": "t-16",
+                  "id": "t-15",
                   "type": "text",
                   "props": {
                     "text": "All Annual Series medals and records must meet the following verification standards:",
@@ -211,15 +212,15 @@
                   }
                 },
                 {
-                  "id": "l-17",
+                  "id": "ul-16",
                   "type": "text",
                   "props": {
-                    "text": "• <strong>Official Sanctioning</strong>: Ratified by AIDA or CMAS\n\n• <strong>Rule Compliance</strong>: Meets applicable judging and safety protocols\n\n• <strong>Public Record</strong>: Supported by verifiable documentation",
+                    "text": "<strong>Official Sanctioning</strong>: Ratified by AIDA or CMAS\n\n<strong>Rule Compliance</strong>: Meets applicable judging and safety protocols\n\n<strong>Public Record</strong>: Supported by verifiable documentation",
                     "width": "full"
                   }
                 },
                 {
-                  "id": "t-18",
+                  "id": "t-17",
                   "type": "text",
                   "props": {
                     "text": "Federation details may be reviewed internally but are not displayed on the card.",
@@ -227,7 +228,7 @@
                   }
                 },
                 {
-                  "id": "h-19",
+                  "id": "h-18",
                   "type": "heading",
                   "props": {
                     "text": "6. Exclusions",
@@ -235,7 +236,7 @@
                   }
                 },
                 {
-                  "id": "t-20",
+                  "id": "t-19",
                   "type": "text",
                   "props": {
                     "text": "The following do <strong>not</strong> qualify for unified medal or record badges in the Annual Series:",
@@ -243,15 +244,15 @@
                   }
                 },
                 {
-                  "id": "l-21",
+                  "id": "ul-20",
                   "type": "text",
                   "props": {
-                    "text": "• Training dives or personal bests outside official competition\n\n• Unsanctioned events\n\n• Pending, disputed, or unratified claims\n\n• Achievements recognized by organizations other than AIDA or CMAS",
+                    "text": "Training dives or personal bests outside official competition\n\nUnsanctioned events\n\nPending, disputed, or unratified claims\n\nAchievements recognized by organizations other than AIDA or CMAS",
                     "width": "full"
                   }
                 },
                 {
-                  "id": "t-22",
+                  "id": "t-21",
                   "type": "text",
                   "props": {
                     "text": "Such achievements may appear as <strong>non-medal highlights</strong> at PIP’s discretion and will be <strong>visually distinguished</strong> from official badges.",
@@ -259,7 +260,7 @@
                   }
                 },
                 {
-                  "id": "h-23",
+                  "id": "h-22",
                   "type": "heading",
                   "props": {
                     "text": "7. Production Cut-off & Final Authority",
@@ -267,7 +268,7 @@
                   }
                 },
                 {
-                  "id": "t-24",
+                  "id": "t-23",
                   "type": "text",
                   "props": {
                     "text": "<strong>Data Freeze</strong>All card data is subject to a <strong>Production Cut-off Date</strong> established for each Annual Series (e.g., December 31 at 11:59 PM local time).\n\n<strong>Finality</strong>Peace in Pressure retains final discretion over all medal eligibility, badge usage, and stat presentation.\n\n<strong>Retroactive Changes</strong>Once printed, Peace in Pressure is <strong>not obligated to modify, recall, or reprint</strong> physical cards if a governing body later nullifies, alters, or reverses an achievement.",
@@ -275,7 +276,7 @@
                   }
                 },
                 {
-                  "id": "h-25",
+                  "id": "h-24",
                   "type": "heading",
                   "props": {
                     "text": "Questions or Corrections",
@@ -283,24 +284,18 @@
                   }
                 },
                 {
-                  "id": "h-26",
-                  "type": "heading",
+                  "id": "h3a-25",
+                  "type": "text",
                   "props": {
-                    "text": "info@peaceinpressure.com",
-                    "headingLevel": 3
+                    "text": "<a href=\"mailto:info@peaceinpressure.com\">info@peaceinpressure.com</a>",
+                    "width": "full"
                   }
                 }
               ]
             }
           ]
         }
-      ],
-      "styles": {
-        "base": {
-          "paddingTop": 40,
-          "paddingBottom": 120
-        }
-      }
+      ]
     }
   ]
 }

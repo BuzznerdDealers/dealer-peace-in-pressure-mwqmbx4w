@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "William Trubridge",
+          "firstName": "William",
+          "lastName": "Trubridge",
+          "country": "New Zealand",
+          "flag": {
+            "src": "https://flagcdn.com/w80/nz.png",
+            "alt": "Flag of New Zealand"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/10/IMG_3993-copy.JPG",
+            "alt": "William Trubridge"
+          },
+          "bio": "William Trubridge is a New Zealand freediver, born in Haltwhistle, England, whose family moved to New Zealand when he was 18 months old. A world champion and former world record holder, he was the first diver to go deeper than 100 m without fins. He held the Free Immersion world record from 2010 to 2018 and the Constant Weight No Fins record from 2010 to 2025, and he trains at Dean’s Blue Hole in the Bahamas."
+        }
+      }
+    }
+  ]
+}

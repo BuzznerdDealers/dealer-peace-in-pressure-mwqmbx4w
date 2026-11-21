@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Laurent Kramer",
+          "firstName": "Laurent",
+          "lastName": "Kramer",
+          "country": "United States",
+          "flag": {
+            "src": "https://flagcdn.com/w80/us.png",
+            "alt": "Flag of United States"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/12/JMP08336.jpeg",
+            "alt": "Laurent Kramer"
+          },
+          "bio": "Laurent Kramer is a freediver born in Lausanne, Switzerland, who represents the United States. After 22 years as a professional lifeguard and police officer in Switzerland, he moved to the US in 2007 and began freediving in the Florida Keys in 2018. He is now a boat captain and underwater photographer with Live Free Diving in Palm Beach, Florida."
+        }
+      }
+    }
+  ]
+}

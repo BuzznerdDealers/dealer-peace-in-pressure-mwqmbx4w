@@ -2,45 +2,83 @@
   "version": 2,
   "id": "default",
   "name": "Site template",
-  "conditions": [{ "type": "entireSite", "ref": null }],
+  "conditions": [
+    {
+      "type": "entireSite",
+      "ref": null
+    }
+  ],
+  "css": "[data-bz-node=\"site-header\"] { position: fixed; top: 0; left: 0; right: 0; z-index: 70; padding-block: 16px; background: linear-gradient(180deg, rgba(2,6,23,.92), rgba(2,6,23,.55)); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border-bottom: 1px solid rgba(255,255,255,.07); }\n[data-bz-node=\"site-header\"] .bz-container { max-width: none; }\n[data-bz-node=\"header-row\"] { align-items: center; }\n[data-bz-node=\"header-brand\"] img { width: auto; }\n[data-bz-node=\"header-right\"] { display: flex; align-items: center; justify-content: flex-end; gap: 30px; }\n[data-bz-node=\"header-right\"] > * { margin: 0; }\n[data-bz-node=\"header-right\"] .bz-btns { margin: 0; }\n[data-bz-node=\"main-nav\"] a { color: #c4d4e2; font-size: 13px; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; }\n[data-bz-node=\"main-nav\"] a:hover, [data-bz-node=\"main-nav\"] a[aria-current=\"page\"] { color: var(--accent-dark); }\n.bz-menu-toggle { color: #f4fbff; border-color: rgba(255,255,255,.25); border-radius: 4px; }\n@media (max-width: 1100px) { .bz-menu-wrap[data-open] > .bz-menu { background: #041c30; border-top: 1px solid rgba(255,255,255,.1); } }\n@media (max-width: 820px) { [data-bz-node=\"header-right\"] { gap: 14px; } }\n",
+  "js": "",
   "nodes": [
     {
-      "id": "header",
+      "id": "site-header",
       "type": "section",
-      "props": { "width": "boxed", "paddingY": 3, "background": "card" },
+      "props": {
+        "width": "wide",
+        "paddingY": 3
+      },
       "children": [
         {
           "id": "header-row",
           "type": "row",
-          "props": { "gap": 5, "align": "center", "stackOn": "mobile" },
+          "props": {
+            "gap": 5,
+            "align": "center",
+            "stackOn": "never"
+          },
           "children": [
             {
               "id": "header-brand",
               "type": "column",
-              "props": { "span": 3, "align": "center" },
-              "children": [{ "id": "logo", "type": "logo", "props": { "url": "/", "height": 34 } }]
-            },
-            {
-              "id": "header-nav",
-              "type": "column",
-              "props": { "span": 6, "align": "center" },
+              "props": {
+                "span": 4,
+                "align": "center"
+              },
               "children": [
                 {
-                  "id": "main-nav",
-                  "type": "menu",
-                  "props": { "menuId": "main", "layout": "horizontal", "align": "center", "collapseOnMobile": true }
+                  "id": "logo",
+                  "type": "logo",
+                  "props": {
+                    "image": {
+                      "src": "/logo-landscape.png",
+                      "alt": "Peace In Pressure"
+                    },
+                    "url": "/",
+                    "height": 34
+                  }
                 }
               ]
             },
             {
-              "id": "header-cta",
+              "id": "header-right",
               "type": "column",
-              "props": { "span": 3, "align": "center" },
+              "props": {
+                "span": 8,
+                "align": "center"
+              },
               "children": [
+                {
+                  "id": "main-nav",
+                  "type": "menu",
+                  "props": {
+                    "menuId": "main",
+                    "layout": "horizontal",
+                    "collapseOnMobile": true,
+                    "align": "end",
+                    "depth": 1
+                  }
+                },
                 {
                   "id": "header-button",
                   "type": "buttons",
-                  "props": { "items": [{ "ctaId": "browse-inventory" }], "align": "left" }
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "sign-in"
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -48,42 +86,43 @@
         }
       ]
     },
-    { "id": "content", "type": "contentArea", "props": { "label": "Page content" } },
+    {
+      "id": "content",
+      "type": "contentArea",
+      "props": {
+        "label": "Page content"
+      }
+    },
     {
       "id": "footer",
-      "type": "section",
-      "props": { "width": "boxed", "paddingY": 7, "background": "ink" },
-      "children": [
-        {
-          "id": "footer-row",
-          "type": "row",
-          "props": { "gap": 6, "align": "start" },
-          "children": [
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "site-footer",
+        "values": {
+          "linkGroups": [
             {
-              "id": "footer-brand",
-              "type": "column",
-              "props": { "span": 4 },
-              "children": [{ "id": "footer-logo", "type": "logo", "props": { "url": "/", "height": 28 } }]
+              "heading": "Explore",
+              "menuId": "footer-explore"
             },
             {
-              "id": "footer-links",
-              "type": "column",
-              "props": { "span": 4 },
-              "children": [
-                { "id": "footer-nav", "type": "menu", "props": { "menuId": "footer", "layout": "vertical" } }
-              ]
+              "heading": "For Athletes",
+              "menuId": "footer-athletes"
             },
             {
-              "id": "footer-legal",
-              "type": "column",
-              "props": { "span": 4 },
-              "children": [
-                { "id": "legal-nav", "type": "menu", "props": { "menuId": "legal", "layout": "vertical" } }
-              ]
+              "heading": "Company",
+              "menuId": "footer-company"
+            },
+            {
+              "heading": "Legal",
+              "menuId": "footer-legal"
+            },
+            {
+              "heading": "Connect",
+              "menuId": "footer-connect"
             }
           ]
         }
-      ]
+      }
     }
   ]
 }

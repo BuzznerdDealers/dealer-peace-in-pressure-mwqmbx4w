@@ -1,0 +1,322 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "lg-crumb",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "lg-crumb-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "lg-crumb-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "lg-crumb-trail",
+                  "type": "breadcrumb",
+                  "props": {
+                    "trail": [
+                      {
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "label": "Athlete Terms of Service",
+                        "url": ""
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "paddingTop": 116
+        }
+      }
+    },
+    {
+      "id": "legal",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "legal-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "legal-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "legal-title",
+                  "type": "heading",
+                  "props": {
+                    "text": "Athlete Terms of Service",
+                    "headingLevel": 1
+                  }
+                },
+                {
+                  "id": "t-1",
+                  "type": "text",
+                  "props": {
+                    "text": "Effective Date: December 13th, 2025\n\nWelcome to Peace in Pressure. These Terms of Service (“Terms”) govern your access to and use of our website, trading card platform, and related services (“Services”). By accessing or using our Services, you agree to be bound by these Terms. If you do not agree, please do not use the Services.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-2",
+                  "type": "heading",
+                  "props": {
+                    "text": "1. Eligibility",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "l-3",
+                  "type": "text",
+                  "props": {
+                    "text": "• You must be at least 13 years old (or the minimum legal age in your country) to use our Services.\n\n• If you are under 18, you may only use the Services with parental or guardian consent.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-4",
+                  "type": "heading",
+                  "props": {
+                    "text": "2. User Responsibilities",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "t-5",
+                  "type": "text",
+                  "props": {
+                    "text": "When using the Services, you agree to:",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "l-6",
+                  "type": "text",
+                  "props": {
+                    "text": "• Provide accurate and truthful information\n\n• Upload only content (photos, text, achievements) that you own or have permission to use\n\n• Not upload offensive, illegal, or harmful material\n\n• Respect the rights and privacy of others",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "t-7",
+                  "type": "text",
+                  "props": {
+                    "text": "Peace in Pressure reserves the right to remove content or suspend accounts that violate these Terms.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-8",
+                  "type": "heading",
+                  "props": {
+                    "text": "3. Content You Provide",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "t-9",
+                  "type": "text",
+                  "props": {
+                    "text": "By uploading photos, achievements, or other content (“User Content”) to Peace in Pressure, you:",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "l-10",
+                  "type": "text",
+                  "props": {
+                    "text": "• Grant Peace in Pressure a <strong>worldwide, non-exclusive, royalty-free license</strong> to use, reproduce, display, and share your User Content in connection with the Services\n\n• Acknowledge that your trading card, name, achievements, and photo may be displayed on our website, marketplace, social media, and promotional materials\n\n• Retain ownership of your User Content",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "t-11",
+                  "type": "text",
+                  "props": {
+                    "text": "By submitting User Content, you grant Peace in Pressure the right to <strong>create, distribute, and sell multiple editions or variants</strong> of your trading card (including standard, limited edition, foil, or co-branded versions), which may feature different designs or formats based on your submitted content.\n\nIf you wish to withdraw permission for <strong>future promotional use</strong>, you may contact <a href=\"mailto:info@peaceinpressure.com\">info@peaceinpressure.com</a>.\n\n<strong>Withdrawal of permission does not affect existing cards, editions, or contractual obligations under any Athlete Agreement.</strong>",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-12",
+                  "type": "heading",
+                  "props": {
+                    "text": "4. Our Rights",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "l-13",
+                  "type": "text",
+                  "props": {
+                    "text": "• Peace in Pressure may update, suspend, or discontinue the Services at any time without liability\n\n• All site content (excluding User Content), including logos, designs, text, graphics, and software, is the property of Peace in Pressure and protected by intellectual property laws\n\n• You may not copy, distribute, or use Peace in Pressure branding or materials without prior written consent",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-14",
+                  "type": "heading",
+                  "props": {
+                    "text": "5. Purchases & Payments",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "l-15",
+                  "type": "text",
+                  "props": {
+                    "text": "• Certain Services may require payment (including trading cards or merchandise)\n\n• Payments are processed securely through third-party payment providers\n\n• Peace in Pressure does not store credit card information\n\n• Peace in Pressure is not responsible for payment delays or errors caused by third-party processors\n\n• All sales are subject to the applicable <a href=\"/refunds\">Refund / Return Policy</a>",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-16",
+                  "type": "heading",
+                  "props": {
+                    "text": "6. Limitation of Liability",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "t-17",
+                  "type": "text",
+                  "props": {
+                    "text": "To the maximum extent permitted by law:",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "l-18",
+                  "type": "text",
+                  "props": {
+                    "text": "• Peace in Pressure shall not be liable for any indirect, incidental, or consequential damages arising from use of the Services\n\n• Peace in Pressure’s total liability for any claim shall not exceed the amount you paid (if any) for the Services",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-19",
+                  "type": "heading",
+                  "props": {
+                    "text": "7. Termination",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "t-20",
+                  "type": "text",
+                  "props": {
+                    "text": "Peace in Pressure may suspend or terminate access to the Services if you violate these Terms or misuse the platform. You may stop using the Services at any time.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-21",
+                  "type": "heading",
+                  "props": {
+                    "text": "8. Athlete Agreements",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "t-22",
+                  "type": "text",
+                  "props": {
+                    "text": "If you enter into a separate <strong>Athlete Agreement</strong> with Peace in Pressure, the terms of that agreement will <strong>control in the event of any conflict</strong> with these Terms of Service.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-23",
+                  "type": "heading",
+                  "props": {
+                    "text": "9. Governing Law",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "t-24",
+                  "type": "text",
+                  "props": {
+                    "text": "These Terms are governed by the laws of <strong>Washington State, USA</strong>. Any disputes shall be resolved exclusively in the courts located in King County, Washington.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-25",
+                  "type": "heading",
+                  "props": {
+                    "text": "10. Changes to These Terms",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "t-26",
+                  "type": "text",
+                  "props": {
+                    "text": "Peace in Pressure may update these Terms from time to time. If changes are material, notice will be provided by email or on the website. Continued use of the Services after updates constitutes acceptance of the revised Terms.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-27",
+                  "type": "heading",
+                  "props": {
+                    "text": "11. Contact Us",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "t-28",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"mailto:info@peaceinpressure.com\">info@peaceinpressure.com</a> · 3213 W Wheeler St, Seattle, WA 98199",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "paddingTop": 40,
+          "paddingBottom": 120
+        }
+      }
+    }
+  ]
+}

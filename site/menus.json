@@ -5,36 +5,138 @@
       "id": "main",
       "name": "Main menu",
       "items": [
-        { "id": "home", "label": "Home", "type": "page", "ref": "home" },
-        { "id": "inventory", "label": "Inventory", "type": "inventory", "ref": "inventory" },
         {
-          "id": "about",
-          "label": "About",
-          "type": "url",
-          "url": "/about",
-          "children": [
-            { "id": "about-team", "label": "Our team", "type": "url", "url": "/about#team" },
-            { "id": "about-history", "label": "History", "type": "url", "url": "/about#history" }
-          ]
+          "id": "home",
+          "label": "Home",
+          "type": "page",
+          "ref": "home"
         },
-        { "id": "contact", "label": "Contact", "type": "url", "url": "/contact" }
+        {
+          "id": "athletes",
+          "label": "Athletes",
+          "type": "page",
+          "ref": "athletes"
+        },
+        {
+          "id": "news",
+          "label": "News",
+          "type": "url",
+          "url": "/#news"
+        }
       ]
     },
     {
-      "id": "footer",
-      "name": "Footer menu",
+      "id": "footer-explore",
+      "name": "Footer · Explore",
       "items": [
-        { "id": "f-inventory", "label": "Inventory", "type": "inventory", "ref": "inventory" },
-        { "id": "f-about", "label": "About", "type": "url", "url": "/about" },
-        { "id": "f-contact", "label": "Contact", "type": "url", "url": "/contact" }
+        {
+          "id": "fe-athletes",
+          "label": "Athletes",
+          "type": "page",
+          "ref": "athletes"
+        },
+        {
+          "id": "fe-news",
+          "label": "News",
+          "type": "url",
+          "url": "/#news"
+        }
       ]
     },
     {
-      "id": "legal",
-      "name": "Legal",
+      "id": "footer-athletes",
+      "name": "Footer · For Athletes",
       "items": [
-        { "id": "privacy", "label": "Privacy", "type": "url", "url": "/privacy" },
-        { "id": "terms", "label": "Terms", "type": "url", "url": "/terms" }
+        {
+          "id": "fa-how",
+          "label": "How it works",
+          "type": "page",
+          "ref": "for-athletes"
+        },
+        {
+          "id": "fa-apply",
+          "label": "Apply",
+          "type": "page",
+          "ref": "athlete-apply"
+        },
+        {
+          "id": "fa-bundle",
+          "label": "Athlete Legal Bundle",
+          "type": "page",
+          "ref": "athlete-legal-bundle"
+        },
+        {
+          "id": "fa-policy",
+          "label": "Medal & Record Policy",
+          "type": "page",
+          "ref": "medal-record-policy"
+        }
+      ]
+    },
+    {
+      "id": "footer-company",
+      "name": "Footer · Company",
+      "items": [
+        {
+          "id": "fc-partner",
+          "label": "Partner with Us",
+          "type": "page",
+          "ref": "partners"
+        },
+        {
+          "id": "fc-contact",
+          "label": "Contact & Requests",
+          "type": "page",
+          "ref": "contact"
+        }
+      ]
+    },
+    {
+      "id": "footer-legal",
+      "name": "Footer · Legal",
+      "items": [
+        {
+          "id": "fl-terms",
+          "label": "Terms of Service",
+          "type": "page",
+          "ref": "terms-of-service"
+        },
+        {
+          "id": "fl-privacy",
+          "label": "Privacy Policy",
+          "type": "page",
+          "ref": "privacy-policy"
+        },
+        {
+          "id": "fl-refund",
+          "label": "Refund & Returns",
+          "type": "page",
+          "ref": "refund-policy"
+        }
+      ]
+    },
+    {
+      "id": "footer-connect",
+      "name": "Footer · Connect",
+      "items": [
+        {
+          "id": "fx-ig",
+          "label": "Instagram",
+          "type": "url",
+          "url": "https://www.instagram.com/peaceinpressure/"
+        },
+        {
+          "id": "fx-tt",
+          "label": "TikTok",
+          "type": "url",
+          "url": "https://www.tiktok.com/@peaceinpressure"
+        },
+        {
+          "id": "fx-yt",
+          "label": "YouTube",
+          "type": "url",
+          "url": "https://www.youtube.com/@Peaceinpressureofficial"
+        }
       ]
     }
   ]

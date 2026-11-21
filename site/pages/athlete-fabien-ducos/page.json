@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Fabien Ducos",
+          "firstName": "Fabien",
+          "lastName": "Ducos",
+          "country": "France",
+          "flag": {
+            "src": "https://flagcdn.com/w80/fr.png",
+            "alt": "Flag of France"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/09/IMG_6875.jpeg",
+            "alt": "Fabien Ducos"
+          },
+          "bio": "Fabien Ducos is a French freediver from Pau who competes for France in both depth and pool disciplines."
+        }
+      }
+    }
+  ]
+}

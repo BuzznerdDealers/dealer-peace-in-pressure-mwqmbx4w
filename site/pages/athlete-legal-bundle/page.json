@@ -1,0 +1,605 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "lg-crumb",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "lg-crumb-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "lg-crumb-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "lg-crumb-trail",
+                  "type": "breadcrumb",
+                  "props": {
+                    "trail": [
+                      {
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "label": "Athlete Legal Bundle",
+                        "url": ""
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "paddingTop": 116
+        }
+      }
+    },
+    {
+      "id": "legal",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "legal-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "legal-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "legal-title",
+                  "type": "heading",
+                  "props": {
+                    "text": "Athlete Legal Bundle",
+                    "headingLevel": 1
+                  }
+                },
+                {
+                  "id": "t-1",
+                  "type": "text",
+                  "props": {
+                    "text": "Version: v2026.01.11 · Effective Date: December 13th, 2025 · Last Updated: January 11th, 2026\n\n<strong>Athlete Legal Bundle Notice</strong>This page contains multiple agreements that govern athlete participation on Peace in Pressure.<strong>In the event of any conflict between documents in this bundle or any public policies, the Athlete Agreement controls.</strong>",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-2",
+                  "type": "heading",
+                  "props": {
+                    "text": "Jump to:",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "l-3",
+                  "type": "text",
+                  "props": {
+                    "text": "• <a href=\"#athlete-agreement\">Athlete Agreement</a>\n\n• <a href=\"#athlete-terms-of-service\">Athlete Terms of Service</a>\n\n• <a href=\"#athlete-privacy-policy\">Athlete Privacy Policy</a>\n\n• Full documents: <a href=\"/athletes/terms\">Athlete Terms of Service</a> · <a href=\"/athletes/privacy\">Athlete Privacy Policy</a>",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-4",
+                  "type": "heading",
+                  "props": {
+                    "text": "Athlete Agreement (Revenue Share & Exclusivity)",
+                    "headingLevel": 2,
+                    "anchor": "athlete-agreement"
+                  }
+                },
+                {
+                  "id": "h-5",
+                  "type": "heading",
+                  "props": {
+                    "text": "Purpose & Founder’s Note",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-6",
+                  "type": "text",
+                  "props": {
+                    "text": "This Agreement establishes an exclusive partnership between Peace in Pressure (“PIP”) and the Athlete for the creation, promotion, and sale of the Athlete’s official trading cards.\n\nPIP was created to help grow the sport of freediving and support the athletes who make it extraordinary. These cards are more than collectibles — they are a way to share your story, inspire others, and create new opportunities for you to earn directly from your achievements. My goal is that this project helps fund your training, competitions, and travel, while bringing more visibility to the sport we all love.\n\n— Jerry Van Galder, Founder & Fellow Freediver",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-7",
+                  "type": "heading",
+                  "props": {
+                    "text": "Revenue Share & Payments",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-8",
+                  "type": "text",
+                  "props": {
+                    "text": "<strong>Net Revenue</strong> means the gross sales price received from trading card sales, minus production costs, shipping, taxes, and transaction fees.\n\nNet Revenue will be distributed as follows:",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "l-9",
+                  "type": "text",
+                  "props": {
+                    "text": "• <strong>Peace in Pressure:</strong> 75%\n\n• <strong>Athlete:</strong> 25%",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "t-10",
+                  "type": "text",
+                  "props": {
+                    "text": "Payouts are made <strong>monthly via Stripe</strong> and include a sales report. The Athlete is responsible for providing accurate payout details and may be subject to third-party processing fees.\n\nCustomer payments, refunds, and payment processing are governed by the public Peace in Pressure Terms of Service.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-11",
+                  "type": "heading",
+                  "props": {
+                    "text": "Responsibilities",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "h-12",
+                  "type": "heading",
+                  "props": {
+                    "text": "Peace in Pressure Will:",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "l-13",
+                  "type": "text",
+                  "props": {
+                    "text": "• Produce, distribute, and promote Athlete trading cards\n\n• Manage fulfillment, customer service, and payment processing\n\n• Provide sales reporting and timely payouts",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-14",
+                  "type": "heading",
+                  "props": {
+                    "text": "Athlete Will:",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "l-15",
+                  "type": "text",
+                  "props": {
+                    "text": "• Provide accurate information, photos, and achievements\n\n• Confirm they own or have permission to use all submitted photos or media\n\n• Ensure submitted content does not infringe third-party rights\n\n• Promote their card(s) where reasonably possible",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-16",
+                  "type": "heading",
+                  "props": {
+                    "text": "Grant of Rights",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-17",
+                  "type": "text",
+                  "props": {
+                    "text": "The Athlete grants Peace in Pressure the <strong>exclusive, worldwide right</strong> to use the Athlete’s name, likeness, image, achievements, and biography (“Athlete Content”) to create, market, distribute, and sell trading cards.\n\nPeace in Pressure may create <strong>multiple editions or variants</strong> of the Athlete’s card, including standard, foil, limited releases, champion series, or co-branded designs.\n\nThe Athlete retains ownership of their personal image and content. This license is granted in addition to any general platform license and <strong>controls in the event of conflict</strong>.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-18",
+                  "type": "heading",
+                  "props": {
+                    "text": "Exclusivity",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-19",
+                  "type": "text",
+                  "props": {
+                    "text": "During the term of this Agreement, the Athlete agrees <strong>not to make, sell, or authorize</strong> any trading cards or digital collectibles (including NFTs or variants) featuring their name or likeness with another provider.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-20",
+                  "type": "heading",
+                  "props": {
+                    "text": "Term & Termination",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "l-21",
+                  "type": "text",
+                  "props": {
+                    "text": "• Term: <strong>12 months</strong>, auto-renewing\n\n• Either party may terminate with <strong>30 days’ written notice</strong>\n\n• PIP may terminate immediately for breach\n\n• Final payouts due within <strong>60 days</strong> of termination",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-22",
+                  "type": "heading",
+                  "props": {
+                    "text": "Taxes & Withholding",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "l-23",
+                  "type": "text",
+                  "props": {
+                    "text": "• Athletes participate in Peace in Pressure as independent parties and are not employees, partners, or shareholders.\n\n• Athlete revenue shares are paid as independent compensation. Athletes are solely responsible for reporting and paying any taxes owed in their country of residence.\n\n• Peace in Pressure may be required by law to withhold taxes from athlete payments, including U.S. withholding for non-U.S. athletes. Any such withholding applies only to the athlete’s share and does not reduce Peace in Pressure’s portion of revenue.\n\n• Athletes agree to provide all required tax forms (including W-9 or W-8) prior to payment. Failure to provide required documentation may delay or reduce payouts.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-24",
+                  "type": "heading",
+                  "props": {
+                    "text": "Governing Law",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-25",
+                  "type": "text",
+                  "props": {
+                    "text": "Washington State, USA.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-26",
+                  "type": "heading",
+                  "props": {
+                    "text": "Athlete Terms of Service (Platform Use)",
+                    "headingLevel": 2,
+                    "anchor": "athlete-terms-of-service"
+                  }
+                },
+                {
+                  "id": "t-27",
+                  "type": "text",
+                  "props": {
+                    "text": "These Athlete Terms of Service govern <strong>how athletes use the Peace in Pressure platform</strong>. They do <strong>not</strong> govern revenue share, exclusivity, media rights, or payouts.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-28",
+                  "type": "heading",
+                  "props": {
+                    "text": "Athlete Platform Use",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-29",
+                  "type": "text",
+                  "props": {
+                    "text": "Athletes agree to:",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "l-30",
+                  "type": "text",
+                  "props": {
+                    "text": "• Use the platform in good faith\n\n• Provide truthful and accurate information\n\n• Submit only media they own or have permission to use\n\n• Follow platform guidelines and community standards",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-31",
+                  "type": "heading",
+                  "props": {
+                    "text": "Prohibited Conduct",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-32",
+                  "type": "text",
+                  "props": {
+                    "text": "Athletes may not:",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "l-33",
+                  "type": "text",
+                  "props": {
+                    "text": "• Misrepresent identity or achievements\n\n• Upload unauthorized or infringing content\n\n• Manipulate sales, pricing, or platform metrics\n\n• Use the platform for unlawful or abusive purposes",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-34",
+                  "type": "heading",
+                  "props": {
+                    "text": "Account Responsibility",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-35",
+                  "type": "text",
+                  "props": {
+                    "text": "Athletes are responsible for all activity under their account credentials.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-36",
+                  "type": "heading",
+                  "props": {
+                    "text": "Suspension or Restriction",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-37",
+                  "type": "text",
+                  "props": {
+                    "text": "Peace in Pressure may restrict or suspend athlete access for:",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "l-38",
+                  "type": "text",
+                  "props": {
+                    "text": "• Violation of these Athlete Terms of Service\n\n• Misuse of the platform\n\n• Breach of the Athlete Agreement",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "t-39",
+                  "type": "text",
+                  "props": {
+                    "text": "Suspension of platform access does <strong>not</strong> alter contractual or payment obligations unless stated in the Athlete Agreement.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-40",
+                  "type": "heading",
+                  "props": {
+                    "text": "Governing Law",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-41",
+                  "type": "text",
+                  "props": {
+                    "text": "Washington State, USA.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-42",
+                  "type": "heading",
+                  "props": {
+                    "text": "Athlete Privacy Policy (Athlete-Specific Data)",
+                    "headingLevel": 2,
+                    "anchor": "athlete-privacy-policy"
+                  }
+                },
+                {
+                  "id": "t-43",
+                  "type": "text",
+                  "props": {
+                    "text": "This Athlete Privacy Policy supplements the public Privacy Policy and applies only to onboarded athletes.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-44",
+                  "type": "heading",
+                  "props": {
+                    "text": "Information Collected",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-45",
+                  "type": "text",
+                  "props": {
+                    "text": "In addition to public user data, PIP may collect:",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "l-46",
+                  "type": "text",
+                  "props": {
+                    "text": "• Athlete profile information and achievements\n\n• Photos and media for card creation\n\n• Payout status and records. Bank details and tax forms are collected and stored by Stripe, not by PIP\n\n• Transaction metadata and sales reports\n\n• Identity or compliance information if required for payouts",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "t-47",
+                  "type": "text",
+                  "props": {
+                    "text": "PIP <strong>does not store credit card information</strong>.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-48",
+                  "type": "heading",
+                  "props": {
+                    "text": "Use of Athlete Data",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-49",
+                  "type": "text",
+                  "props": {
+                    "text": "Athlete data is used to:",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "l-50",
+                  "type": "text",
+                  "props": {
+                    "text": "• Create, promote, and sell trading cards\n\n• Administer revenue sharing and payouts\n\n• Provide reporting and support\n\n• Comply with tax, accounting, and legal obligations",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-51",
+                  "type": "heading",
+                  "props": {
+                    "text": "Data Sharing",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-52",
+                  "type": "text",
+                  "props": {
+                    "text": "Athlete data is not sold. It may be shared only:",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "l-53",
+                  "type": "text",
+                  "props": {
+                    "text": "• With service providers (hosting, payouts, accounting)\n\n• Publicly, through card listings and promotions\n\n• When required by law",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "t-54",
+                  "type": "text",
+                  "props": {
+                    "text": "Existing cards or releases may remain public even if future promotional use is withdrawn.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-55",
+                  "type": "heading",
+                  "props": {
+                    "text": "Data Retention",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-56",
+                  "type": "text",
+                  "props": {
+                    "text": "Athlete data may be retained longer than standard user data to:",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "l-57",
+                  "type": "text",
+                  "props": {
+                    "text": "• Fulfill contractual obligations\n\n• Complete payouts\n\n• Comply with tax or legal requirements",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-58",
+                  "type": "heading",
+                  "props": {
+                    "text": "Athlete Rights",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-59",
+                  "type": "text",
+                  "props": {
+                    "text": "Athletes may request access, correction, or deletion of data by contacting <strong><a href=\"mailto:info@peaceinpressure.com\">info@peaceinpressure.com</a></strong>. Withdrawal of consent applies only to <strong>future promotional use</strong> and does not affect existing releases or payouts.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-60",
+                  "type": "heading",
+                  "props": {
+                    "text": "Acceptance",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "t-61",
+                  "type": "text",
+                  "props": {
+                    "text": "By checking the box below, you acknowledge that you have read and agree to this <strong>Athlete Legal Bundle</strong>, including the Athlete Agreement, Athlete Terms of Service, and Athlete Privacy Policy.\n\nI agree to the Athlete Legal Bundle and confirm I have the rights to all photos and media I submit.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-62",
+                  "type": "heading",
+                  "props": {
+                    "text": "Contact",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "t-63",
+                  "type": "text",
+                  "props": {
+                    "text": "<strong><a href=\"mailto:info@peaceinpressure.com\">info@peaceinpressure.com</a></strong> · <strong>3213 W. Wheeler St., Seattle, WA 98199</strong>",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "paddingTop": 40,
+          "paddingBottom": 120
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Joo Teik Siew",
+          "firstName": "Joo Teik",
+          "lastName": "Siew",
+          "country": "Malaysia",
+          "flag": {
+            "src": "https://flagcdn.com/w80/my.png",
+            "alt": "Flag of Malaysia"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/12/IMG_9555.jpeg",
+            "alt": "Joo Teik Siew"
+          },
+          "bio": "Joo Teik Siew is a freediver from Georgetown, Penang, who represents Malaysia in the pool disciplines. He holds the Malaysian national record in Dynamic No Fins and also serves the sport in Malaysia as an AIDA judge and instructor."
+        }
+      }
+    }
+  ]
+}

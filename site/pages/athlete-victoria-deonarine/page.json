@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Victoria Deonarine",
+          "firstName": "Victoria",
+          "lastName": "Deonarine",
+          "country": "Trinidad and Tobago",
+          "flag": {
+            "src": "https://flagcdn.com/w80/tt.png",
+            "alt": "Flag of Trinidad and Tobago"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/10/PIP-Background-Pic-Victoria-Deonarine.jpg",
+            "alt": "Victoria Deonarine"
+          },
+          "bio": "Victoria Deonarine is a freediver from Port of Spain and the youngest and deepest female freediver in Trinidad and Tobago. She started freediving in 2023 at 16 and holds the national depth record."
+        }
+      }
+    }
+  ]
+}

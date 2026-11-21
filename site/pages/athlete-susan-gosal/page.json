@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Susan Gosal",
+          "firstName": "Susan",
+          "lastName": "Gosal",
+          "country": "Indonesia",
+          "flag": {
+            "src": "https://flagcdn.com/w80/id.png",
+            "alt": "Flag of Indonesia"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/12/MSR01910-copy_Original.jpeg",
+            "alt": "Susan Gosal"
+          },
+          "bio": "Susan Gosal is a freediver from Kolonodale, Indonesia, who has competed in both pool and depth events since 2022. She ranks among Indonesia’s top female freedivers across the competitive disciplines and also coaches freediving and swimming."
+        }
+      }
+    }
+  ]
+}

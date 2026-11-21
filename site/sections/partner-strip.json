@@ -1,0 +1,100 @@
+{
+  "version": 2,
+  "id": "partner-strip",
+  "name": "Official partners",
+  "css": "[data-bz-node=\"ps\"] { max-width: 1180px; margin: 0; padding: 80px 40px 40px clamp(40px, 7vw, 120px); }\n[data-bz-node=\"ps-label\"] p { margin: 0 0 26px; font-family: var(--font-heading); font-size: 12px; letter-spacing: .3em; text-transform: uppercase; color: #6f8498; }\n[data-bz-node=\"ps-grid\"] { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 16px; }\n[data-bz-node=\"ps-grid\"] > .bz-col { grid-column: auto; height: 84px; display: flex; align-items: center; justify-content: center; border-radius: 10px; background: rgba(255,255,255,.04); }\n[data-bz-node=\"ps-grid\"] > .bz-col img { max-height: 60px; width: auto; max-width: 80%; border-radius: 0; }\n",
+  "js": "",
+  "props": [
+    {
+      "key": "label",
+      "type": "text",
+      "label": "Label",
+      "default": "Official Partners"
+    },
+    {
+      "key": "logos",
+      "type": "list",
+      "label": "Partner logos",
+      "fields": [
+        {
+          "key": "image",
+          "type": "image",
+          "label": "Logo"
+        },
+        {
+          "key": "url",
+          "type": "url",
+          "label": "Links to"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ps",
+      "type": "section",
+      "props": {
+        "width": "full",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "ps-head",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "ps-head-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "ps-label",
+                  "type": "text",
+                  "props": {
+                    "text": "{{label}}",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ps-grid",
+          "type": "row",
+          "props": {
+            "gap": 4,
+            "align": "center",
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "ps-logo",
+              "type": "column",
+              "props": {
+                "span": 2,
+                "repeat": "logos"
+              },
+              "children": [
+                {
+                  "id": "ps-logo-img",
+                  "type": "image",
+                  "props": {
+                    "image": "{{image}}",
+                    "url": "{{url}}"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

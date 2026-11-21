@@ -1,0 +1,306 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "lg-crumb",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "lg-crumb-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "lg-crumb-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "lg-crumb-trail",
+                  "type": "breadcrumb",
+                  "props": {
+                    "trail": [
+                      {
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "label": "Medal & Record Representation Policy",
+                        "url": ""
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "paddingTop": 116
+        }
+      }
+    },
+    {
+      "id": "legal",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "legal-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "legal-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "legal-title",
+                  "type": "heading",
+                  "props": {
+                    "text": "Medal & Record Policy",
+                    "headingLevel": 1
+                  }
+                },
+                {
+                  "id": "t-1",
+                  "type": "text",
+                  "props": {
+                    "text": "Annual Series",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-2",
+                  "type": "heading",
+                  "props": {
+                    "text": "1. Purpose & Scope",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "t-3",
+                  "type": "text",
+                  "props": {
+                    "text": "This policy governs <strong>medal badges, record designations, and performance statistics</strong> displayed exclusively on <strong>Peace in Pressure (PIP) Annual Series trading cards</strong>.\n\nPeace in Pressure may release additional card series (including special editions, invitational series, or experimental formats). Such series may follow <strong>different representation rules</strong> and are <strong>not governed by this policy unless explicitly stated</strong>.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-4",
+                  "type": "heading",
+                  "props": {
+                    "text": "2. Governing Bodies Recognized",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "t-5",
+                  "type": "text",
+                  "props": {
+                    "text": "For the <strong>PIP Annual Series</strong>, medal and record eligibility is limited to achievements officially recognized by at least one internationally sanctioned freediving governing body:",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "l-6",
+                  "type": "text",
+                  "props": {
+                    "text": "• <strong>AIDA</strong>\n\n• <strong>CMAS</strong>",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "t-7",
+                  "type": "text",
+                  "props": {
+                    "text": "Peace in Pressure respects the <strong>independent rules, judging standards, and validation processes</strong> of both organizations.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-8",
+                  "type": "heading",
+                  "props": {
+                    "text": "3. Unified Medal Badging System",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "t-9",
+                  "type": "text",
+                  "props": {
+                    "text": "PIP utilizes a <strong>unified, federation-neutral approach</strong> that honors the <strong>achievement itself</strong>, rather than the governing body under which it was recognized.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-10",
+                  "type": "heading",
+                  "props": {
+                    "text": "A. World Record, Continental and National Badge (WR, CR, NR)",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-11",
+                  "type": "text",
+                  "props": {
+                    "text": "A Record medal badges may be displayed if a performance has been officially ratified as a Record by <strong>AIDA, CMAS, or both</strong>.\n\n<strong>Historical Recognition</strong>Unique to the World Record tier, a WR/CR/NR badge may be displayed if the athlete <strong>officially held the Record at any point during the applicable Annual Series year</strong>, provided the record was ratified prior to the Production Cut-off Date.\n\n<strong>Legacy Status</strong>A Record that is later surpassed or broken within the same Annual Series year <strong>does not invalidate</strong> the WR/CR/NR badge for that athlete’s card.\n\n<strong>Federation Neutrality</strong>The WR/CR/NR badge does not specify the governing body and does not display federation branding.\n\n<strong>Future Reservation of Rights</strong>Peace in Pressure reserves the right to apply the <strong>Historical Recognition / Legacy Status</strong> logic to any records in future Annual Series editions. Any such change will be clearly disclosed at the time of release.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-12",
+                  "type": "heading",
+                  "props": {
+                    "text": "4. Stats & Performance Representation",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "l-13",
+                  "type": "text",
+                  "props": {
+                    "text": "• <strong>Official Results</strong>: Depths, disciplines, and statistics reflect results officially recognized by AIDA or CMAS\n\n• <strong>Clean Design</strong>: Federation names, logos, or parallel records are not displayed\n\n• <strong>Date of Record</strong>: The “Date of Record” reflects the date the performance occurred, regardless of administrative ratification timing\n\n• <strong>No Double-Counting</strong>: Identical achievements recognized by both organizations are counted once",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "t-14",
+                  "type": "text",
+                  "props": {
+                    "text": "All statistics represent a <strong>snapshot of verified achievements as of the Production Cut-off Date</strong> and are not intended to reflect real-time rankings or current personal bests.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-15",
+                  "type": "heading",
+                  "props": {
+                    "text": "5. Eligibility & Verification",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "t-16",
+                  "type": "text",
+                  "props": {
+                    "text": "All Annual Series medals and records must meet the following verification standards:",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "l-17",
+                  "type": "text",
+                  "props": {
+                    "text": "• <strong>Official Sanctioning</strong>: Ratified by AIDA or CMAS\n\n• <strong>Rule Compliance</strong>: Meets applicable judging and safety protocols\n\n• <strong>Public Record</strong>: Supported by verifiable documentation",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "t-18",
+                  "type": "text",
+                  "props": {
+                    "text": "Federation details may be reviewed internally but are not displayed on the card.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-19",
+                  "type": "heading",
+                  "props": {
+                    "text": "6. Exclusions",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "t-20",
+                  "type": "text",
+                  "props": {
+                    "text": "The following do <strong>not</strong> qualify for unified medal or record badges in the Annual Series:",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "l-21",
+                  "type": "text",
+                  "props": {
+                    "text": "• Training dives or personal bests outside official competition\n\n• Unsanctioned events\n\n• Pending, disputed, or unratified claims\n\n• Achievements recognized by organizations other than AIDA or CMAS",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "t-22",
+                  "type": "text",
+                  "props": {
+                    "text": "Such achievements may appear as <strong>non-medal highlights</strong> at PIP’s discretion and will be <strong>visually distinguished</strong> from official badges.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-23",
+                  "type": "heading",
+                  "props": {
+                    "text": "7. Production Cut-off & Final Authority",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "t-24",
+                  "type": "text",
+                  "props": {
+                    "text": "<strong>Data Freeze</strong>All card data is subject to a <strong>Production Cut-off Date</strong> established for each Annual Series (e.g., December 31 at 11:59 PM local time).\n\n<strong>Finality</strong>Peace in Pressure retains final discretion over all medal eligibility, badge usage, and stat presentation.\n\n<strong>Retroactive Changes</strong>Once printed, Peace in Pressure is <strong>not obligated to modify, recall, or reprint</strong> physical cards if a governing body later nullifies, alters, or reverses an achievement.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-25",
+                  "type": "heading",
+                  "props": {
+                    "text": "Questions or Corrections",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "h-26",
+                  "type": "heading",
+                  "props": {
+                    "text": "info@peaceinpressure.com",
+                    "headingLevel": 3
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "paddingTop": 40,
+          "paddingBottom": 120
+        }
+      }
+    }
+  ]
+}

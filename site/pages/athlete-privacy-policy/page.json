@@ -1,0 +1,370 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "lg-crumb",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "lg-crumb-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "lg-crumb-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "lg-crumb-trail",
+                  "type": "breadcrumb",
+                  "props": {
+                    "trail": [
+                      {
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "label": "Athlete Privacy Policy",
+                        "url": ""
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "paddingTop": 116
+        }
+      }
+    },
+    {
+      "id": "legal",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "legal-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "legal-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "legal-title",
+                  "type": "heading",
+                  "props": {
+                    "text": "Athlete Privacy Policy",
+                    "headingLevel": 1
+                  }
+                },
+                {
+                  "id": "t-1",
+                  "type": "text",
+                  "props": {
+                    "text": "Effective Date: December 13th, 2025",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-2",
+                  "type": "heading",
+                  "props": {
+                    "text": "Privacy in Simple Terms",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "t-3",
+                  "type": "text",
+                  "props": {
+                    "text": "We collect only the information you choose to share with us (such as your name, email, and photos for your trading card).\n\nWe use this information to create your card, operate the platform, and stay in touch with you.\n\nYour card and achievements may be shared publicly on our website and social media to celebrate the freediving community.\n\nWe <strong>never sell your personal data</strong>.\n\nYour information is protected and shared only when necessary (for example, with payment processors or to meet legal requirements).\n\nYou can ask us to update or delete your information at any time.\n\nSome information may need to be retained to fulfill existing orders, legal obligations, or active agreements.\n\nPeace in Pressure (“we,” “our,” or “us”) respects your privacy and is committed to protecting the personal information you share with us. This Privacy Policy explains how we collect, use, and safeguard your data when you use our website, services, and trading card platform.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-4",
+                  "type": "heading",
+                  "props": {
+                    "text": "1. Information We Collect",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-5",
+                  "type": "text",
+                  "props": {
+                    "text": "We may collect the following types of information:",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "l-6",
+                  "type": "text",
+                  "props": {
+                    "text": "• <strong>Personal Information:</strong> Name, email address, country, freediving achievements, and other details you provide when registering or submitting content.\n\n• <strong>Photos & Media:</strong> Images and other content you upload for your trading card.\n\n• <strong>Usage Data:</strong> Information about how you interact with our website (such as IP address, browser type, device type, and pages visited).\n\n• <strong>Payment & Transaction Data:</strong> Peace in Pressure does <strong>not</strong> store credit card or bank account information. All payments are processed by third-party payment providers. We may receive limited transaction data (such as payment confirmations, payout amounts, or account identifiers) necessary for order fulfillment, accounting, and athlete payouts.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-7",
+                  "type": "heading",
+                  "props": {
+                    "text": "2. How We Use Your Information",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-8",
+                  "type": "text",
+                  "props": {
+                    "text": "We use collected information to:",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "l-9",
+                  "type": "text",
+                  "props": {
+                    "text": "• Create and display trading cards on our platform\n\n• Process accounts, orders, and athlete payouts\n\n• Feature trading cards and achievements on our website, marketplace, social media, and marketing materials\n\n• Communicate about updates, promotions, or support\n\n• Improve platform performance and user experience\n\n• Comply with legal and regulatory requirements",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-10",
+                  "type": "heading",
+                  "props": {
+                    "text": "3. How We Share Information",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-11",
+                  "type": "text",
+                  "props": {
+                    "text": "We do not sell or rent personal information. We may share information only:",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "l-12",
+                  "type": "text",
+                  "props": {
+                    "text": "• With service providers that help operate the platform (e.g., hosting, payment processing), including Stripe (payments, sales tax and athlete payouts) and Syyo (website, ecommerce and order management)\n\n• With the public, by displaying trading cards, names, photos, and achievements\n\n• When legally required\n\n• With your consent",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "t-13",
+                  "type": "text",
+                  "props": {
+                    "text": "Public display may continue for existing cards, editions, or completed releases.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-14",
+                  "type": "heading",
+                  "props": {
+                    "text": "4. Data Retention",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-15",
+                  "type": "text",
+                  "props": {
+                    "text": "We retain personal information only as long as necessary to provide our services, fulfill existing orders, comply with legal obligations, resolve disputes, and enforce agreements.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-16",
+                  "type": "heading",
+                  "props": {
+                    "text": "5. Security",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-17",
+                  "type": "text",
+                  "props": {
+                    "text": "We implement reasonable technical and organizational safeguards to protect your personal information. However, no online system can guarantee absolute security.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-18",
+                  "type": "heading",
+                  "props": {
+                    "text": "6. Your Rights",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-19",
+                  "type": "text",
+                  "props": {
+                    "text": "Depending on your location, you may have the right to:",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "l-20",
+                  "type": "text",
+                  "props": {
+                    "text": "• Access, update, or delete your personal information\n\n• Request restrictions on certain data processing\n\n• Withdraw consent for future promotional use of your content\n\n• File a complaint with a data protection authority",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "t-21",
+                  "type": "text",
+                  "props": {
+                    "text": "Withdrawal applies only to future promotional use and does not affect existing cards, editions, or contractual obligations.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-22",
+                  "type": "heading",
+                  "props": {
+                    "text": "Contact: info@peaceinpressure.com",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "h-23",
+                  "type": "heading",
+                  "props": {
+                    "text": "7. Children’s Privacy",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-24",
+                  "type": "text",
+                  "props": {
+                    "text": "Our services are not intended for children under 13 (or the minimum age required by local law). We do not knowingly collect personal data from children without parental consent.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-25",
+                  "type": "heading",
+                  "props": {
+                    "text": "8. International Users",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-26",
+                  "type": "text",
+                  "props": {
+                    "text": "If you access our services from outside the <strong>United States of America</strong>, your information may be transferred to and processed in jurisdictions with different data protection laws.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-27",
+                  "type": "heading",
+                  "props": {
+                    "text": "9. GDPR & CCPA Rights",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-28",
+                  "type": "text",
+                  "props": {
+                    "text": "If you are located in the European Union, United Kingdom, or California, you may have additional rights under applicable laws, including GDPR and CCPA. These rights may include:",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "l-29",
+                  "type": "text",
+                  "props": {
+                    "text": "• The right to know what personal data we collect and how it is used\n\n• The right to access, correct, or delete your personal data\n\n• The right to restrict or object to certain processing\n\n• The right to data portability (where applicable)\n\n• The right to opt out of the sale of personal data (<strong>Peace in Pressure does not sell personal data</strong>)",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "t-30",
+                  "type": "text",
+                  "props": {
+                    "text": "To exercise these rights, contact <strong><a href=\"mailto:info@peaceinpressure.com\">info@peaceinpressure.com</a></strong>. Identity verification may be required.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-31",
+                  "type": "heading",
+                  "props": {
+                    "text": "10. Updates to This Policy",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-32",
+                  "type": "text",
+                  "props": {
+                    "text": "We may update this Privacy Policy from time to time. Updates will be reflected by revising the Effective Date.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "h-33",
+                  "type": "heading",
+                  "props": {
+                    "text": "11. Contact Us",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "t-34",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"mailto:info@peaceinpressure.com\">info@peaceinpressure.com</a> · 3213 W. Wheeler St., Seattle, WA 98199",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "paddingTop": 40,
+          "paddingBottom": 120
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Katie McCarthy",
+          "firstName": "Katie",
+          "lastName": "McCarthy",
+          "country": "United States",
+          "flag": {
+            "src": "https://flagcdn.com/w80/us.png",
+            "alt": "Flag of United States"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/09/009a04da-f7ab-437d-8e88-50192a6270f7.jpeg",
+            "alt": "Katie McCarthy"
+          },
+          "bio": "Katie McCarthy is an American freediver from Birmingham, Alabama, who competes in depth and pool for the United States. A civil rights lawyer by profession, she trains in the freshwater cenotes of the Yucatán and serves on the USA Freediving Board."
+        }
+      }
+    }
+  ]
+}

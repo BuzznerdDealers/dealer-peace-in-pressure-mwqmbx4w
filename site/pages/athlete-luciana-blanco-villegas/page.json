@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Luciana Blanco Villegas",
+          "firstName": "Luciana",
+          "lastName": "Blanco\nVillegas",
+          "country": "Argentina",
+          "flag": {
+            "src": "https://flagcdn.com/w80/ar.png",
+            "alt": "Flag of Argentina"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/10/AFC-woman-day-2-Luciana-22.jpg",
+            "alt": "Luciana Blanco Villegas"
+          },
+          "bio": "Luciana Blanco Villegas is a freediver from Buenos Aires, Argentina. She has competed in pool and depth events since 2024 and holds Argentine national records in Constant Weight, Constant Weight Bi-Fins and Constant No Fins. She is also a freediving instructor, equalisation coach and yoga teacher."
+        }
+      }
+    }
+  ]
+}

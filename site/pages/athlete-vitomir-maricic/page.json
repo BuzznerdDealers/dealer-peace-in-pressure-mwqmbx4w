@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Vitomir Maričić",
+          "firstName": "Vitomir",
+          "lastName": "Maričić",
+          "country": "Croatia",
+          "flag": {
+            "src": "https://flagcdn.com/w80/hr.png",
+            "alt": "Flag of Croatia"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/12/bomb.jpg",
+            "alt": "Vitomir Maričić"
+          },
+          "bio": "Vitomir Maričić is a Croatian freediver from Rijeka and a member of the city’s Ocean diving club. Ranked world no. 1 in 2025, he holds Croatian national records across pool and depth. In June 2025 he set the Guinness World Record for the longest breath held underwater with oxygen, 29 minutes and 3 seconds, to draw attention to ocean conservation. He is also an AIDA judge and president of AIDA Croatia."
+        }
+      }
+    }
+  ]
+}

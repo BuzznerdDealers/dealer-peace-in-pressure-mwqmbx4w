@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Mateusz Malina",
+          "firstName": "Mateusz",
+          "lastName": "Malina",
+          "country": "Poland",
+          "flag": {
+            "src": "https://flagcdn.com/w80/pl.png",
+            "alt": "Flag of Poland"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/10/mateusz-DaanVerhoeven-304A1346.jpg",
+            "alt": "Mateusz Malina"
+          },
+          "bio": "Mateusz Malina is a Polish freediver from Cieszyn who trains mostly in pools in landlocked southern Poland. He holds world records in Dynamic Apnea and Dynamic No Fins, and his CMAS mark in Dynamic Apnea is the furthest anyone has swum on one breath. He is just as strong at depth: at Vertical Blue 2022 he set the Free Immersion world record and won the men’s overall title."
+        }
+      }
+    }
+  ]
+}

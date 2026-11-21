@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Carol Carrasco Navas",
+          "firstName": "Carol",
+          "lastName": "Carrasco\nNavas",
+          "country": "Chile",
+          "flag": {
+            "src": "https://flagcdn.com/w80/cl.png",
+            "alt": "Flag of Chile"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/11/cwt-S.jpeg",
+            "alt": "Carol Carrasco Navas"
+          },
+          "bio": "Carol Carrasco Navas is a freediver from Talca, Chile, who has competed in pool and depth events since 2022. She holds the South American record in Constant Weight Bi-Fins and Chilean national records in Constant Weight and Dynamic No Fins."
+        }
+      }
+    }
+  ]
+}

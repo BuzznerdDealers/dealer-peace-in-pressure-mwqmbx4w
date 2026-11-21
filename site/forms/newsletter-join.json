@@ -1,0 +1,33 @@
+{
+  "id": "newsletter-join",
+  "name": "Join the list",
+  "status": "live",
+  "surfaces": [
+    "page"
+  ],
+  "intent": "newsletter-signup",
+  "submitLabel": "Join Free",
+  "successMessage": "You’re in. Check your inbox to confirm.",
+  "consent": {
+    "enabled": false
+  },
+  "fields": [
+    {
+      "id": "nj-email",
+      "type": "email",
+      "label": "Email",
+      "required": true,
+      "placeholder": "you@email.com"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "nj-notify",
+      "name": "New subscribers",
+      "logic": "AND",
+      "rules": [],
+      "targetType": "email",
+      "email": "info@peaceinpressure.com"
+    }
+  ]
+}

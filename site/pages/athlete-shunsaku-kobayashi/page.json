@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Shunsaku Kobayashi",
+          "firstName": "Shunsaku",
+          "lastName": "Kobayashi",
+          "country": "Japan",
+          "flag": {
+            "src": "https://flagcdn.com/w80/jp.png",
+            "alt": "Flag of Japan"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/12/801_0175.jpeg",
+            "alt": "Shunsaku Kobayashi"
+          },
+          "bio": "Shunsaku Kobayashi is a Japanese freediver from Nagano who specialises in depth. After nine years in Germany working as a fluid dynamics engineer, he moved to the island of Miyakojima in 2022, drawn by its ocean. He now competes as a professional freediver and teaches as an AIDA and Molchanovs instructor."
+        }
+      }
+    }
+  ]
+}

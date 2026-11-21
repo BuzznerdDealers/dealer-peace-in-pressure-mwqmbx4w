@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Zsófia Törőcsik",
+          "firstName": "Zsófia",
+          "lastName": "Törőcsik",
+          "country": "Hungary",
+          "flag": {
+            "src": "https://flagcdn.com/w80/hu.png",
+            "alt": "Flag of Hungary"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/11/world-games.jpg",
+            "alt": "Zsófia Törőcsik"
+          },
+          "bio": "Zsófia Törőcsik is a Hungarian freediver from Tatabánya who trains in Budapest. A former competitive triathlete, she became the first woman to swim 300 m on a single breath, winning gold at the 2025 World Games in Chengdu. The same year she won the AIDA Depth World Championship in her first depth competition, and she holds world records in both pool and depth."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,487 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "fa-crumb",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "fa-crumb-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "fa-crumb-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "fa-crumb-trail",
+                  "type": "breadcrumb",
+                  "props": {
+                    "trail": [
+                      {
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "label": "For Athletes",
+                        "url": ""
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "paddingTop": 116
+        }
+      }
+    },
+    {
+      "id": "fa-hero",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "fa-hero-row",
+          "type": "row",
+          "props": {
+            "gap": 8,
+            "align": "center",
+            "stackOn": "tablet"
+          },
+          "children": [
+            {
+              "id": "fa-hero-copy",
+              "type": "column",
+              "props": {
+                "span": 7
+              },
+              "children": [
+                {
+                  "id": "fa-title",
+                  "type": "heading",
+                  "props": {
+                    "text": "Your card.\nYour story.",
+                    "headingLevel": 1
+                  }
+                },
+                {
+                  "id": "fa-lede",
+                  "type": "text",
+                  "props": {
+                    "text": "Peace In Pressure creates official trading cards for freedivers. You earn 25% of net revenue from every card sold, paid monthly.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "fa-cta",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "apply-now"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "fa-hero-quote",
+              "type": "column",
+              "props": {
+                "span": 5
+              },
+              "children": [
+                {
+                  "id": "fa-quote",
+                  "type": "testimonials",
+                  "props": {
+                    "headingLevel": 2,
+                    "items": [
+                      {
+                        "quote": "PIP was created to help grow the sport of freediving and support the athletes who make it extraordinary. These cards are more than collectibles — they are a way to share your story, inspire others, and create new opportunities for you to earn directly from your achievements. My goal is that this project not only celebrates your journey but also helps fund your training, competitions, and travel, while bringing more visibility to the sport we all love.",
+                        "name": "Jerry Van Galder",
+                        "role": "Founder & Fellow Freediver"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "paddingTop": 28,
+          "paddingBottom": 60
+        }
+      }
+    },
+    {
+      "id": "fa-terms",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "fa-terms-head",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "fa-terms-head-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "fa-terms-h",
+                  "type": "heading",
+                  "props": {
+                    "text": "The terms",
+                    "headingLevel": 2
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fa-terms-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "fa-terms-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "fa-stats",
+                  "type": "statBand",
+                  "props": {
+                    "headingLevel": 3,
+                    "stats": [
+                      {
+                        "value": "25%",
+                        "label": "of net revenue: sales minus production costs, shipping, taxes and transaction fees."
+                      },
+                      {
+                        "value": "Monthly",
+                        "label": "payouts through Stripe, with a sales report."
+                      },
+                      {
+                        "value": "12 mo.",
+                        "label": "term, renews automatically. Either side can end it with 30 days’ written notice."
+                      },
+                      {
+                        "value": "Exclusive",
+                        "label": "PIP is your only trading card and digital collectible provider while the agreement is active."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "fa-terms-note",
+                  "type": "text",
+                  "props": {
+                    "text": "Athletes must be 18 or older. You keep ownership of your name, image and content.",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "paddingTop": 40,
+          "paddingBottom": 40
+        }
+      }
+    },
+    {
+      "id": "fa-join",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "fa-join-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "fa-join-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "fa-steps",
+                  "type": "iconGrid",
+                  "props": {
+                    "heading": "How to join",
+                    "headingLevel": 2,
+                    "items": [
+                      {
+                        "label": "Apply",
+                        "desc": "A short form: who you are, where you compete, and links to your federation profile."
+                      },
+                      {
+                        "label": "Get approved",
+                        "desc": "We review your application and email you a private onboarding link."
+                      },
+                      {
+                        "label": "Onboard",
+                        "desc": "Upload photos, accept the Athlete Legal Bundle, and set up payouts and your tax form with Stripe."
+                      },
+                      {
+                        "label": "Go live",
+                        "desc": "Your profile and cards launch. Track sales and payouts from your dashboard."
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "paddingTop": 40,
+          "paddingBottom": 40
+        }
+      }
+    },
+    {
+      "id": "fa-faq",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "fa-faq-row",
+          "type": "row",
+          "props": {
+            "gap": 8,
+            "align": "start",
+            "stackOn": "tablet"
+          },
+          "children": [
+            {
+              "id": "fa-faq-col",
+              "type": "column",
+              "props": {
+                "span": 7
+              },
+              "children": [
+                {
+                  "id": "fa-faq-h",
+                  "type": "heading",
+                  "props": {
+                    "text": "FAQ",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "fa-faq-items",
+                  "type": "widget",
+                  "props": {
+                    "widget": "faq",
+                    "config": {
+                      "items": [
+                        {
+                          "q": "How do I earn money?",
+                          "a": "You earn 25% of net revenue from your card sales. Net revenue means sales after production costs, shipping, taxes, and transaction fees. Payouts happen monthly through Stripe."
+                        },
+                        {
+                          "q": "Do I still own my name and photos?",
+                          "a": "Yes. You keep ownership of your name, image, and content. You’re granting PIP permission to use them to create, promote, and sell your trading cards."
+                        },
+                        {
+                          "q": "What does “exclusive” mean?",
+                          "a": "While this agreement is active, PIP is the only platform that can create and sell trading cards or digital collectibles (including NFTs) featuring you."
+                        },
+                        {
+                          "q": "Can PIP make different versions of my card?",
+                          "a": "Yes. PIP can create multiple editions or variants (such as standard, foil, limited, or champion series). All versions follow the same revenue split."
+                        },
+                        {
+                          "q": "Do I need permission to use the photos I upload?",
+                          "a": "Yes. You confirm that you own the rights to the photos or media you submit, or that you have permission from the photographer or rights holder to use them."
+                        },
+                        {
+                          "q": "What if a photographer or event owns the photo rights?",
+                          "a": "You should only upload photos you have permission to use. If you’re unsure, check with the photographer or event organizer before submitting."
+                        },
+                        {
+                          "q": "Can I leave later?",
+                          "a": "Yes. The agreement runs for 12 months and renews automatically, but either side can end it with 30 days’ notice. Any revenue you’ve earned will still be paid out."
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "fa-read-col",
+              "type": "column",
+              "props": {
+                "span": 5
+              },
+              "children": [
+                {
+                  "id": "fa-read-h",
+                  "type": "heading",
+                  "props": {
+                    "text": "Read first",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "fa-read",
+                  "type": "link-list",
+                  "props": {
+                    "links": [
+                      {
+                        "label": "Athlete Legal Bundle",
+                        "desc": "Athlete Agreement, Athlete Terms of Service and Athlete Privacy Policy.",
+                        "url": "/athlete-legal-bundle"
+                      },
+                      {
+                        "label": "Athlete Terms of Service",
+                        "desc": "Full terms for using the platform as an athlete.",
+                        "url": "/athletes/terms"
+                      },
+                      {
+                        "label": "Athlete Privacy Policy",
+                        "desc": "How we collect, use and protect athlete data.",
+                        "url": "/athletes/privacy"
+                      },
+                      {
+                        "label": "Tax & Payout Overview",
+                        "desc": "W-9 and W-8 forms, withholding, and tax treaties.",
+                        "url": "/athlete-tax-payouts"
+                      },
+                      {
+                        "label": "Medal & Record Policy",
+                        "desc": "Which achievements appear on Annual Series cards.",
+                        "url": "/medal-record-policy"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "paddingTop": 40,
+          "paddingBottom": 60
+        }
+      }
+    },
+    {
+      "id": "fa-close",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "fa-close-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "fa-close-col",
+              "type": "column",
+              "props": {
+                "span": 12,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "fa-close-h",
+                  "type": "heading",
+                  "props": {
+                    "text": "Ready to dive in?",
+                    "headingLevel": 2,
+                    "align": "center"
+                  }
+                },
+                {
+                  "id": "fa-close-cta",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "apply-now"
+                      }
+                    ],
+                    "align": "center"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "paddingTop": 40,
+          "paddingBottom": 120
+        }
+      }
+    }
+  ]
+}

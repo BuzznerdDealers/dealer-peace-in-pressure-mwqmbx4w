@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Luce de Michelena",
+          "firstName": "Luce",
+          "lastName": "de Michelena",
+          "country": "France",
+          "flag": {
+            "src": "https://flagcdn.com/w80/fr.png",
+            "alt": "Flag of France"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/12/DSC05106.JPG",
+            "alt": "Luce de Michelena"
+          },
+          "bio": "Luce de Michelena is a French freediver from Bayonne who competes in the pool disciplines. As a student, she took a gap year to train around the world, from Bali and Dahab to Canada, France and Costa Rica, working toward becoming a Molchanovs freediving instructor and entering her first competitions in static and dynamic apnea."
+        }
+      }
+    }
+  ]
+}

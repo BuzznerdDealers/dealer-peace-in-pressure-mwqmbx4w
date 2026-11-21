@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "athlete-filters",
+  "label": "Athlete search & country filter",
+  "description": "Search box, country menu, result count and empty state for the athlete directory. Wired up by the athlete-directory component.",
+  "category": "content",
+  "origin": "user",
+  "props": [
+    {
+      "key": "searchLabel",
+      "type": "text",
+      "label": "Search placeholder",
+      "default": "Search athletes or countries"
+    },
+    {
+      "key": "allCountries",
+      "type": "text",
+      "label": "All-countries option",
+      "default": "All countries"
+    },
+    {
+      "key": "emptyText",
+      "type": "text",
+      "label": "Empty-state message",
+      "default": "No athletes match your search."
+    },
+    {
+      "key": "clearText",
+      "type": "text",
+      "label": "Clear button",
+      "default": "Clear filters"
+    }
+  ],
+  "html": "<div class=\"af\" data-athlete-filters><div class=\"af-controls\"><input class=\"af-search\" type=\"search\" placeholder=\"{{searchLabel}}\" aria-label=\"{{searchLabel}}\" data-af-search><select class=\"af-country\" aria-label=\"Country\" data-af-country><option value=\"\">{{allCountries}}</option></select></div><p class=\"af-count\" data-af-count aria-live=\"polite\"></p><div class=\"af-empty\" data-af-empty hidden><p>{{emptyText}}</p><button class=\"af-clear\" type=\"button\" data-af-clear>{{clearText}}</button></div></div>",
+  "css": ".af-controls { display: flex; flex-wrap: wrap; gap: 12px; justify-content: flex-end; }\n.af-search, .af-country { height: 48px; padding: 0 16px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.14); background: rgba(4,28,48,0.7); color: #eaf2f8; font-family: var(--font-body); font-size: 15px; outline: none; }\n.af-search { min-width: 240px; flex: 1 1 240px; max-width: 320px; }\n.af-country { min-width: 200px; }\n.af-search::placeholder { color: #6f8598; }\n.af-search:focus, .af-country:focus { border-color: #00cdfd; }\n.af-country option { background: #041c30; color: #eaf2f8; }\n.af-count { margin: 18px 0 0; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: #6f8498; text-align: right; }\n.af-empty { padding: 48px 0; text-align: center; color: #9fb4c6; }\n.af-empty[hidden] { display: none; }\n.af-clear { margin-top: 8px; font-family: var(--font-heading); font-weight: 600; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: #020617; background: linear-gradient(135deg, #00fbff, #00cdfd); border: 0; padding: 10px 22px; border-radius: 4px; cursor: pointer; }"
+}

@@ -1,0 +1,199 @@
+{
+  "version": 2,
+  "id": "athlete-profile",
+  "name": "Athlete profile",
+  "css": "[data-bz-node=\"ap-main\"] { margin-top: 28px; }\n[data-bz-node=\"ap-photo\"] .bz-figure { position: relative; width: 100%; aspect-ratio: 4 / 5; max-height: 640px; margin: 0; }\n[data-bz-node=\"ap-photo\"] img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 35%; border-radius: 16px; background: #0a2c46; }\n[data-bz-node=\"ap-info\"] { container-type: inline-size; display: flex; flex-direction: column; gap: 22px; padding-bottom: 8px; min-width: 0; }\n[data-bz-node=\"ap-info\"] > .bz-block, [data-bz-node=\"ap-info\"] > .bz-row { margin: 0; }\n[data-bz-node=\"ap-meta\"] { display: flex; align-items: center; gap: 12px; }\n[data-bz-node=\"ap-meta\"] > .bz-col { width: auto; flex: none; }\n[data-bz-node=\"ap-flag-img\"] img { width: 30px; height: 20px; object-fit: cover; border-radius: 3px; box-shadow: 0 0 0 1px rgba(255,255,255,.18), 0 0 14px rgba(0,205,253,.35); }\n[data-bz-node=\"ap-country-text\"] p { margin: 0; font-family: var(--font-heading); font-size: 13px; letter-spacing: .3em; text-transform: uppercase; color: #00cdfd; }\n[data-bz-node=\"ap-bio\"] p { max-width: 500px; margin: 0; font-size: 17px; font-weight: 300; line-height: 1.6; color: #9fb4c6; text-wrap: pretty; }\n@media (max-width: 640px) { [data-bz-node=\"ap\"] { padding-top: 96px; } }\n",
+  "js": "",
+  "props": [
+    {
+      "key": "name",
+      "type": "text",
+      "label": "Full name"
+    },
+    {
+      "key": "firstName",
+      "type": "text",
+      "label": "Name, first line"
+    },
+    {
+      "key": "lastName",
+      "type": "textarea",
+      "label": "Name, second line (gradient — press Enter for a line break)"
+    },
+    {
+      "key": "country",
+      "type": "text",
+      "label": "Country"
+    },
+    {
+      "key": "flag",
+      "type": "image",
+      "label": "Flag"
+    },
+    {
+      "key": "photo",
+      "type": "image",
+      "label": "Back-of-card photo"
+    },
+    {
+      "key": "bio",
+      "type": "textarea",
+      "label": "Bio"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ap",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "ap-crumb",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "ap-crumb-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "ap-trail",
+                  "type": "breadcrumb",
+                  "props": {
+                    "trail": [
+                      {
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "label": "Athletes",
+                        "url": "/athletes"
+                      },
+                      {
+                        "label": "{{name}}",
+                        "url": ""
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ap-main",
+          "type": "row",
+          "props": {
+            "gap": 8,
+            "align": "start",
+            "stackOn": "tablet"
+          },
+          "children": [
+            {
+              "id": "ap-photo",
+              "type": "column",
+              "props": {
+                "span": 6
+              },
+              "children": [
+                {
+                  "id": "ap-img",
+                  "type": "image",
+                  "props": {
+                    "image": "{{photo}}",
+                    "width": "full"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ap-info",
+              "type": "column",
+              "props": {
+                "span": 6
+              },
+              "children": [
+                {
+                  "id": "ap-meta",
+                  "type": "row",
+                  "props": {
+                    "gap": 3,
+                    "align": "center",
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "ap-flag",
+                      "type": "column",
+                      "props": {
+                        "span": 1
+                      },
+                      "children": [
+                        {
+                          "id": "ap-flag-img",
+                          "type": "image",
+                          "props": {
+                            "image": "{{flag}}"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "ap-country",
+                      "type": "column",
+                      "props": {
+                        "span": 11
+                      },
+                      "children": [
+                        {
+                          "id": "ap-country-text",
+                          "type": "text",
+                          "props": {
+                            "text": "{{country}}",
+                            "width": "full"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "ap-title",
+                  "type": "split-title",
+                  "props": {
+                    "lead": "{{firstName}}",
+                    "accent": "{{lastName}}",
+                    "size": "athlete"
+                  }
+                },
+                {
+                  "id": "ap-bio",
+                  "type": "text",
+                  "props": {
+                    "text": "{{bio}}",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "styles": {
+        "base": {
+          "paddingTop": 116,
+          "paddingBottom": 80
+        }
+      }
+    }
+  ]
+}

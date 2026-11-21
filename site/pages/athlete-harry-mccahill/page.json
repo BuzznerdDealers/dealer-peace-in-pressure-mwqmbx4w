@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "profile",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "athlete-profile",
+        "values": {
+          "name": "Harry McCahill",
+          "firstName": "Harry",
+          "lastName": "McCahill",
+          "country": "United Kingdom",
+          "flag": {
+            "src": "https://flagcdn.com/w80/gb.png",
+            "alt": "Flag of United Kingdom"
+          },
+          "photo": {
+            "src": "https://www.peaceinpressure.com/efs/wp/domains/www.peaceinpressure.com/wp-content/uploads/gravity_forms/10-898dab80cc8e5d10da8091227f89c43d/2025/09/HarryMcCahillVBBlueHole2025.JPG",
+            "alt": "Harry McCahill"
+          },
+          "bio": "Harry McCahill is a British freediver and the UK national record holder in Constant Weight No Fins. He co-owns and manages Blue Element Freediving in Soufrière Bay, Dominica, where he coaches and trains."
+        }
+      }
+    }
+  ]
+}

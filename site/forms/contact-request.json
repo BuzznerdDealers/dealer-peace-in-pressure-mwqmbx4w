@@ -1,0 +1,185 @@
+{
+  "id": "contact-request",
+  "name": "Contact & requests",
+  "status": "live",
+  "surfaces": [
+    "page"
+  ],
+  "intent": "contact-request",
+  "submitLabel": "Send",
+  "successMessage": "Thanks. We’ll reply by email.",
+  "consent": {
+    "enabled": false
+  },
+  "fields": [
+    {
+      "id": "cr-name",
+      "type": "full_name",
+      "label": "Full name",
+      "required": true
+    },
+    {
+      "id": "cr-email",
+      "type": "email",
+      "label": "Email",
+      "required": true
+    },
+    {
+      "id": "cr-topic",
+      "type": "dropdown",
+      "label": "Topic",
+      "required": true,
+      "options": [
+        {
+          "value": "order",
+          "label": "Order or shipping"
+        },
+        {
+          "value": "athlete",
+          "label": "Athlete program"
+        },
+        {
+          "value": "correction",
+          "label": "Card correction"
+        },
+        {
+          "value": "press",
+          "label": "Press"
+        },
+        {
+          "value": "other",
+          "label": "Other"
+        }
+      ]
+    },
+    {
+      "id": "cr-order",
+      "type": "single_line",
+      "label": "Order number",
+      "required": false,
+      "placeholder": "e.g. PIP-10482",
+      "logic": {
+        "logic": "AND",
+        "action": "show",
+        "rules": [
+          {
+            "fieldId": "cr-topic",
+            "operator": "is",
+            "value": "order"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cr-correction",
+      "type": "dropdown",
+      "label": "What needs correcting",
+      "required": true,
+      "options": [
+        {
+          "value": "medal-or-record-badge",
+          "label": "Medal or record badge"
+        },
+        {
+          "value": "performance-stat",
+          "label": "Performance stat"
+        },
+        {
+          "value": "name-or-country",
+          "label": "Name or country"
+        },
+        {
+          "value": "bio-or-profile-text",
+          "label": "Bio or profile text"
+        },
+        {
+          "value": "photo",
+          "label": "Photo"
+        },
+        {
+          "value": "other",
+          "label": "Other"
+        }
+      ],
+      "logic": {
+        "logic": "AND",
+        "action": "show",
+        "rules": [
+          {
+            "fieldId": "cr-topic",
+            "operator": "is",
+            "value": "correction"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cr-details",
+      "type": "paragraph",
+      "label": "Details of the correction",
+      "required": true,
+      "logic": {
+        "logic": "AND",
+        "action": "show",
+        "rules": [
+          {
+            "fieldId": "cr-topic",
+            "operator": "is",
+            "value": "correction"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cr-message",
+      "type": "paragraph",
+      "label": "Message",
+      "required": true,
+      "logic": {
+        "logic": "AND",
+        "action": "show",
+        "rules": [
+          {
+            "fieldId": "cr-topic",
+            "operator": "is_not",
+            "value": "correction"
+          }
+        ]
+      }
+    }
+  ],
+  "notifications": [
+    {
+      "id": "cr-notify",
+      "name": "Contact requests",
+      "logic": "AND",
+      "rules": [],
+      "targetType": "email",
+      "email": "info@peaceinpressure.com"
+    }
+  ],
+  "confirmations": [
+    {
+      "id": "cr-conf-correction",
+      "name": "Card correction",
+      "type": "message",
+      "rules": [
+        {
+          "fieldId": "cr-topic",
+          "operator": "is",
+          "value": "correction"
+        }
+      ],
+      "logic": "AND",
+      "message": "Thanks. We’ll review the correction against the official record."
+    },
+    {
+      "id": "cr-conf-default",
+      "name": "Everything else",
+      "type": "message",
+      "rules": [],
+      "logic": "AND",
+      "message": "Thanks. We’ll reply by email."
+    }
+  ]
+}

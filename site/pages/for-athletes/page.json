@@ -101,8 +101,8 @@
                         "ctaId": "apply-now"
                       },
                       {
-                        "ctaId": "athlete-login",
-                        "url": "#"
+                        "url": "#",
+                        "ctaId": "athlete-login"
                       }
                     ]
                   }

@@ -6,19 +6,19 @@
   "rewrites": [
     {
       "source": "/store",
-      "destination": "https://peace-in-pressure.ai4dealerships.com/store"
+      "destination": "https://peace-in-pressure.buzznerdrv.com/store"
     },
     {
       "source": "/store/",
-      "destination": "https://peace-in-pressure.ai4dealerships.com/store/"
+      "destination": "https://peace-in-pressure.buzznerdrv.com/store/"
     },
     {
       "source": "/store/:path*/",
-      "destination": "https://peace-in-pressure.ai4dealerships.com/store/:path*/"
+      "destination": "https://peace-in-pressure.buzznerdrv.com/store/:path*/"
     },
     {
       "source": "/store/:path*",
-      "destination": "https://peace-in-pressure.ai4dealerships.com/store/:path*"
+      "destination": "https://peace-in-pressure.buzznerdrv.com/store/:path*"
     }
   ],
   "headers": [

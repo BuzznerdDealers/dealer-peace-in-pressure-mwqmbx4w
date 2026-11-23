@@ -1064,7 +1064,7 @@
     "path": "/athlete-dashboard",
     "out": "athlete-dashboard/index.html",
     "dir": "athlete-dashboard",
-    "status": "published",
+    "status": "draft",
     "group": "athlete-app",
     "seo": {
       "ogImage": null,

@@ -3,10 +3,10 @@
   "contractVersion": "5.0.0",
   "name": "Peace In Pressure",
   "shortName": "PIP",
-  "channelToken": "peace-in-pressure-mwqmbx4w",
+  "channelToken": "peace-in-pressure-mwtrz54k",
   "domain": "dealer-peace-in-pressure-mwqmbx4w.vercel.app",
   "url": "https://dealer-peace-in-pressure-mwqmbx4w.vercel.app",
-  "storefrontOrigin": "https://peace-in-pressure.ai4dealerships.com",
+  "storefrontOrigin": "https://peace-in-pressure.buzznerdrv.com",
   "storefrontPrefix": "store",
   "logo": "/logo-landscape.png",
   "favicon": "/favicon.svg",
@@ -28,7 +28,7 @@
     "openingHours": []
   },
   "seo": {
-    "defaultTitle": "Peace In Pressure \u2013 Freediver Trading Cards",
+    "defaultTitle": "Peace In Pressure – Freediver Trading Cards",
     "titleTemplate": "%s | Peace In Pressure",
     "defaultDescription": "The world's first collectible freediver trading cards, celebrating the athletes rewriting the limits of the human body.",
     "ogImage": "/images/art-poseidon-v2.png",

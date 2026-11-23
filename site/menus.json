@@ -9,19 +9,28 @@
           "id": "home",
           "label": "Home",
           "type": "page",
-          "ref": "home"
+          "ref": "home",
+          "url": null,
+          "newTab": false,
+          "children": []
         },
         {
           "id": "athletes",
           "label": "Athletes",
           "type": "page",
-          "ref": "athletes"
+          "ref": "athletes",
+          "url": null,
+          "newTab": false,
+          "children": []
         },
         {
           "id": "news",
           "label": "News",
           "type": "url",
-          "url": "/#news"
+          "ref": null,
+          "url": "/#news",
+          "newTab": false,
+          "children": []
         }
       ]
     },
@@ -33,13 +42,19 @@
           "id": "fe-athletes",
           "label": "Athletes",
           "type": "page",
-          "ref": "athletes"
+          "ref": "athletes",
+          "url": null,
+          "newTab": false,
+          "children": []
         },
         {
           "id": "fe-news",
           "label": "News",
           "type": "url",
-          "url": "/#news"
+          "ref": null,
+          "url": "/#news",
+          "newTab": false,
+          "children": []
         }
       ]
     },
@@ -51,31 +66,46 @@
           "id": "fa-how",
           "label": "How it works",
           "type": "page",
-          "ref": "for-athletes"
+          "ref": "for-athletes",
+          "url": null,
+          "newTab": false,
+          "children": []
         },
         {
           "id": "fa-apply",
           "label": "Apply",
           "type": "page",
-          "ref": "athlete-apply"
+          "ref": "athlete-apply",
+          "url": null,
+          "newTab": false,
+          "children": []
         },
         {
           "id": "fa-login",
           "label": "Athlete Login",
-          "type": "page",
-          "ref": "athlete-dashboard"
+          "type": "url",
+          "ref": null,
+          "url": "#",
+          "newTab": false,
+          "children": []
         },
         {
           "id": "fa-bundle",
           "label": "Athlete Legal Bundle",
           "type": "page",
-          "ref": "athlete-legal-bundle"
+          "ref": "athlete-legal-bundle",
+          "url": null,
+          "newTab": false,
+          "children": []
         },
         {
           "id": "fa-policy",
           "label": "Medal & Record Policy",
           "type": "page",
-          "ref": "medal-record-policy"
+          "ref": "medal-record-policy",
+          "url": null,
+          "newTab": false,
+          "children": []
         }
       ]
     },
@@ -87,13 +117,19 @@
           "id": "fc-partner",
           "label": "Partner with Us",
           "type": "page",
-          "ref": "partners"
+          "ref": "partners",
+          "url": null,
+          "newTab": false,
+          "children": []
         },
         {
           "id": "fc-contact",
           "label": "Contact & Requests",
           "type": "page",
-          "ref": "contact"
+          "ref": "contact",
+          "url": null,
+          "newTab": false,
+          "children": []
         }
       ]
     },
@@ -105,19 +141,28 @@
           "id": "fl-terms",
           "label": "Terms of Service",
           "type": "page",
-          "ref": "terms-of-service"
+          "ref": "terms-of-service",
+          "url": null,
+          "newTab": false,
+          "children": []
         },
         {
           "id": "fl-privacy",
           "label": "Privacy Policy",
           "type": "page",
-          "ref": "privacy-policy"
+          "ref": "privacy-policy",
+          "url": null,
+          "newTab": false,
+          "children": []
         },
         {
           "id": "fl-refund",
           "label": "Refund & Returns",
           "type": "page",
-          "ref": "refund-policy"
+          "ref": "refund-policy",
+          "url": null,
+          "newTab": false,
+          "children": []
         }
       ]
     },
@@ -129,19 +174,28 @@
           "id": "fx-ig",
           "label": "Instagram",
           "type": "url",
-          "url": "https://www.instagram.com/peaceinpressure/"
+          "ref": null,
+          "url": "https://www.instagram.com/peaceinpressure/",
+          "newTab": false,
+          "children": []
         },
         {
           "id": "fx-tt",
           "label": "TikTok",
           "type": "url",
-          "url": "https://www.tiktok.com/@peaceinpressure"
+          "ref": null,
+          "url": "https://www.tiktok.com/@peaceinpressure",
+          "newTab": false,
+          "children": []
         },
         {
           "id": "fx-yt",
           "label": "YouTube",
           "type": "url",
-          "url": "https://www.youtube.com/@Peaceinpressureofficial"
+          "ref": null,
+          "url": "https://www.youtube.com/@Peaceinpressureofficial",
+          "newTab": false,
+          "children": []
         }
       ]
     }

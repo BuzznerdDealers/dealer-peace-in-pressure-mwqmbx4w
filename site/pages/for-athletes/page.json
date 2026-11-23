@@ -8,6 +8,11 @@
         "width": "boxed",
         "paddingY": 0
       },
+      "styles": {
+        "base": {
+          "paddingTop": 116
+        }
+      },
       "children": [
         {
           "id": "fa-crumb-row",
@@ -45,12 +50,7 @@
             }
           ]
         }
-      ],
-      "styles": {
-        "base": {
-          "paddingTop": 116
-        }
-      }
+      ]
     },
     {
       "id": "fa-hero",
@@ -101,7 +101,8 @@
                         "ctaId": "apply-now"
                       },
                       {
-                        "ctaId": "athlete-login"
+                        "ctaId": "athlete-login",
+                        "url": "#"
                       }
                     ]
                   }
@@ -341,6 +342,9 @@
                           "a": "Yes. The agreement runs for 12 months and renews automatically, but either side can end it with 30 days’ notice. Any revenue you’ve earned will still be paid out."
                         }
                       ]
+                    },
+                    "snapshot": {
+                      "items": []
                     }
                   }
                 }

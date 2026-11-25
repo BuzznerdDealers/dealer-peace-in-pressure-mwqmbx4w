@@ -1,4 +1,14 @@
 {
   "version": 2,
-  "nodes": []
+  "nodes": [
+    {
+      "id": "postsList",
+      "type": "postsList",
+      "props": {
+        "headingLevel": 2,
+        "count": 4,
+        "showDates": true
+      }
+    }
+  ]
 }

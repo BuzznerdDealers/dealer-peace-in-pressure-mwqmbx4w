@@ -1155,7 +1155,7 @@
     "title": "Blog",
     "path": "/blog",
     "out": "blog/index.html",
-    "status": "draft",
+    "status": "published",
     "seo": {
       "ogImage": null,
       "noindex": false

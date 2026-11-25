@@ -1,0 +1,28 @@
+{
+  "slug": "2026-blue-element-freediving-competition-results",
+  "title": "2026 Blue Element Freediving Competition: Results, World Records and Highlights",
+  "description": "",
+  "status": "draft",
+  "date": "2026-11-25",
+  "coverImage": null,
+  "nodes": [
+    {
+      "id": "heading",
+      "type": "heading",
+      "props": {
+        "headingLevel": 2,
+        "align": "left",
+        "text": "Write something here."
+      }
+    },
+    {
+      "id": "heading-2",
+      "type": "heading",
+      "props": {
+        "headingLevel": 2,
+        "align": "left",
+        "text": "2026 Blue Element Freediving Competition: Results, World Records and Highlights"
+      }
+    }
+  ]
+}

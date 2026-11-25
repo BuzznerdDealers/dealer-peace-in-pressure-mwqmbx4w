@@ -5,5 +5,42 @@
   "status": "draft",
   "date": "2026-11-25",
   "coverImage": null,
-  "nodes": []
+  "nodes": [
+    {
+      "id": "text",
+      "type": "text",
+      "props": {
+        "align": "left",
+        "width": "prose",
+        "text": "This is a test. "
+      }
+    },
+    {
+      "id": "text-2",
+      "type": "text",
+      "props": {
+        "align": "left",
+        "width": "prose",
+        "text": "Write something here."
+      }
+    },
+    {
+      "id": "text-3",
+      "type": "text",
+      "props": {
+        "align": "left",
+        "width": "prose",
+        "text": "Write something here."
+      }
+    },
+    {
+      "id": "text-4",
+      "type": "text",
+      "props": {
+        "align": "left",
+        "width": "prose",
+        "text": "This is a test 1"
+      }
+    }
+  ]
 }

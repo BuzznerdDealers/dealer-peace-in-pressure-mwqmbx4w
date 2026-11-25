@@ -2,13 +2,68 @@
   "version": 2,
   "nodes": [
     {
-      "id": "postsList",
-      "type": "postsList",
+      "id": "section",
+      "type": "section",
       "props": {
-        "headingLevel": 2,
-        "count": 4,
-        "showDates": true
-      }
+        "width": "boxed",
+        "paddingY": 7
+      },
+      "children": [
+        {
+          "id": "row",
+          "type": "row",
+          "props": {
+            "gap": 6
+          },
+          "children": [
+            {
+              "id": "column",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 7
+      },
+      "children": [
+        {
+          "id": "row-2",
+          "type": "row",
+          "props": {
+            "gap": 6
+          },
+          "children": [
+            {
+              "id": "column-2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "postsList",
+                  "type": "postsList",
+                  "props": {
+                    "headingLevel": 2,
+                    "count": 3,
+                    "showDates": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -22,6 +22,14 @@
           "url": null,
           "newTab": false,
           "children": []
+        },
+        {
+          "id": "item-3",
+          "label": "Shop",
+          "type": "inventory",
+          "url": null,
+          "ref": null,
+          "children": []
         }
       ]
     },

@@ -1,0 +1,74 @@
+{
+  "slug": "test-2",
+  "title": "Test 2",
+  "description": "",
+  "status": "draft",
+  "date": "2026-11-25",
+  "coverImage": null,
+  "nodes": [
+    {
+      "id": "section",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 7
+      },
+      "children": [
+        {
+          "id": "row",
+          "type": "row",
+          "props": {
+            "gap": 6
+          },
+          "children": [
+            {
+              "id": "column",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 7
+      },
+      "children": [
+        {
+          "id": "row-2",
+          "type": "row",
+          "props": {
+            "gap": 6
+          },
+          "children": [
+            {
+              "id": "column-2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "text",
+                  "type": "text",
+                  "props": {
+                    "align": "left",
+                    "width": "prose",
+                    "text": "Test 2"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

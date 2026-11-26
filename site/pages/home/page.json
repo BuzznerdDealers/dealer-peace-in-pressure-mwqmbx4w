@@ -308,6 +308,14 @@
       "children": []
     },
     {
+      "id": "shared-news-stories",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "news-stories"
+      },
+      "children": []
+    },
+    {
       "id": "join",
       "type": "sharedSection",
       "props": {

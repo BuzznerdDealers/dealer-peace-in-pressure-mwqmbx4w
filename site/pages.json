@@ -1165,5 +1165,22 @@
       "footer": null,
       "utilityNav": null
     }
+  },
+  {
+    "slug": "this-is-a-test-page",
+    "dir": "this-is-a-test-page",
+    "title": "This is a test page",
+    "path": "/this-is-a-test-page",
+    "out": "this-is-a-test-page/index.html",
+    "status": "draft",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
   }
 ]
